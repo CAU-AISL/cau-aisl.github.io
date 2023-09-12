@@ -28,6 +28,40 @@
   margin: 10px;
 }
 
+.peoplelist {
+  height: 280px;
+  margin: 5px 10px 10px;
+  border-bottom : 1px solid gray;
+}
+.peoplelist img {
+  height: 250px;
+  width: 200px;
+  bottom: 0;
+  margin-right: auto;
+  padding: 15px 10px 15px 10px;
+  float: left;
+}
+.peoplelist span {
+  bottom: 0;
+  margin: 0;
+  padding: 10px;
+}
+.peoplelist h2 span {
+  display: inline-block;
+  color: white;
+  font: bold 24px/45px Helvetica, Sans-Serif;
+  letter-spacing: -1px;
+  background: rgb(0, 0, 0); /* fallback color */
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+}
+.peoplelist span a {
+  color: white;
+}
+.peoplelist h1 {
+  margin: 10px;
+}
+
 /*
   Pagination
 */

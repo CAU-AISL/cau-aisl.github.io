@@ -7,8 +7,9 @@ disqus:
 google-ID: 'UA-112060364-2'
 
 menu:
-- {name: 'Interesting Facts',  url: 'facts'}
-- {name: 'Learning Resources', url: 'resources'}
+- {name: 'Home',               url: 'home'}
+- {name: 'People',             url: 'people'}
+- {name: 'Research',           url: 'research'}
 - {name: 'Sample Posts',       url: 'sample-posts'}
 - {name: 'Documentation',      url: 'documentation'}
 - {name: 'About',              url: 'about'}
