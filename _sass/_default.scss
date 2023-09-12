@@ -2,6 +2,11 @@
   Site container
 */
 
+.top_bar{
+  height: 50px;
+  background-color: #09246c;  
+}
+
 .container {
   width: $container-width;
   margin-left: auto;
@@ -11,7 +16,7 @@
   text-decoration: underline;
 }
 .content-wrapper {
-  padding-top: $header-thickness+10px;
+  padding-top: 10px;
   margin: auto;
   display: block;
   width: $container-width - 20px;
