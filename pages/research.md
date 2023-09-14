@@ -1,6 +1,7 @@
 ---
-layout: category
+layout: research
 title: Research
 category: research
 permalink: /research
 ---
+
