@@ -1,0 +1,34 @@
+<div class="left_navigation">
+    {% if page.category contains "research"%}
+        {% for tag in page.taglist %}
+            <div class="page-nav-list">
+                <h2>{{ tag }}</h2>
+                {% for research in site.research %}
+                    {% if research.tag contains tag %}
+                        <h3>▷<a href="{{ research.url }}">{{ research.title }}</a></h3>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        {% endfor %}
+    {% endif %}
+    
+    {% if page.category contains "project"%}
+        {% for tag in page.taglist %}
+            <div class="page-nav-list">
+                <h2>{{ tag }}</h2>
+                {% for project in site.project %}
+                    {% if project.tag contains tag %}
+                        <h3>▷<a href="{{ project.url }}">{{ project.title }}</a></h3>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        {% endfor %}
+    {% endif %}
+
+    {% if page.category contains "boards"%}
+        <div class="page-nav-list board-nav-list">
+            <h2>Notice</h2>
+            <h2>Gallery</h2>
+        </div>
+    {% endif %}
+</div>

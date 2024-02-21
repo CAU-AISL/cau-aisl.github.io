@@ -1,22 +1,28 @@
 # Site Build Settings
 
 # jekyll-paginate configuration
-paginate:            5
+paginate:            10
 
 # Build settings
 markdown:            kramdown
 highlighter:         rouge
-permalink:            /_posts/:title.md
+permalink:           /:title 
 plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 title:		           "AISL Lab"
-description:	       "a minimalist Jekyll theme for running a blog or publication"
-author:              "Paul Le"
+description:	       "Automatic Intelligence System Laboratory"
+author:              "Seokwon Lee"
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 #feed:
 #  path: rss-feed.xml
 collections:
   people:
+    output: true
+  research:
+    output: true
+  project:
+    output: true
+  board:
     output: true
