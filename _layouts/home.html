@@ -4,20 +4,84 @@ title: Home
 ---
 <div class="content-wrapper">
   <div class="home">
-    <img id="mainimage" src="/assets/img/mainimage.jpg"/>
+    <img class="maincenterimage" src="/assets/img/mainimage.jpg"/>
     <h1>Welcome to Autonomous and Intelligent Systems (AIS) Lab.</h1>
+    <h1>자율지능시스템 연구실에 오신것을 환영합니다.</h1>
     <h3>Notice</h3>
       <h5>Research positions for graduate study and undergraduate internship are available. Highly motivated students are welcome.</h5>
       <h5>The research topics include, but not limited to, guidance, control, and broad applications to UAS including UAVs, UGVs, missiles, launch vehicles, spacecraft, mobile robots, etc.  For more details, please refer to Research Interests.</h5>
       <h5>If you are interested in, please contact Prof. Seokwon Lee via e-mail with your relevant information as below.</h5>
-    <h3>FOR Graduate Study & Undergraduate internship</h3>
-    <h5>Brief CV</h5>
-    <h5>Your research interests and related skills</h5>
-    <h5>Your objectives  (including your aspirations after completing your graduate degree)</h5>
-    <h5>Information on relevant experiences  (including personal/group projects, internships, or work experience)</h5>
+    <h3>Focused Areas of Research</h3>
+    <div class="imagearea">
+      <img class="mainimage" src="/assets/img/main1.png"/>
+      <div class="textarea">
+        <span>asdffasdfasfasdfsdafasfasdfasfdasdf</span>
+      </div>
+    </div>
+    <div class="imagearea">
+      <div class="textarea">
+        <span>asdffasdfasfasdfsdafasfasdfasfdasdf</span>
+      </div>
+      <img class="mainimage" src="/assets/img/main2.png"/>
+    </div>
+    <div class="imagearea">
+      <img class="mainimage" src="/assets/img/main3.png"/>
+      <div class="textarea">
+        <span>asdffasdfasfasdfsdafasfasdfasfdasdf</span>
+      </div>
+    </div>
+    <div class="imagearea">
+      <div class="textarea">
+        <span>asdffasdfasfasdfsdafasfasdfasfdasdf</span>
+      </div>
+      <img class="mainimage" src="/assets/img/main4.png"/>
+    </div>
   </div>
+  <div class="photoarea">
+    <h1>연구실 Gallery</h1>
+    <div id="phototable">
+      <div class="mySlides fade">
+        <img src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2369&q=80" class="slideshow-image">
+        </div>
+        <div class="mySlides fade">
+            <img src="https://images.unsplash.com/photo-1581888227599-779811939961?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2148&q=80" class="slideshow-image">
+        </div>
+        <div class="mySlides fade">
+            <img src="https://images.unsplash.com/photo-1534361960057-19889db9621e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80" class="slideshow-image">
+        </div>
+        <div class="mySlides fade">
+            <img src="https://images.unsplash.com/photo-1527526029430-319f10814151?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80" class="slideshow-image">
+        </div>
+        <div class="mySlides fade">
+            <img src="https://images.unsplash.com/photo-1600077029182-92ac8906f9a3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80" class="slideshow-image">
+        </div>
+        <div class="mySlides fade">
+            <img src=https://cdn.cnn.com/cnnnext/dam/assets/201030094143-stock-rhodesian-ridgeback-super-tease.jpg" class="slideshow-image">
+        </div>
 
+    </div>
+    <script>
+      var slideIndex = 0;
+      showSlides();
+      function showSlides() {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+         
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {
+              slideIndex = 1
+          }
+          slides[slideIndex - 1].style.display = "block";
+      
+          setTimeout(showSlides, 5000); // 5초마다 이미지가 체인지됩니다
+      }
+    </script>
+  </div>
   <!-- Pagination links -->
+  <!--
   <div class="pagination">
     {% if paginator.next_page %}
       <a class="pagination-button pagination-active next" href="{{ site.github.url }}{{ paginator.next_page_path }}">{{ site.data.settings.pagination.previous_page }}</a>
@@ -29,5 +93,5 @@ title: Home
     {% else %}
       <span class="pagination-button">{{ site.data.settings.pagination.next_page }}</span>
     {% endif %}
-  </div>
+  </div>-->
 </div>

@@ -2,34 +2,27 @@
 layout: default
 title: People
 ---
+
+{% include page-title.html %}
 <div class="content-wrapper">
-  <h1>연구실 인원</h1>
-
-  {% for tag in page.tags %}
-    <h2>{{ tag }}</h2>
-    {% for person in site.people %}
-      {% if person.tags contains tag%}
-        {% if person.categories contains page.category %}
-          {% include featured-person-people.html %}
-        {% endif %}
-      {% endif %}
-    {% endfor %}
-  {% endfor %}
-
-
-  <!-- Pagination links -->
-  <div class="pagination">
-    {% if paginator.next_page %}
-      <a class="pagination-button pagination-active next" href="{{ site.github.url }}{{ paginator.next_page_path }}">
-        {{ site.data.settings.pagination.previous_page }}
-      </a>
-    {% else %}
-      <span class="pagination-button">{{ site.data.settings.pagination.previous_page }}</span>
+  {% include navigation-bar.html %}
+  <div class="content-area">
+    
+    {% if page.header contains "Member" %}
+      Member 관련 소개 내용
+      {% for tag in page.memberlist %}
+      <h2>{{ tag }}</h2>
+        {% for person in site.people %}
+          {% if person.tags contains tag %}
+            {% if person.categories contains page.category %}
+              {% include featured-person-people.html %}
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
     {% endif %}
-    {% if paginator.previous_page %}
-      <a class="pagination-button pagination-active" href="{{ site.baseurl }}{{ paginator.previous_page_path }}">{{ site.data.settings.pagination.next_page }}</a>
-    {% else %}
-      <span class="pagination-button">{{ site.data.settings.pagination.next_page }}</span>
+    {% if page.header contains "Professor" %}
+      Professor 관련 소개 내용
     {% endif %}
   </div>
 </div>

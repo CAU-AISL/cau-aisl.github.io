@@ -31,4 +31,16 @@
             <h2>Gallery</h2>
         </div>
     {% endif %}
+    {% if page.category contains "people"%}
+        {% for tag in page.taglist %}
+            <div class="page-nav-list">
+                <h2>{{ tag }}</h2>
+                {% for people in site.people %}
+                    {% if people.tag contains tag %}
+                        <h3>▷<a href="{{ people.url }}">{{ people.title }}</a></h3>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        {% endfor %}
+    {% endif %}
 </div>

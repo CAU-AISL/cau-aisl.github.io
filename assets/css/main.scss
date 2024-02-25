@@ -7,17 +7,22 @@ $code-font-family: "Source Code Pro", monospace;
 
 $brand-color: black;
 
-$container-width: 1050px;
+
+
+$container-width: 60%;
 $leftnavigation-width: 25%;
 $content-width: 75%;
+
+$PC-minwidth: 1100px;
 $tablet-width: 600px;
 $phone-width: 480px;
+$phone-minwidth: 370px;
 
 $topbar-height :50px;
+$topbar-tablet-height :30px;
 $header-minheight: 56px;
+$header-tablet-minheight: 36px;
 $pageimg-minheight: 100px;
-
-$header-thickness: 50px;
 
 $icon-transition-time: 1.0s;
 $envelope-color: #f39c12;
