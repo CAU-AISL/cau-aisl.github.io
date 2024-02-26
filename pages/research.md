@@ -2,7 +2,7 @@
 layout: research
 title: Research
 category: research
-header: Research 
 permalink: /Research
+header: Research 
 taglist: [UAV,MISSILE,AI]
 ---

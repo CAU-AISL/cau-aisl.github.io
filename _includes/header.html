@@ -5,7 +5,7 @@
     </h3>
     <ul class="menu-list">
       {% for item in site.data.settings.menu %}
-        <li href="{{ site.github.url }}/{{ item.url }}" class="dropdown"><a href="/{{ item.name }}">{{ item.name }}</a>
+        <li class="dropdown"><a href="/{{ item.name }}">{{ item.name }}</a>
           {% if item.name == "People" %}
           <div class="dropdown-content">
             <a href="/People">Professor</a>
