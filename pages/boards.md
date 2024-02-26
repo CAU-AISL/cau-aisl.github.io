@@ -3,6 +3,6 @@ layout: boards
 title: Boards
 category: boards
 header: Board
-permalink: /boards
+permalink: /Boards
 taglist: [Notice,Gallery]
 ---

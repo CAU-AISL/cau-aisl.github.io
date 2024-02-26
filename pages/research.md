@@ -3,6 +3,6 @@ layout: research
 title: Research
 category: research
 header: Research 
-permalink: /research
+permalink: /Research
 taglist: [UAV,MISSILE,AI]
 ---

@@ -2,7 +2,7 @@
 layout: people
 title: People
 category: people
-permalink: /people
+permalink: /People
 header: Professor
 taglist: [Professor,Member]
 ---

@@ -2,5 +2,5 @@
 layout: category
 title: Publication
 category: publication
-permalink: /publication
+permalink: /Publication
 ---
