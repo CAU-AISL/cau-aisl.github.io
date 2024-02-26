@@ -1,8 +1,49 @@
 <div class="notice">
     <h1>Notice</h1>
     <div class="notice-list">
-
-
-
+        <table class="boardTable">
+            <thead>
+                <tr>
+                    <th scope="col" class="th-num">번호</th>
+                    <th scope="col" >제목</th>
+                    <th scope="col" >글쓴이</th>
+                    <th scope="col" class="th-date">작성날짜</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>4</td>
+                <td><a href="#">[공지사항] 개인정보 처리방침 변경안내처리방침</a></td>
+                <td>김영호</td>
+                <td>2024.02.26</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td><a href="#">공지사항 안내입니다. 이용해주셔서 감사합니다</a></td>
+                <td>김영호</td>
+                <td>2024.02.26</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td><a href="#">공지사항 안내입니다. 이용해주셔서 감사합니다</a></td>
+                <td>김영호</td>
+                <td>2024.02.26</td>
+            </tr>
+            {% for post in paginator.posts %}
+                <tr>
+                    <td>1</td>
+                    <td><a href="{{ post.url | relative_url }}">{{ post.title }}</a></td>
+                    <td>{{ post.author }}</td>
+                    <td>{{ post.date | date: "%b %-d, %Y"}}</td>
+                </tr>
+            {% endfor %}
+        </table>
+        {% if paginator.page_trail %}
+            {% for trail in paginator.page_trail %}
+                <li {% if page.url == trail.path %}class="selected"{% endif %}>
+                    <a href="{{ trail.path | prepend: site.baseurl }}" title="{{trail.title}}">{{ trail.num }}</a>
+                </li>
+            {% endfor %}
+        {% endif %}
+            
     </div>
 </div>

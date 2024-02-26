@@ -1,0 +1,61 @@
+.notice h1{
+    margin-top: 4.5rem;
+    margin-bottom: 4.5rem;
+}
+.boardTable{
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 13px;
+    width: 100%;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.boardTable a {
+    color: #333;
+    display: inline-block;
+    line-height: 1.4;
+    word-break: break-all;
+    vertical-align: middle;
+    text-decoration: none;
+}
+.boardTable a:hover {
+    text-decoration: underline;
+}
+
+.boardTable th {
+    text-align: center;
+}
+.boardTable th, .boardTable td {
+    padding: 14px 0;
+}
+
+.boardTable tbody th {
+    padding-left: 28px;
+    padding-right: 14px;
+    border-top: 1px solid #e7e7e7;
+    text-align: left;
+}
+.boardTable tbody td {
+    border-top: 1px solid #e7e7e7;
+    text-align: center;
+}
+  /*
+.boardTable tr:nth-child(even) td {
+  background: #eaeaed;
+}
+
+.boardTable td {
+    border-right: 1px solid #c6c9cc;
+    border-bottom: 1px solid #c6c9cc;
+}
+.boardTable  td:first-child {
+  border-left: 1px solid #c6c9cc;
+}*/
+
+.boardTable .th-num {
+    width: 5%;
+    text-align: center;
+}
+.boardTable .th-date {
+    width: 10%;
+}

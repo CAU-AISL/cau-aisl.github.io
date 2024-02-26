@@ -17,13 +17,13 @@ Chung-Ang University, Republic of Korea
 
 # Education
 
-* **2012 03 - 2019. 08**: Ph.D., Mechanical & Aerospace Engineering, Seoul National University, Korea.
+* **2012. 03 - 2019. 08**: Ph.D., Mechanical & Aerospace Engineering, Seoul National University, Korea.
 
     - Dissertation: "Capturability Analysis of Missile Guidance Laws Considering Seeker’s Field-of-View Limit"
 
     - Supervisor: Prof. Youdan Kim
 
-* **2008 03 - 2012. 02**: B.S., Mechanical & Aerospace Engineering, Seoul National University, Korea.
+* **2008. 03 - 2012. 02**: B.S., Mechanical & Aerospace Engineering, Seoul National University, Korea.
 
     - Supervisor: Prof. Youdan Kim
 

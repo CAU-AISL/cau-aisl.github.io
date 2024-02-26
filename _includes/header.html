@@ -12,6 +12,12 @@
             <a href="/Member">Member</a>
           </div>
           {% endif %}
+          {% if item.name == "Boards" %}
+          <div class="dropdown-content">
+            <a href="/Boards">Notice</a>
+            <a href="/Gallery">Gallery</a>
+          </div>
+          {% endif %}
         </li>
       {% endfor %}
     </ul>
