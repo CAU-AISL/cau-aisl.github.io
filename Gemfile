@@ -1,3 +1,6 @@
 source "https://rubygems.org"
-gem "jekyll-paginate-v2"
+group :jekyll_plugins do
+    gem "jekyll-paginate-v2", ">= 3.0"
+    gem "jekyll-feed"
+end
 gemspec
