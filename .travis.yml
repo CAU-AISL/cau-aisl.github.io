@@ -21,3 +21,7 @@ branches:
 rvm:
   - 2.6.3
 
+# travis encrypt 'GIT_NAME="YOUR_USERNAME" GIT_EMAIL="YOUR_EMAIL" GH_TOKEN=YOUR_TOKEN'
+env:
+  global:
+    secure: <your_secure_code>
