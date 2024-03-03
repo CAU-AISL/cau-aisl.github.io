@@ -1,6 +1,6 @@
 ---
 layout: research
-title: "missilemissilemissilemissilemissile"
+title: "Stability using the strapdown seeker"
 author: "김민수"
 header: Research 
 category: research 

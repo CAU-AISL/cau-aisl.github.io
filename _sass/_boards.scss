@@ -1,4 +1,4 @@
-.notice h1{
+.board h1{
     margin-top: 4.5rem;
     margin-bottom: 4.5rem;
 }
@@ -39,18 +39,6 @@
     border-top: 1px solid #e7e7e7;
     text-align: center;
 }
-  /*
-.boardTable tr:nth-child(even) td {
-  background: #eaeaed;
-}
-
-.boardTable td {
-    border-right: 1px solid #c6c9cc;
-    border-bottom: 1px solid #c6c9cc;
-}
-.boardTable  td:first-child {
-  border-left: 1px solid #c6c9cc;
-}*/
 
 .boardTable .th-num {
     width: 5%;
@@ -58,4 +46,38 @@
 }
 .boardTable .th-date {
     width: 10%;
+}
+
+.galleryTable{
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 13px;
+    width: 100%;
+    border-top: 1px solid #ccc;
+}
+.galleryTable tr{
+    height: 11rem;
+    margin: 10px 0;
+}
+.galleryTable td{
+    width: 25%;
+    padding: 20px;
+}
+.galleryTable img{
+    max-height: 10rem;
+}
+.galleryTable .titlearea{
+    text-align: left;
+    border-bottom: 1px solid gray;
+    padding: 5px;
+}
+.galleryTable .titlearea a{
+    cursor: pointer;
+}
+.galleryTable .titlearea a:hover{
+    text-decoration: underline;
+}
+.galleryTable .datearea{
+    text-align: left;
+    padding: 5px;
 }

@@ -1,6 +1,6 @@
 ---
 layout: research
-title: "uavuavuavuavua"
+title: "Flight Avoidance"
 author: "김민수"
 header: Research 
 category: research 
