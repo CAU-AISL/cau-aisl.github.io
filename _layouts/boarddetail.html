@@ -1,0 +1,24 @@
+---
+layout: default
+title: Board
+---
+
+{% include page-title.html %}
+
+<div class="content-wrapper">
+  <div>
+    <div class="board">
+        <h2 class="title">{{ page.title }}</h2>
+        <div class="date_divider">
+            <div class="date">{{ page.date | date: "%Y.%m.%d"}}</div>
+            <div class="author">작성자 : {{page.author}}</div>
+        </div>
+        <div class="pagecontent">
+            {{ page.content }}
+        </div>
+        <div>
+            <a href="/Boards/" class="listbutton">목록</a>
+        </div>
+    </div>
+  </div>
+</div>

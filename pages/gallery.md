@@ -6,6 +6,7 @@ header: Gallery
 permalink: /Gallery
 pagination:
     enabled: true
+    per_page: 9
     category: 'gallery'
     collection: gallery
     trail: 

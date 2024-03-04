@@ -12,14 +12,12 @@
   padding: 0px 10px 0px;
   text-decoration: none;
 }
-@media (max-width: $container-width) {
+@media (max-width: 680px) {
   .footer {
-    background: white;
-    color: $brand-color;
-    text-align: center;
-    min-height: 56px;
-    line-height: 45px;
-    width: 95vw;
+    width: 100%;
+  }
+  .footer-description span{
+    display: none;
   }
 }
 .footer-description {
@@ -28,3 +26,4 @@
   color: #9a9a9a;
   font-size:0.8rem;
 }
+

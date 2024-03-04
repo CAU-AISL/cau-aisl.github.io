@@ -1,9 +1,11 @@
 ---
 title: "공지사항123"
 author: "이석원"
-date: 2024-02-06
+date: 2024-02-09
 category: notice
+header: Boards
 layout: boarddetail
+num : 4
 ---
 
 ## 김영호(Yeong-Ho Kim)
