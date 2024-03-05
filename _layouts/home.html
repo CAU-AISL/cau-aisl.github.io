@@ -92,7 +92,7 @@ title: Home
     })
 
     nextBtn.addEventListener('click',()=>{
-        if( current >= images.length ) return;
+        if( current >= images.length-1 ) return;
         slider.style.transition = '400ms ease-in-out transform';
         current++;
         slider.style.transform = `translateX(${-imgSize * current}px)`;
