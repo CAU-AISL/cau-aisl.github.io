@@ -20,7 +20,7 @@ plugins:             [jekyll-paginate-v2, jekyll-sitemap, jekyll-feed, jekyll-se
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 title:		           "AIS Lab"
-description:	       "Automatic Intelligence System Laboratory"
+description:	       "Autonomous and Intelligence System Laboratory"
 author:              "Seokwon Lee"
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines

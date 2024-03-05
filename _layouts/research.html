@@ -8,6 +8,14 @@ title: Research
 <div class="content-wrapper">
   {% include navigation-bar.html %}
   <div class="content-area">
-    {% include inready.html %}
+    {% if page.main contains "main"%}
+      {% include inready.html %}
+    {% else %}
+      {% if page.content.size <=1  %}
+        {% include inready.html %}
+      {% else %}
+        {{ page.content }}
+      {% endif %}
+    {% endif %}
   </div>
 </div>

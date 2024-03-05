@@ -1,12 +1,10 @@
 ---
 layout: research
-title: "Flight Avoidance"
-author: "김민수"
+title: "Convex Geometry based Collision Avoidance"
+author: "우종현"
 header: Research 
 category: research 
 permalink: /Research/:title 
 tag: [UAV]
 taglist: [UAV,MISSILE,AI]
 ---
-
-# 앗!  타이어보다 싸다

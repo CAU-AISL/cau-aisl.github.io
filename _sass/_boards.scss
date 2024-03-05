@@ -224,7 +224,16 @@
 .paginator_trail .previous{
     margin-right: 35px;
 }
+.paginator_trail li a{
+    display: block;
+}
 
+.paginator_trail .clickable:hover{
+    background-color: #ddd;
+}
+.paginator_trail .previous:hover, .paginator_trail .next:hover{
+    background-color: #666;
+}
 
 @media(max-width: $PC-minwidth) {
     .paginator_trail{

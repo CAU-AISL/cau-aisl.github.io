@@ -26,7 +26,7 @@
             </li>
             {% if paginator.page_trail %}
                 {% for trail in paginator.page_trail %}
-                    <li class="trail_list {% if page.url == trail.path %}selected{% endif %}">
+                    <li class="trail_list {% if page.url == trail.path %}selected{% else %}clickable{% endif %}">
                         <a href="{{ trail.path | prepend: site.baseurl }}" title="{{trail.title}}">{{ trail.num }}</a>
                     </li>
                 {% endfor %}

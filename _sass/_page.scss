@@ -18,11 +18,14 @@
 .page-nav-list h3{
   font-size:14px;
   font-weight: 300;
-  padding: 0px 14px;
-  word-break: break-all;
+  margin: 0;
+  word-break: break-word;
+  padding-top: 0.25rem;
+  padding-left: 0.3rem;
+
 }
 .page-nav-list h3 a{
-  margin-left:5px;
+  margin-top: 0.3rem;
   text-decoration: none;
 }
 
@@ -37,4 +40,9 @@
   float: left;
   min-height: 600px;
   text-align: center;
+}
+.page-nav-list .nav-items{
+  display: flex;
+  align-items: start;
+  margin-top: 1rem;
 }

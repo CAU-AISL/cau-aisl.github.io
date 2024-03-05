@@ -10,8 +10,16 @@
 }
 .page-img{
   min-height: $pageimg-minheight;
-  background-color: gray;
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.4)
+  ),url(/assets/img/background1.JPG);
+  background-position: center center;
+  background-repeat: repeat-x;
   z-index: 100;
+}
+.page-img a{
+  color: white;
 }
 .site-header a {
   text-decoration: none;
@@ -28,8 +36,10 @@
 .page-title{
   font-size: 26px;
   font-weight: 400;
-  padding-left: 10px;
+  padding-left: 3%;
+  margin: 0;
   float: left;
+  padding-top: 5%;
 }
 .site-header ul {
   line-height: 28px;
