@@ -32,20 +32,22 @@
 h1{
   text-align: center;
 }
-.home .mainimage{
+.focusedarea{
+  margin-top: 2rem;
+}
+.home .imagearea .mainimage{
   margin : 0 auto;
   max-width: 500px;
   width: 40%;
-  float: left;
 }
 .home .imagearea{
-  margin: 10px auto;
+  margin: 2rem auto;
   min-height: 250px;
+  display: flex;
 }
 .home .textarea{
   margin: 10px auto;
   width: 60%;
-  float: left;
 }
 
 .home .maincenterimage{
@@ -53,11 +55,7 @@ h1{
   max-width: 75%
 }
 
-.photoarea{
-  margin-top: 50px;
-
-}
-
+/*
 #phototable{
   border : 1px solid gray;
   width: 100%;
@@ -94,6 +92,64 @@ h1{
   to {
       opacity: 1
   }
+}*/
+
+.photoarea{
+  margin-top: 100px;
+  position: relative;
+}
+.slider{
+  overflow: hidden;
+  width: 600px;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+.slider span{
+  position: absolute;
+  z-index: 99;
+  top:50%;
+  cursor: pointer;
+}
+.slider .leftBtn{
+  left: 12%;
+  transform: translate(0,-50%);
+}
+
+.slider .rightBtn{
+  right: 12%;
+  transform: translate(0,-50%);
+}
+
+.slider .slide{
+  align-items: center;
+  display:flex;
+  width: 100%;
+}
+.slider  .slide span{
+  display: block;
+  position: relative;
+}
+.slider .slide span img{
+  margin: 0;
+}
+
+.photo-pagination{
+  display:flex;
+  position: relative;
+  justify-content: center;
+  list-style: none;
+  margin-top: -1rem;
+  z-index: 99;
+}
+
+.photo-pagination li{
+  width:60px;
+  height:2px;
+  background:#fff;
+}
+
+.photo-pagination .active{
+  background:#000;
 }
 
 @media (min-width: $PC-minwidth) {
@@ -106,32 +162,4 @@ h1{
 
 
 }
-
-/*
-  Pagination
-
-
-.pagination {
-  text-align: center;
-}
-.pagination a {
-  text-decoration: none;
-}
-.pagination-button {
-  color: #999;
-  border: 1px solid #e0e0e0;
-  padding: 15px 45px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  display: inline-block;
-  font-size: 16px;
-  font-weight: bold;
-}
-.pagination-active {
-  color: black;
-}
-.pagination-active:hover {
-  background-color: #e0e0e0;
-}*/
-
 

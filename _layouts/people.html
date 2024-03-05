@@ -8,7 +8,7 @@ title: People
   <div>
     {% if page.header contains "Member" %}
       {% for tag in page.memberlist %}
-      <h2>{{ tag }}</h2>
+        <h2>{{ tag }}</h2>
         {% for person in site.people %}
           {% if person.tags contains tag %}
             {% if person.categories contains page.category %}
