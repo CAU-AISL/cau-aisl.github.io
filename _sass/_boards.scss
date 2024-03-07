@@ -228,6 +228,9 @@
 .paginator_trail li a{
     display: block;
 }
+.paginator_trail li { 
+    margin: 0
+}
 
 .paginator_trail .clickable:hover{
     background-color: #ddd;
