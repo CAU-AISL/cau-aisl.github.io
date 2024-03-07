@@ -8,8 +8,12 @@ article hr{
   margin: 20px 0;
 }
 
-article .iframe-container{
+article .iframe-container16_9{
   aspect-ratio: 16/9;
+}
+article .iframe-container1_1{
+  aspect-ratio: 1/1;
+  width: 30%;
 }
 .iframe-container iframe{
   width: 100%;
