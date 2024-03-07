@@ -55,20 +55,14 @@
 .membertext h2{
     margin-bottom: 10px;
 }
-@media (max-width: $tablet-meanwidth) {
+@media (max-width: $PC-minwidth) {
     #professorimg{
         float: none;
         width: 50%;
         padding : 5%;
-    }
-    .professorarticle h1{
+        margin-bottom: 2%;
     }
     .professorarea{
         display: inline;
-    }
-}
-@media (max-width: $tablet-width) {
-    #professorimg{
-        margin-bottom: 7%;
     }
 }

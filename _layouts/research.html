@@ -9,12 +9,16 @@ title: Research
   {% include navigation-bar.html %}
   <div class="content-area">
     {% if page.main contains "main"%}
-      {% include inready.html %}
+      <article>
+        {{ content }}
+      </article>
     {% else %}
       {% if page.content.size <=1  %}
         {% include inready.html %}
       {% else %}
-        {{ page.content }}
+      <article>
+        {{ content }}
+      </article>
       {% endif %}
     {% endif %}
   </div>

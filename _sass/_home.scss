@@ -29,7 +29,8 @@
 }
 
 
-h1{
+.home h1{
+  margin: 20px 0px 5px;
   text-align: center;
 }
 .focusedarea{
@@ -97,6 +98,9 @@ h1{
 .photoarea{
   margin-top: 100px;
   position: relative;
+}
+.photoarea h1{
+  text-align: center
 }
 .slider{
   overflow: hidden;

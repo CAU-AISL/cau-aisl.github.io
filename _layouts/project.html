@@ -6,6 +6,13 @@ title: Project
 <div class="content-wrapper">
   {% include navigation-bar.html %}
   <div class="content-area">
-    {% include inready.html %}
+    
+    {% if page.content.size <=1  %}
+      {% include inready.html %}
+    {% else %}
+      <article>
+        {{ content }}
+      </article>
+    {% endif %}
   </div>
 </div>

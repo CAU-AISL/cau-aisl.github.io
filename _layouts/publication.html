@@ -4,5 +4,11 @@ title: Publication
 ---
 {% include page-title.html %}
 <div class="content-wrapper">
-    {% include inready.html %}
+    {% if page.content.size <=1  %}
+      {% include inready.html %}
+    {% else %}
+        <article>
+            {{ content }}
+        </article>
+    {% endif %}
 </div>

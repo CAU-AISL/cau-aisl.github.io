@@ -49,6 +49,7 @@
 
 .site-header li {
   float: right;
+  margin: 0;
 }
 .dropdown .dropdown-content a {
   color: black;
@@ -103,7 +104,10 @@
   }
 }
 @media (max-width: $PC-minwidth) {
-  .menu-list {
+  .inner-header{
+    min-height: 56px;
+  }
+  .menu-list, .page-img{
     display: none;
   }
   .mdropbtn {

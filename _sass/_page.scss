@@ -39,10 +39,25 @@
   width: $content-width;
   float: left;
   min-height: 600px;
-  text-align: center;
 }
 .page-nav-list .nav-items{
   display: flex;
   align-items: start;
   margin-top: 1rem;
+}
+
+@media (max-width: $PC-minwidth) {
+  .left_navigation{ 
+    float: none;
+    width: 100%;
+  }
+  .content-area{
+    float: none;
+    width: 100%;
+  }
+}
+
+
+.content-area article{
+  padding: 0 5%;
 }
