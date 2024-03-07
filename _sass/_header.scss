@@ -4,7 +4,6 @@
   z-index: 100;
 }
 .inner-header{
-  min-height: $header-minheight;
   width: $container-width;
   margin : auto;
 }
@@ -17,6 +16,7 @@
   background-position: center center;
   background-repeat: repeat-x;
   z-index: 100;
+  display: flex;
 }
 .page-img a{
   color: white;
@@ -38,8 +38,6 @@
   font-weight: 400;
   padding-left: 3%;
   margin: 0;
-  float: left;
-  padding-top: 5%;
 }
 .site-header ul {
   line-height: 28px;
