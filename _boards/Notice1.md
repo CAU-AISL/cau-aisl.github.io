@@ -1,19 +1,11 @@
 ---
-title: "공지사항245"
+title: "홈페이지 공지사항입니다."
 author: "김영호"
-date: 2024-02-06
+date: 2024-04-05
 category: notice
 header: Boards
 layout: boarddetail
 num: 1
 ---
 
-## 김영호(Yeong-Ho Kim)
-
-* **2024. 03 - Present**: M.S. Mechanical Engineering, Chung-Ang University, Seoul, Korea
-
-* **2018. 03 - 2024. 02**: B.S. Mechanical Engineering, Chung-Ang University, Seoul, Korea
-
-* Research Interests: Missile Guidance, Stability Analysis
-
-* Contacts:  yeongho.kim2000@gmail.com
+## 이석원 교수님 홈페이지를 개설하였습니다.
