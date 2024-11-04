@@ -14,4 +14,4 @@ header: Contact
 * E-mail: seokwonlee@cau.ac.kr
 
 <div class="iframe-container iframe-container1_1" style="width: 30%;">
-<iframe sandbox="allow-scripts allow-popups allow-forms allow-same-origin allow-popups-to-escape-sandbox allow-downloads allow-modals allow-storage-access-by-user-activation" frameborder="0" aria-label="Map, 봅스트홀" src="https://maps-api-ssl.google.com/maps?hl=ko&amp;ll=37.503801,126.957688&amp;output=embed&amp;q=%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD+%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C+%EB%8F%99%EC%9E%91%EA%B5%AC+%ED%9D%91%EC%84%9D%EB%8F%99+236-26+(%EB%B4%85%EC%8A%A4%ED%8A%B8%ED%99%80)&amp;z=17" ></iframe></div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1119.0551901128529!2d126.95766074447295!3d37.50400152231332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca11c9d7af7e5%3A0x2ba7f77a072ad66a!2z7KSR7JWZ64yA7ZWZ6rWQIOu0heyKpO2KuO2ZgCgyMDfqtIAp!5e0!3m2!1sko!2skr!4v1730447372234!5m2!1sko!2skr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

@@ -5,10 +5,11 @@
 }
 .board .title{
     padding-top: 2rem;
+    margin-left : 0.5rem;
 }
 .board .date_divider{
-    padding-top: 2rem;
-    padding-bottom: 0.8rem;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
     display:flex;
     font-size: 15px;
     line-height: 15px;
@@ -22,7 +23,7 @@
     margin-right: 0.5rem;
 }
 .board .pagecontent{
-    padding: 2rem 0.5rem;
+    padding: 2rem 1rem;
     border-top: .01rem solid #eee;
     border-bottom: .01rem solid #eee;
     min-height: 450px;
