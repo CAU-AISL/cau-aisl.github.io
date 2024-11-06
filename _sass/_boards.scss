@@ -43,13 +43,7 @@
 .board{
     margin-bottom: 100px;
 }
-.titlearea a{
-    display: block;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    white-space: nowrap;
-    width: 13rem;
-}
+
 
 @media(max-width: $PC-minwidth) {
     .board .title{
@@ -220,6 +214,11 @@
 }
 .galleryTable .titlearea a{
     cursor: pointer;
+    display: block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 13rem;
 }
 .galleryTable .titlearea a:hover{
     text-decoration: underline;
