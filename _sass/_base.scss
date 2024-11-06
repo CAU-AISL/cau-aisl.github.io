@@ -50,6 +50,7 @@ body img {
   margin: 5px auto auto auto;
   display: block;
   max-width: 600px;
+  width: 100%;
 }
 
 p {
@@ -75,6 +76,11 @@ ol li ,ul li {
   margin-left: 1.5rem;
 }
 
+@media (max-width: $PC-minwidth) {
+  ul, ol, dl {
+    font-size: 9pt;
+  }
+}
 
 /*
   Links
@@ -97,3 +103,36 @@ blockquote {
   line-height: 1.5;
 }
 
+
+@media (max-width: 1000px) {
+  h1{
+      font-size: 20pt;
+  }
+  p{
+      font-size: 9pt;
+  }
+  h2{
+      font-size: 17pt;
+  }
+  
+  h3{
+    font-size: 14pt;
+  }
+}
+
+
+@media (max-width: 420px) {
+
+  h1{
+    font-size: 16pt;
+  }
+  p{
+      font-size: 8pt;
+  }
+  h2{
+    font-size: 14pt;
+  }
+  h3{
+    font-size: 12pt;
+  }
+}

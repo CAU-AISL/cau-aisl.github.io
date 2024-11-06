@@ -55,7 +55,42 @@
   text-align: center;
   max-width: 90%
 }
+.home #maincentercontent{
+  padding: 0rem 10%;
+}
+.home .focuscontent{
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
 
+.focuscontent .container {
+  border: 2px solid #1c3e66;
+  width: 100%;
+  position: relative;
+  background-color: white;
+}
+
+.focuscontent .header {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: #1c3e66;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.focuscontent .content {
+  padding: 20px;
+  margin-top: 50px;
+}
 /*
 #phototable{
   border : 1px solid gray;
@@ -96,7 +131,7 @@
 }*/
 
 .photoarea{
-  margin-top: 100px;
+  margin-top: 20px;
   position: relative;
 }
 .photoarea h1{
@@ -156,14 +191,69 @@
   background:#000;
 }
 
-@media (min-width: $PC-minwidth) {
-
-
-
-}
-@media (max-width: $PC-minwidth) {
-
-
-
+#interestimg{
+  margin: 0;
+  max-width: 80%;
 }
 
+@media (max-width: 1600px) {
+  .home #maincentercontent{
+    padding: 0rem 5%;
+  }
+}
+@media (max-width: 1200px) {
+  .home #maincentercontent{
+    padding: 0rem;
+  }
+  .home .maincenterimage{
+    max-width: 100%
+  }
+}
+@media (max-width: 1100px) {
+  .focuscontent .container img{
+    max-width: 500px;
+  }
+}
+@media (max-width: 800px) {
+  .focuscontent .container img{
+    max-width: 400px;
+  }
+  .photoarea{
+    display: none;
+  }
+  #interestimg{
+    max-width: 90%;
+  }
+}
+@media (max-width: 600px) {
+  .focuscontent .container img{
+    display: none;
+  }
+  .focuscontent .container {
+    border: none;
+  }
+  .focuscontent .content {
+    padding: 0px;
+    margin-top: 0px;
+  }
+  .home .focuscontent{
+    margin-top: 2rem;
+  }
+  .focuscontent .header {
+    position: inherit;
+    top: 0;
+    left: 0;
+    transform: none;
+    padding: 10px 10px;
+    font-size: 0.8em;
+  }
+  #interestimg{
+    max-width: 100%;
+  }
+
+}
+@media (max-width: 420px) {
+  #maincentercontent h2{
+    font-size: 1.2rem;
+  }
+}

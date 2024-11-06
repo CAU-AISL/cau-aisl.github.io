@@ -4,7 +4,6 @@
   text-align: center;
   min-height: 56px;
   line-height: 45px;
-  width: $container-width;
   margin: auto;
 }
 .footer a {
@@ -12,6 +11,25 @@
   padding: 0px 10px 0px;
   text-decoration: none;
 }
+.footer-description {
+  display: block;
+  margin-top: 4rem;
+  color: #9a9a9a;
+  font-size:0.8rem;
+  
+  padding-top: 1rem;
+  border-top: 1px solid gray;
+}
+
+.footer .icon-container {
+  display: flex;
+  justify-content: center;
+}
+
+.footer .icon-container img {
+  width: 30px;
+}
+
 @media (max-width: 680px) {
   .footer {
     width: 100%;
@@ -19,11 +37,10 @@
   .footer-description span{
     display: none;
   }
+  .footer .icon-container img {
+    width: 20px;
+  }
+  .footer a{
+    font-size: 8pt;
+  }
 }
-.footer-description {
-  display: block;
-  margin-top: 5rem;
-  color: #9a9a9a;
-  font-size:0.8rem;
-}
-

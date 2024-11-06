@@ -1,12 +1,17 @@
 #professorimg{
     float: left;
     width: 25%;
-    padding : 5%;
+    padding: 0% 5%;
+    border-radius: 50%;
+}
+#professortext{
+    text-align: center;
+    width: 75%;
 }
 .professorarea{
     display: flex;
     align-items: center;
-    margin: 50px 0;
+    margin-top: 50px;
 }
 
 .professorarticle h1{
@@ -21,7 +26,7 @@
     align-items: start;
 }
 .peoplelist img {
-    height: 280px;
+    width: 25%;
     bottom: 0;
     padding: 15px 10px 15px 10px;
 }
@@ -55,14 +60,76 @@
 .membertext h2{
     margin-bottom: 10px;
 }
-@media (max-width: $PC-minwidth) {
+@media (min-width: 1400px) {
+    .peoplelist img{
+        width: 230px;
+    }
+}
+@media (max-width: 1000px) {
     #professorimg{
         float: none;
-        width: 50%;
+        width: 40%;
         padding : 5%;
-        margin-bottom: 2%;
+        margin-bottom: 1.5rem;
+    }
+    #professortext{
+        text-align: center;
+        width: 60%;
     }
     .professorarea{
-        display: inline;
+        margin-top:0px;
+    }
+    .professorarea h1{
+        font-size: 20pt;
+    }
+    .professorarea p{
+        font-size: 9pt;
+    }
+    .professorarticle h1{
+        font-size: 20pt;
+        margin-top:30px;
+    }
+    .professorarticle p{
+        font-size: 9pt;
+    }
+    .professorarticle{
+        margin-top: 0px;
+    }
+    .membertext h2{
+        font-size: 17pt;
+    }
+}
+
+@media (max-width: $tablet-width) {
+    .professorarea{
+        display: block;
+    }
+    #professortext{
+        width: 100%;
+    }
+    .peoplelist{
+        display: block;
+    }
+    .membertext{
+        width: 100%;
+    }
+}
+@media (max-width: 420px) {
+    .professorarea h1{
+        font-size: 17pt;
+    }
+    .professorarea p{
+        font-size: 8pt;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+    .professorarticle h1{
+        font-size: 16pt;
+        margin-top:20px;
+    }
+    .professorarticle p{
+        font-size: 8pt;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
     }
 }

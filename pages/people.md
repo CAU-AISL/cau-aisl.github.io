@@ -7,14 +7,6 @@ header: Professor
 taglist: [Professor,Member]
 ---
 
-# Affiliation
-
-Assistant Professor 
-
-Department of Mechanical Engineering, 
-
-Chung-Ang University, Republic of Korea
-
 # Education
 
 * **2012. 03 - 2019. 08**: Ph.D., Mechanical & Aerospace Engineering, Seoul National University, Korea.

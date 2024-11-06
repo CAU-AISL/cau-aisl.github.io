@@ -12,9 +12,36 @@
   display: block;
   width: $container-width;
 }
+.content-flexwrapper {
+  padding-top: 10px;
+  margin: auto;
+  display: flex;
+  width: $container-width;
+}
 
 @media (max-width: $tablet-width) {
   .top_bar{
     height: $topbar-tablet-height;
+  }
+}
+@media (max-width: 1600px) {
+  .home #maincentercontent{
+    padding: 0rem 5%;
+  }
+}
+@media (max-width: 1200px) {
+  .content-flexwrapper{
+    width: 70%;
+  }
+  .content-wrapper{
+    width: 70%;
+  }
+}
+@media (max-width: 900px) {
+  .content-flexwrapper{
+    width: 80%;
+  }
+  .content-wrapper{
+    width: 80%;
   }
 }
