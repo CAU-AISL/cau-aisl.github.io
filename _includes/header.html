@@ -25,7 +25,7 @@
       <button class="mdropbtn"><i class="fa fa-bars" aria-hidden="true"></i></button>
       <div class="mdropdown-content">
         {% for item in site.data.settings.menu %}
-          <a href="{{ site.github.url }}/{{ item.url }}a" class="menu-link">{{ item.name }}</a>
+          <a href="{{ site.github.url }}/{{ item.url }}" class="menu-link">{{ item.name }}</a>
         {% endfor %}
       </div>
     </div>
