@@ -5,34 +5,33 @@ title: Gallery
 
 {% include page-title.html %}
 
-<div class="content-wrapper">
-  <div>
-    <div class="board">
-        <h1>Gallery</h1>
-        <div>
-            <table class="galleryTable">
-                
-                    {% assign sorted_gallery = site.gallery | sort: 'date' | reverse %}
-                    {% for gallery in sorted_gallery %}
-                        {% assign formod = forloop.index | modulo:4  %}
-                        {% if formod == 1 %}
-                            <tr>
-                        {% endif %}
-                        <td>
-                            <img src="/assets/img/Gallery/{{gallery.img}}"/>
-                            <div class="titlearea"><a href="{{ gallery.url}}">{{gallery.title}}</a></div>
-                            <div class="datearea"><span>{{gallery.date | date: "%b %-d, %Y"}}</span></div>
-                        </td>
-                        {% if formod == 0 or forloop.last %}
-                        </tr>
-                        {% endif %}  
-                    {% endfor %}
-
+<div class="gallery">
+    <div class="content-wrapper">
+    <div>
+        <div class="board">
+            <h1>Gallery</h1>
+            <div>
+                <table class="galleryTable">
                     
-                    
-               
-            </table> 
+                        {% assign sorted_gallery = site.gallery | sort: 'date' | reverse %}
+                        {% for gallery in sorted_gallery %}
+                            {% assign formod = forloop.index | modulo:4  %}
+                            {% if formod == 1 %}
+                                <tr>
+                            {% endif %}
+                            <td>
+                                <img src="/assets/img/Gallery/{{gallery.img}}"/>
+                                <div class="titlearea"><a href="{{ gallery.url}}">{{gallery.title}}</a></div>
+                                <div class="datearea"><span>{{gallery.date | date: "%b %-d, %Y"}}</span></div>
+                            </td>
+                            {% if formod == 0 or forloop.last %}
+                            </tr>
+                            {% endif %}  
+                        {% endfor %}
+                </table> 
+                <div class="galleryinready">{% include inready.html %}</div>
+            </div>
         </div>
     </div>
-  </div>
+    </div>
 </div>

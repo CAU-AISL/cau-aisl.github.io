@@ -43,6 +43,13 @@
 .board{
     margin-bottom: 100px;
 }
+.titlearea a{
+    display: block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 13rem;
+}
 
 @media(max-width: $PC-minwidth) {
     .board .title{
@@ -62,6 +69,38 @@
         line-height: 12px;
     }
 }
+@media(max-width: 1700px) {
+    .galleryTable td{
+        padding: 10px;
+    }
+}
+@media(max-width: 1600px) {
+    .galleryTable td{
+        padding: 5px;
+    }
+    .gallery .content-wrapper{
+        width: 80%;
+    }
+}
+.galleryinready{
+    display: none;
+}
+
+@media(max-width: 1300px) {
+
+    .gallery .content-wrapper{
+        width: 90%;
+    }
+}
+@media(max-width: 1100px) {
+    .galleryinready{
+        display: block;
+    }
+    .galleryTable{
+        display: none;
+    }
+}
+
 
 
 ////////////////////////////////

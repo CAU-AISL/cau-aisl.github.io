@@ -1,5 +1,5 @@
 ---
-title: "갤러리4"
+title: "갤러리예시2"
 author: "김영호"
 date: 2024-02-09
 header: Gallery
