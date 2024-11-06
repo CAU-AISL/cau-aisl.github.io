@@ -4,84 +4,35 @@ title: Gallery
 ---
 
 {% include page-title.html %}
-{% include inready.html %}
-<!--
+
 <div class="content-wrapper">
   <div>
     <div class="board">
         <h1>Gallery</h1>
         <div>
             <table class="galleryTable">
-                <tr>
-                    <td>
-                        <img src="/assets/img/mainimage.jpg"/>
-                        <div class="titlearea"><a>그림제목</a></div>
-                        <div class="datearea"><span>2024-02-27</span></div>
-                    </td>
-                    <td>
-                        <img src="/assets/img/mainimage.jpg"/>
-                        <div class="titlearea"><a>그림제목</a></div>
-                        <div class="datearea"><span>2024-02-27</span></div>
-                    </td>
-                    <td>
-                        <img src="/assets/img/mainimage.jpg"/>
-                        <div class="titlearea"><a>그림제목</a></div>
-                        <div class="datearea"><span>2024-02-27</span></div>
-                    </td>
-                    <td>
-                        <img src="/assets/img/mainimage.jpg"/>
-                        <div class="titlearea"><a>그림제목</a></div>
-                        <div class="datearea"><span>2024-02-27</span></div>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <img src="/assets/img/mainimage.jpg"/>
-                        <div class="titlearea"><a>그림제목</a></div>
-                        <div class="datearea"><span>2024-02-27</span></div>
-                    </td>
-                    <td>
-                        <img src="/assets/img/mainimage.jpg"/>
-                        <div class="titlearea"><a>그림제목</a></div>
-                        <div class="datearea"><span>2024-02-27</span></div>
-                    </td>
-                    <td>
-                        <img src="/assets/img/mainimage.jpg"/>
-                        <div class="titlearea"><a>그림제목</a></div>
-                        <div class="datearea"><span>2024-02-27</span></div>
-                    </td>
-                    <td>
-                        <img src="/assets/img/mainimage.jpg"/>
-                        <div class="titlearea"><a>그림제목</a></div>
-                        <div class="datearea"><span>2024-02-27</span></div>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <img src="/assets/img/mainimage.jpg"/>
-                        <div class="titlearea"><a>그림제목</a></div>
-                        <div class="datearea"><span>2024-02-27</span></div>
-                    </td>
-                    <td>
-                        <img src="/assets/img/mainimage.jpg"/>
-                        <div class="titlearea"><a>그림제목</a></div>
-                        <div class="datearea"><span>2024-02-27</span></div>
-                    </td>
-                    <td>
-                        <img src="/assets/img/mainimage.jpg"/>
-                        <div class="titlearea"><a>그림제목</a></div>
-                        <div class="datearea"><span>2024-02-27</span></div>
-                    </td>
-                    <td>
-                        <img src="/assets/img/mainimage.jpg"/>
-                        <div class="titlearea"><a>그림제목</a></div>
-                        <div class="datearea"><span>2024-02-27</span></div>
-                    </td>
-                </tr>
-            </table>
                 
+                    {% assign sorted_gallery = site.gallery | sort: 'date' | reverse %}
+                    {% for gallery in sorted_gallery %}
+                        {% assign formod = forloop.index | modulo:4  %}
+                        {% if formod == 1 %}
+                            <tr>
+                        {% endif %}
+                        <td>
+                            <img src="/assets/img/Gallery/{{gallery.img}}"/>
+                            <div class="titlearea"><a href="{{ gallery.url}}">{{gallery.title}}</a></div>
+                            <div class="datearea"><span>{{gallery.date | date: "%b %-d, %Y"}}</span></div>
+                        </td>
+                        {% if formod == 0 or forloop.last %}
+                        </tr>
+                        {% endif %}  
+                    {% endfor %}
+
+                    
+                    
+               
+            </table> 
         </div>
     </div>
   </div>
 </div>
--->

@@ -40,6 +40,9 @@
     border: 1px solid #aaa;
     font-size: 14px;
 }
+.board{
+    margin-bottom: 100px;
+}
 
 @media(max-width: $PC-minwidth) {
     .board .title{
