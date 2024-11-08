@@ -10,12 +10,14 @@
   padding-top: 10px;
   margin: auto;
   display: block;
+  max-width: 1200px;
   width: $container-width;
 }
 .content-flexwrapper {
   padding-top: 10px;
   margin: auto;
   display: flex;
+  max-width: 1200px;
   width: $container-width;
 }
 
