@@ -10,6 +10,12 @@ header: Publication
 
 ### International Journals
 
+
+0. Jongho Park and Seokwon Lee*, "Reactive Trajectory Generation of Unmanned Aerial Vehicle Incorporating Fuzzy C-Means Clustering and Optimization Problem-based Guidance," 2024, IEEE ACCESS, Accepted for publication. (doi: 10.1109/ACCESS.2024.3510736)
+0. Seokwon Lee, and Hyo-Sang Shin, "Destination and Time-Series Inference of Moving Objects via Conditionally Markov Process," CEAS Aeronautical Journal, Vol. 15, pp. 1189-1199, 2024. (doi: 10.1007/s13272-024-00763-5)
+
+0. Seokwon Lee, Zongjian Yuan, Ivan Petrunin, and Hyo-Sang Shin, "Impact analysis of time synchronization error in target tracking using a heterogeneous sensor network," Drones,  Vol. 8, Issue 5, 2024. (doi:10.3390/drones8050167)
+
 1. Seokwon Lee*, Jinrae Kim, Namhoon Cho, and Youdan Kim, "Analytic Approach for Impact Time Guidance with Look Angle Constraint Using Exact Time-to-Go Solution," Journal of Aerospace Engineering, Vol. 37, No. 2, 2024. 04023118.(doi: 10.1061/JAEEEZ.ASENG-5250)
 
 2. Seokwon Lee, Hyo-Sang Shin*, Antonios Tsourdos "Intent-Informed State Estimation for Tracking  Guided Targets," Aerospace Science and Technology, Vol. 143, 2023, 108713. (doi: https://doi.org/10.1016/j.ast.2023.108713)
@@ -44,19 +50,19 @@ header: Publication
 
 ### Domestic Journals (In Korean)
 
+0. 김소현, 최재훈, 정다연, 이석원* "이동 객체 추정 성능 향상을 위한 LSTM 모델 기반 칼만필터 오차 보상 기법" 제어로봇시스템학회 논문집. 2025년. 1월
+
 1. 신현준, 염태선, 이석원* "저사양 소형 자율주행 시스템을 위한 실시간 차선 인식과 포트홀 탐지 기반 회피 주행 알고리즘 개발," 기계학회국문논문집, 제 47권, 제 11호, 901-909 쪽, 2023년. 
+
+
 
 ### Papers in Preparation
 
-* Seokwon Lee, Namhoon Cho, and Youdan Kim*, ''Design of Command Governor for Impact Angle Guidance with Field-of-View Constraint Against Fast-Speed Targets,"  Aerospace Science and Technology, 2023, under review.
+* Seokwon Lee, Namhoon Cho, and Youdan Kim*, ''Command Governor for Impact-Angle Guidance to Fast Targets under Field-of-View Constraint,"  Aerospace Science and Technology, 2023, under review.
 
-* Namhoon Cho, Seokwon Lee, and Hyo-Sang Shin, “Synchronisation-Oriented Design Approach for Adaptive Control,” IEEE Transactions on Automatic Control, 2023, Under Review.
+* Namhoon Cho, Seokwon Lee, and Hyo-Sang Shin, “Synchronisation-Oriented Design Approach for Adaptive Control,” Journal of Guidance, Control, and Dynamics, 2024, Under Review.
 
-* Seokwon Lee and Mingu Kim, "Reachability-Based Rendezvous Guidance for Autonomous Refueling of Unmanned Aerial Systems", Journal of Franklin Institute, 2024, under review.
-
-* Seokwon Lee, and Hyo-Sang Shin, "Destination and Time-Series Inference of Moving Objects via Conditionally Markov Process," CEAS Aeronautical Journal, 2023, under review.
-
-* Seokwon Lee, Zongjian Yuan, Ivan Petrunin, and Hyo-Sang Shin, "Impact analysis of time synchronization error in target tracking using a heterogeneous sensor network," Drones,  2024, In preparation.
+* Seokwon Lee and Mingu Kim*, "Reachability-Based Rendezvous Guidance for Autonomous Refueling of Unmanned Aerial Systems", Control Engineering Practice, 2024, under review.
 
 * Seokwon Lee, Namhoon Cho, Hyo-Sang Shin "State-Space Modelling for Estimation of Controlled Systems via Conditionally Markov Processes," 2024, In preparation.
 
@@ -64,9 +70,15 @@ header: Publication
 
 * Yeontaek Jung, Jinrae Kim, Youdan Kim, Seokwon Lee, and Jaemyung Ahn, "Multi-stage Midcourse Guidance Ensuring Homing Time for Ballistic Interception," Journal of Guidance, Control, and Dynamics, 2024, In preparation.
 
-* Jongho Park and Seokwon Lee, "Optimization-based Guidance Law of Unmanned Aerial Vehicle against Stationary and Moving Obstacles," 2024, In preparation.
+* Yeong-Ho Kim, Seokwon Lee, "Finite-Time Stability Analysis of Strapdown-Seeker Guidance Loop Considering Parasite Effect," Nonlinear Dynamics, In preparation.
 
-* Junhak Yi, Donghee Lee, Wooryong Park, Woohyun Byun, Chulyong Lim, Soobin Huh, Seokwon Lee, and Woochul Nam, " Unmanned Aerial Vehicles for Proximal Tracking of Ground Vehicles Using Feed-Forward Control", 2024, In preparation.
+* Jong Hyun Woo, Jongho Park, and Seokwon Lee, "Reactive Collision Avoidance for Moving Obstacles using Probabilistic Ellipsoidal Geometry and Modified Collision Cone" 2025, In preparation
+
+* Sohyun Kim, Hyung-bin Kim, and Seokwon Lee, "Guidance Filter Design Under Sensored Seeker Measurements Based on Modified Tobit Kalman Filter", IEEE Transactions on Aerospace and Electronic Systems, in preparation
+
+* Hyung-bin Kim and Seokwon Lee, "Missile Guidance and Filter for Considering Seeker`s Lock-on-and-off Sequences", IEEE Transactions on Aerospace and Electronic Systems, in preparation. 
+
+* Hanna Lee, Jinrae Kim, Seokwon Lee, and Youdan Kim, "Unified Trajectory Tracking Control of VTOL Fixed-Wing UAV Based on Generalized Extended State Observer," 2024, IEEE Transactions on Aerospace and Electronic Systems, 2024, under review.
 
 ## Conference
 
