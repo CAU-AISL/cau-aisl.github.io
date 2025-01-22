@@ -8,38 +8,35 @@ main: main
 taglist: [UAV,MISSILE,AI]
 ---
 
-### Carrier Landing Algorithm (Landing Guidance + Control Scheme)   
+# Research Scopes in AISL
 
-<div class="iframe-container iframe-container16_9"><iframe width="1280" height="665" src="https://www.youtube.com/embed/DY-vUGiA9Wc" title="Landing Guidance Simulation for Automatic Carrier Landing System (ACLS)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
-  
----
+## Navgation(Estimation)
+### Filtering / State Estimation
 
-### Collision Avoidance Algorithm
+### Intent Inference, Sensor Fusion
 
----
+### AI-Aided Filtering
 
-### Rendezvous Guidance Strategy
-
----
-
-### Missile Guidance Law Design
+### Guidance Filter Design
 
 ---
+## Guidance
 
-### Flight Controller Design
+### Path Guidance( Trajectory Generation / Tracking)
 
----
+### Point Guidance (Reach/Avoid) & Analysis
 
-### Reachability / Capturability Analysis
+###  Collision Avoidance/ Reactive Path planning
 
----
-
-### Intent Inference and estimation 
-
----
-
-### Sensor fusion and multi-target tracking 
+### Reachability-based control/ Safe control
 
 ---
+## Control(Low/High)
 
-### SILT (Software-in-the-loop Test) and Simulation Program Development 
+### Adaptive/Robust/Nonlinear Control
+
+### Optimal(Optimization) + Learning
+
+### Robot Manipulator
+
+### Autonomous Driving
