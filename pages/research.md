@@ -17,8 +17,14 @@ taglist: [UAV,MISSILE,AI]
 
 ---
 ### 1-2. Intent Inference, Sensor Fusion
-<img src="/assets/img/Research/Navigation_2.png">
+<div class="div_img_horizontal">
+<img style="width:50%;" src="/assets/img/Research/Navigation_2_1.png">
+<div style="width:50%;" >
+<img src="/assets/img/Research/Navigation_2_2.gif">
+<img src="/assets/img/Research/Navigation_2_3.gif">
+</div>
 
+</div>
 ---
 ### 1-3. AI-Aided Filtering
 <div class="div_img_horizontal">
@@ -35,7 +41,7 @@ taglist: [UAV,MISSILE,AI]
 
 ### 2-1. Path Guidance( Trajectory Generation / Tracking)
 <div class="div_img_horizontal">
-<img style="width:63%;" src="/assets/img/Research/Guidance_1_1.gif">
+<p style="width:63%;">해찬사진</p>
 <img style="width:35%;" src="/assets/img/Research/Guidance_1_2.png">
 </div>
 
@@ -55,11 +61,9 @@ taglist: [UAV,MISSILE,AI]
 ## 3. Control(Low/High)
 
 ### 3-1. Adaptive/Robust/Nonlinear Control
-<img src="/assets/img/Research/Control_1.png">
 
 ---
 ### 3-2. Optimal(Optimization) + Learning
-<img src="/assets/img/Research/Control_2.png">
 
 ---
 ### 3-3. Robot Manipulator
