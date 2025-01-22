@@ -1,9 +1,16 @@
 <div class="left_navigation">
     {% if page.category contains "research"%}
         {% for tag in page.taglist %}
+            {% if tag == "GUIDANCE" %}
+                <h2 class="Top-list">Research Topic</h2>
+            {% endif %}
+            {% if tag == "UAV" %}
+                <h2 class="Top-list" style="margin-top: 3rem;">Application</h2>
+            {% endif %}
             <div class="page-nav-list">
                 <h2>{{ tag }}</h2>
-                {% for research in site.research %}
+                {% assign sorted_research = site.research | sort:"order" %}
+                {% for research in sorted_research %}
                     {% if research.tag contains tag %}
                         <div class="nav-items">▷<h3><a href="{{ research.url }}">{{ research.title }}</a></h3></div>
                     {% endif %}

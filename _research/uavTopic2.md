@@ -6,7 +6,7 @@ header: Research
 category: research 
 permalink: /Research/:title 
 tag: [UAV]
-taglist: [UAV,MISSILE,AI]
+taglist: [GUIDANCE,NAVIGATION,CONTROL,UAV,MISSILE,AI]
 ---
 
 ## Temporary research introduction

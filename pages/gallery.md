@@ -2,7 +2,7 @@
 layout: gallery
 title: Gallery
 category: gallery
-header: Gallery
+header: Boards
 permalink: /Gallery
 pagination:
     enabled: true

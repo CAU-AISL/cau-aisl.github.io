@@ -5,7 +5,7 @@ author: "김형빈"
 header: Research 
 category: research 
 tag: [MISSILE]
-taglist: [UAV,MISSILE,AI]
+taglist: [GUIDANCE,NAVIGATION,CONTROL,UAV,MISSILE,AI]
 ---
 
 ## Guidance Law

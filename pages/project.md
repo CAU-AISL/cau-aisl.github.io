@@ -4,7 +4,7 @@ title: Project
 category: project
 permalink: /Project
 header: Project
-taglist: [Ongoing,Past1,Past2]
+taglist: [Ongoing]
 ---
 
 ### Carrier Landing Algorithm (Landing Guidance + Control Scheme)   

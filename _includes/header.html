@@ -12,6 +12,12 @@
             <a href="/Member">Member</a>
           </div>
           {% endif %}
+          {% if item.name == "Publication" %}
+          <div class="dropdown-content">
+            <a href="/Publication">Journal</a>
+            <a href="/Conference">Conference</a>
+          </div>
+          {% endif %}
           {% if item.name == "Boards" %}
           <div class="dropdown-content">
             <a href="/Boards">Notice</a>
@@ -28,7 +34,8 @@
         <a href="/Member" class="menu-link">Member</a>
         <a href="/Research" class="menu-link">Research</a>
         <a href="/Project" class="menu-link">Project</a>
-        <a href="/Publication" class="menu-link">Publication</a>
+        <a href="/Publication" class="menu-link">Journal</a>
+        <a href="/Conference" class="menu-link">Conference</a>
         <a href="/Boards" class="menu-link">Notice</a>
         <a href="/Gallery" class="menu-link">Gallery</a>
         <a href="/Contact" class="menu-link">Contact</a>
