@@ -5,6 +5,6 @@ author: "이석원"
 header: Project 
 category: project 
 tag: [Ongoing]
-taglist: [Ongoing,Past1,Past2]
+taglist: [Ongoing]
 ---
 

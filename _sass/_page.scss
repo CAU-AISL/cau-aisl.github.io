@@ -54,7 +54,10 @@
   display: flex;
 }
 
-
+.content-area video{
+  width: 100%;
+  margin-top: 2rem;
+}
 @media (max-width: $PC-minwidth) {
   .left_navigation{ 
     float: none;
