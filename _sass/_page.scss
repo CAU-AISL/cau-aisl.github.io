@@ -47,6 +47,11 @@
   margin-top: 1rem;
 }
 
+.content-area .div_img_horizontal{
+  display: flex;
+}
+
+
 @media (max-width: $PC-minwidth) {
   .left_navigation{ 
     float: none;
