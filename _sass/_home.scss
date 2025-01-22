@@ -33,8 +33,12 @@
   margin: 20px 0px 5px;
   text-align: center;
 }
-.focusedarea{
+.Mainlist{
   margin-top: 2rem;
+}
+.Mainlist_p{
+  font-size: 17px;
+  line-height: 2;
 }
 .home .imagearea .mainimage{
   margin : 0 auto;
@@ -192,9 +196,9 @@
   background:#000;
 }
 
-#interestimg{
-  margin: 0;
-  max-width: 100%;
+#Main_Research_Pipeline{
+  margin: 0 auto;
+  max-width: 90%;
 }
 
 @media (max-width: 1600px) {
