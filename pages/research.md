@@ -8,4 +8,7 @@ main: main
 taglist: [GUIDANCE,NAVIGATION,CONTROL,UAV,MISSILE,AI]
 ---
 
-# Research Scopes in AISL
+
+<img src="/assets/img/Research/ResearchMain.png">
+
+#### 보충 필요
