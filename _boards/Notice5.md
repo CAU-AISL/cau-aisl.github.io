@@ -5,7 +5,7 @@ date: 2024-11-21
 category: notice
 header: Boards
 layout: boarddetail
-num: 4
+num: 5
 ---
 
 #### 일시 : 11월 22일 오후 5시

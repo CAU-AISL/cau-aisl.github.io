@@ -1,11 +1,28 @@
 ---
-title: "10월 30일 인간로봇융합 연구센터 연사초청세미나 공지"
-author: "김영호"
-date: 2024-10-26
+title: "2024 CAU-CU Joint Meeting"
+author: "이석원"
+date: 2024-06-24
 category: notice
 header: Boards
 layout: boarddetail
 num: 2
 ---
 
-<embed type="application/pdf" src="/assets/img/Notice/10_30/20241030_HRCRC_Seminar.pdf" style="width: 100%;aspect-ratio: 1.2;">
+#### Dear All,
+
+#### As we already discussed before, a joint research seminar between CU and CAU is planned as follows:
+ 
+##### 8:30 – 8:40: Opening
+
+##### 8:40 – 9:05: Research Topic 1 from CAU: Filter Design for Strapdown-Seeker Guided Missiles
+
+##### 9:05 – 9:30: Research Topic 2 from CAU: Reactive Collision Avoidance for Quadcopter UAVs
+
+##### 9:30 – 9:55: Research Topic from CU: A Particle Gaussian Mixture Filter with DBSCAN
+
+##### 9:55 – 10:00: Closing
+
+#### on Thursday, 27th June, 0830 (BST)/1630 (KST). Please use the provided online meeting link provided below for online access to the meeting. Thank you.
+
+ #### Many thanks,
+
