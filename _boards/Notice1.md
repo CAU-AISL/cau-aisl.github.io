@@ -1,27 +1,17 @@
 ---
-title: "2024 CAU-CU Joint Meeting"
+title: "23년 Winter MESTER 발표회 우수상 수상"
 author: "이석원"
-date: 2024-06-24
+date: 2024-05-10
 category: notice
 header: Boards
 layout: boarddetail
 num: 1
 ---
 
-#### Dear All,
+#### 23년 동계 MESTER 발표회에 대한 시상식을 기계공학부 대학원 홈커밍데이와 겸하여 진행되었습니다.
 
-#### As we already discussed before, a joint research seminar between CU and CAU is planned as follows:
- 
-##### 8:30 – 8:40: Opening
+#### 우리 연구실에서는 총 3개의 팀이 처음으로 참여하였고, 그 중 우종현-정해찬 팀의 연구가 시스템제어 분야 최우수상을 수상하였습니다. 축하합니다.
+#### 수상 축하합니다. 
 
-##### 8:40 – 9:05: Research Topic 1 from CAU: Filter Design for Strapdown-Seeker Guided Missiles
-
-##### 9:05 – 9:30: Research Topic 2 from CAU: Reactive Collision Avoidance for Quadcopter UAVs
-
-##### 9:30 – 9:55: Research Topic from CU: A Particle Gaussian Mixture Filter with DBSCAN
-
-##### 9:55 – 10:00: Closing
-
-#### on Thursday, 27th June, 0830 (BST)/1630 (KST). Please use the provided online meeting link provided below for online access to the meeting. Thank you.
-
- #### Many thanks,
+<img src="/assets/img/Gallery/24_05_10/1.jpeg">
+<img src="/assets/img/Gallery/24_05_10/2.jpeg">
