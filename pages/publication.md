@@ -61,6 +61,8 @@ header: Publication
 
 1. Seokwon Lee and Mingu Kim*, "Reachability-Based Rendezvous Guidance for Autonomous Refueling of Unmanned Aerial Systems", Control Engineering Practice, 2024, under review.
 
+1. Sohyun Kim, Hyung-bin Kim, and Seokwon Lee, "Adaptive Censoring-Probability-Based Tobit Kalman Filter for Tracking Maneuvering Targets", Aerospace Science and Technology, 2025, under review.
+
 1. Seokwon Lee, Namhoon Cho, Hyo-Sang Shin "State-Space Modelling for Estimation of Controlled Systems via Conditionally Markov Processes," 2024, In preparation.
 
 1. Namhoon Cho, Seokwon Lee, Hyo-Sang Shin, and Antonios Tsourdos, “Bayesian Learning Approach to Model Predictive Control,” arXiv:2203.02720, March 2022.
@@ -70,8 +72,6 @@ header: Publication
 1. Yeong-Ho Kim, Seokwon Lee, "Finite-Time Stability Analysis of Strapdown-Seeker Guidance Loop Considering Parasite Effect," Nonlinear Dynamics, In preparation.
 
 1. Jong Hyun Woo, Jongho Park, and Seokwon Lee, "Reactive Collision Avoidance for Moving Obstacles using Probabilistic Ellipsoidal Geometry and Modified Collision Cone" 2025, In preparation
-
-1. Sohyun Kim, Hyung-bin Kim, and Seokwon Lee, "Guidance Filter Design Under Sensored Seeker Measurements Based on Modified Tobit Kalman Filter", IEEE Transactions on Aerospace and Electronic Systems, in preparation
 
 1. Hyung-bin Kim and Seokwon Lee, "Missile Guidance and Filter for Considering Seeker`s Lock-on-and-off Sequences", IEEE Transactions on Aerospace and Electronic Systems, in preparation. 
 
