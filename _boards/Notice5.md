@@ -5,7 +5,7 @@ date: 2025-01-22
 category: notice
 header: Boards
 layout: boarddetail
-num: 5
+num: 6
 ---
 
 #### 연구실 개강회식을 다음과 같이 공지합니다.
