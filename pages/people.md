@@ -31,4 +31,11 @@ taglist: [Professor,Member]
 
 * Member of KSAS (Korean Society for Aeronautical and Space Sciences)
 
+* Member of KSME (Korean Society of Mechanical Engineers)
+
+* Member of ICROS (Institute of Control, Robotics and Systems)
+
 * Member of AIAA (American Institute of Aeronautics and Astronautics)
+
+* Member of IEEE (Institute of Electrical and Electronics Engineers) 
+
