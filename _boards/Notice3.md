@@ -5,7 +5,7 @@ date: 2024-10-26
 category: notice
 header: Boards
 layout: boarddetail
-num: 3
+num: 4
 ---
 
 <embed type="application/pdf" src="/assets/img/Notice/10_30/20241030_HRCRC_Seminar.pdf" style="width: 100%;aspect-ratio: 1.2;">
