@@ -6,12 +6,12 @@ permalink: /Project
 header: Project
 taglist: [Ongoing]
 ---
+### Ongoing Projects 
+* Study on Learning-Based Control with Domain-Information Incorporation for Autonomous and Intelligent Systems (NRF, 2023. 06 - 2025. 02)
+* 고고도방어 유도제어기술 연구 (광역방어 특화연구센터, 2024.05 - 2027. 02)
+* 재사용 무인 우주비행체의 다목적 궤적설계 연구 (재사용 무인우주비행체 특화연구센터, 2025.01 - 2028.12)
+* BK 21 Research and Education Center for Intelligent Wearable Robots (BK21, 23.09 - 27.02)
 
-### Carrier Landing Algorithm (Landing Guidance + Control Scheme)   
+### Past Project lists 
 
-<div class="iframe-container iframe-container16_9"><iframe width="1280" height="665" src="https://www.youtube.com/embed/DY-vUGiA9Wc" title="Landing Guidance Simulation for Automatic Carrier Landing System (ACLS)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
-  
-
-<video controls>
-  <source src="/assets/img/video/ACLS_animation.mp4"/>
-</video>
+* International Collaboration Project with Cranfield Univ. (NRF International Mobility Project, 2023. 10 - 2024. 09)
