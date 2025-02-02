@@ -1,5 +1,5 @@
 ---
-title: "23년 Winter MESTER 발표회 우수상 수상"
+title: "23년 Winter MESTER 발표회 최우수상 수상"
 author: "이석원"
 date: 2024-05-10
 category: notice
