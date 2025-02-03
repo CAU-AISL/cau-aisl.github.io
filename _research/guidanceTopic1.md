@@ -26,7 +26,7 @@ Research on guidance focuses on controlling vehicle trajectories to meet specifi
 </video>
 
 <div class="div_img_horizontal">
-<img style="width:50%;"src="/assets/img/Research/Rendezvous_1.png"></p>
+<img style="width:50%;" src="/assets/img/Research/Rendezvous_1.png"></p>
 <img style="width:50%;" src="/assets/img/Research/Rendezvous_2.png">
 </div>
 
