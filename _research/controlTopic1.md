@@ -6,7 +6,6 @@ header: Research
 category: research 
 tag: [CONTROL]
 taglist: [GUIDANCE,NAVIGATION,CONTROL,UAV,MISSILE,AI]
-order: 31
 ---
 
 ## Control
