@@ -10,7 +10,7 @@ num: 0
 
 #### Research positions for graduate study and undergraduate internships are now open. 
 
-#### We want \bf{highly motivated students} who are actively exploring research and share new findings with us.
+#### We want {highly motivated students} who are actively exploring research and share new findings with us.
 #### The research topics include, but not limited to, 
 * control, and broad applications to UAS including UAVs, UGVs, missiles, launch vehicles, spacecraft, mobile robots, etc. 
 
