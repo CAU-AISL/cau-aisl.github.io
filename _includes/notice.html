@@ -10,13 +10,24 @@
                     <th scope="col" class="th-date">작성날짜</th>
                 </tr>
             </thead>
-            {% for post in paginator.posts %}
-                <tr>
-                    <td>{{ post.num }}</td>
+            {% assign sticky_posts = site.boards | where: "sticky", true %}
+            {% for post in sticky_posts %}
+                <tr class="stricky">
+                    <td> <span class="wr-notice"></span> </td>
                     <td class="th-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></td>
                     <td>{{ post.author }}</td>
                     <td class="th-date">{{ post.date | date: "%b %-d, %Y"}}</td>
                 </tr>
+            {% endfor %}
+            {% for post in paginator.posts %}
+                {% unless post.sticky %}
+                    <tr>
+                        <td>{{ post.num }}</td>
+                        <td class="th-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></td>
+                        <td>{{ post.author }}</td>
+                        <td class="th-date">{{ post.date | date: "%b %-d, %Y"}}</td>
+                    </tr>
+                {% endunless %}
             {% endfor %}
         </table>
         {% if paginator.total_pages > 1 %}

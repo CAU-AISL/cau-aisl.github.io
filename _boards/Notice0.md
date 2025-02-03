@@ -6,6 +6,7 @@ category: notice
 header: Boards
 layout: boarddetail
 num: 0
+sticky: true
 ---
 
 #### Research positions for graduate study and undergraduate internships are now open. 
