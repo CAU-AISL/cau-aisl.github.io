@@ -1,5 +1,5 @@
 ---
-title: "2024 KSAS 추계학술대회 참가가"
+title: "2024 KSAS 추계학술대회 참가"
 author: "이석원"
 date: 2024-11-15
 category: notice

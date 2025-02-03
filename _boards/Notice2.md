@@ -24,5 +24,5 @@ num: 2
 
 #### on Thursday, 27th June, 0830 (BST)/1630 (KST). Please use the provided online meeting link provided below for online access to the meeting. Thank you.
 
- #### Many thanks,
+#### Many thanks,
 
