@@ -1,6 +1,6 @@
 ---
 layout: research
-title: "Path Guidance(Trajectory Generation / Tracking)"
+title: "Guidance"
 author: "김영호"
 header: Research 
 category: research 

@@ -1,6 +1,6 @@
 ---
 layout: research
-title: "Adaptive/Robust/Nonlinear Control"
+title: "Control"
 author: "김영호"
 header: Research 
 category: research 
