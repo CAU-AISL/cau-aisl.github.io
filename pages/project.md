@@ -1,10 +1,9 @@
 ---
-layout: project
+layout: publication
 title: Project
 category: project
 permalink: /Project
 header: Project
-taglist: [Ongoing]
 ---
 ### Ongoing Projects 
 * Study on Learning-Based Control with Domain-Information Incorporation for Autonomous and Intelligent Systems (NRF, 2023. 06 - 2025. 02)
