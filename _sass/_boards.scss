@@ -189,6 +189,18 @@
     }
 }
 ////////////////////////////////
+.stricky{
+    background-color: #eeeeee;
+    font-weight: 700;
+}
+.wr-notice{
+    width: 37px;
+    height: 19px;
+    background-image: url(./img/icon_notice.gif);
+    display: inline-block;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+}
 .galleryTable{
     border-collapse: collapse;
     border-spacing: 0;

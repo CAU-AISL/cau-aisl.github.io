@@ -5,7 +5,7 @@ date: 2024-11-21
 category: notice
 header: Boards
 layout: boarddetail
-num: 8
+num: 12
 ---
 #### BK 21 연사초청 세미나를 다음과 같이 공지합니다.
 #### 관심있는 학생들 및 연구자들의 많은 참여 바랍니다.
