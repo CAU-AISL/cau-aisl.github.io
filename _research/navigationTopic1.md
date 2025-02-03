@@ -23,6 +23,7 @@ order: 21
 <img src="/assets/img/Research/Navigation_2_2.gif">
 <img src="/assets/img/Research/Navigation_2_3.gif">
 </div>
+</div>
 
 ### 2-3. AI-Aided Filtering
 <div class="div_img_horizontal">

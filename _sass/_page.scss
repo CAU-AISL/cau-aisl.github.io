@@ -53,7 +53,9 @@
 .content-area .div_img_horizontal{
   display: flex;
 }
-
+.content-area .div_img_horizontal img{
+  margin: 0 auto;
+}
 .content-area video{
   width: 100%;
   margin-top: 2rem;
