@@ -1,13 +1,16 @@
 ---
-title: "2025 연구실 개강회식 공지 "
+title: "11월 22일 BK-21 연사초청세미나 공지"
 author: "이석원"
-date: 2025-01-22
+date: 2024.11.21
 category: notice
 header: Boards
 layout: boarddetail
-num: 7
+num: 6
 ---
+#### BK 21 연사초청 세미나를 다음과 같이 공지합니다.
+#### 관심있는 학생들 및 연구자들의 많은 참여 바랍니다.
 
-#### 연구실 개강회식을 다음과 같이 공지합니다.
-#### 일시: 2025년 1월 23일 18:00 
-#### 장소: 신도림동 석구네 마포주먹고기 신도림본점 
+* 일시 : 11월 22일 오후 5시
+* 장소 : 310관 517호
+* 연사자 : 장인모 교수(한국항공대학교)
+* 주제 : Demystifying Decentralised Techniques for Decision-Making in Multi-Robot/Swarm Robotics
