@@ -32,6 +32,6 @@ Research on guidance focuses on controlling vehicle trajectories to meet specifi
 
 ### 1-3. Path Guidance( Trajectory Generation / Tracking)
 <div class="div_img_horizontal">
-<p style="width:63%;">해찬사진</p>
+<img style="width:63%;" src="/assets/img/Research/pathplanning.gif">
 <img style="width:35%;" src="/assets/img/Research/Guidance_1_2.png">
 </div>
