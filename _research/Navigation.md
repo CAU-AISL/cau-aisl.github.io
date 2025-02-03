@@ -1,6 +1,6 @@
 ---
 layout: research
-title: "Filtering / State Estimation"
+title: "Navigation"
 author: "김영호"
 header: Research 
 category: research 
