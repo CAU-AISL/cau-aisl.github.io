@@ -6,7 +6,6 @@ header: Research
 category: research 
 tag: [GUIDANCE]
 taglist: [GUIDANCE,NAVIGATION,CONTROL,UAV,MISSILE,AI]
-order: 11
 ---
 
 ## Guidance

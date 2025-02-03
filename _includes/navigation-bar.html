@@ -9,7 +9,7 @@
             {% endif %}
             <div class="page-nav-list">
                 
-                {% if tag != "GUIDANCE" and tag != "NAVIGATION" and tag!="CONTROL" %}
+                {% if tag != "GUIDANCE" and tag != "NAVIGATION" and tag != "CONTROL" %}
                     <h2>{{ tag }}</h2>
                     {% assign sorted_research = site.research | sort:"order" %}
                     {% for research in sorted_research %}
@@ -18,7 +18,7 @@
                         {% endif %}
                     {% endfor %}
                 {% else %}
-                    <h2><a href="/Research/{{ tag }}">{{ tag }}</a></h2>
+                    <h2><a href="/Research/{{ tag | downcase }}Topic1">{{ tag }}</a></h2>
                 {% endif %}
             </div>
         {% endfor %}
