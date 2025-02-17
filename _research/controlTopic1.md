@@ -30,4 +30,8 @@ taglist: [GUIDANCE,NAVIGATION,CONTROL,UAV,MISSILE,AI]
 
 ### 3-3. Attitude Control/ Stability-Augmentation System(SAS)
 
+#### Wheeled Bipedal Robot (WBR) using EKF and LQR control
+- Velocity, Yaw rate, Balancing controlled with LQR
+- Extended Kalman Filter and CoM calculator applied for state estimation
+
 <div class="iframe-container iframe-container16_9"><iframe width="1280" height="665" src="https://www.youtube.com/embed/rpD8mo0Jbuc?si=vlc3t-SSZjI0LU4s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
