@@ -30,3 +30,4 @@ taglist: [GUIDANCE,NAVIGATION,CONTROL,UAV,MISSILE,AI]
 
 ### 3-3. Attitude Control/ Stability-Augmentation System(SAS)
 
+<div class="iframe-container iframe-container16_9"><iframe width="1280" height="665" src="https://www.youtube.com/watch?v=rpD8mo0Jbuc" title="Wheeled Bipedal Robot" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
