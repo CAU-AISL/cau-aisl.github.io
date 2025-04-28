@@ -10,6 +10,8 @@ header: Publication
 
 ### International Journals
 
+1. Sohyun Kim, Hyung-bin Kim, and Seokwon Lee, "Adaptive Censoring-Probability-Based Tobit Kalman Filter for Tracking Maneuvering Targets", Aerospace Science and Technology, 2025, Accepted for publication.
+
 1. Jongho Park and Seokwon Lee*, "Reactive Trajectory Generation of Unmanned Aerial Vehicle Incorporating Fuzzy C-Means Clustering and Optimization Problem-based Guidance," 2024, IEEE ACCESS, Accepted for publication. (doi: 10.1109/ACCESS.2024.3510736)
 1. Seokwon Lee, and Hyo-Sang Shin, "Destination and Time-Series Inference of Moving Objects via Conditionally Markov Process," CEAS Aeronautical Journal, Vol. 15, pp. 1189-1199, 2024. (doi: 10.1007/s13272-024-00763-5)
 
@@ -61,7 +63,6 @@ header: Publication
 
 1. Seokwon Lee and Mingu Kim*, "Reachability-Based Rendezvous Guidance for Autonomous Refueling of Unmanned Aerial Systems", Control Engineering Practice, 2024, under review.
 
-1. Sohyun Kim, Hyung-bin Kim, and Seokwon Lee, "Adaptive Censoring-Probability-Based Tobit Kalman Filter for Tracking Maneuvering Targets", Aerospace Science and Technology, 2025, under review.
 
 1. Seokwon Lee, Namhoon Cho, Hyo-Sang Shin "State-Space Modelling for Estimation of Controlled Systems via Conditionally Markov Processes," 2024, In preparation.
 
