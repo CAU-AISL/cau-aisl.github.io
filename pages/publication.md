@@ -10,6 +10,8 @@ header: Publication
 
 ### International Journals
 
+1. Seokwon Lee and Mingu Kim*, "Reachability-Based Rendezvous Guidance for Autonomous Refueling of Unmanned Aerial Systems", Control Engineering Practice, 2025, Accepted for publication.
+
 1. Sohyun Kim, Hyung-bin Kim, and Seokwon Lee, "Adaptive Censoring-Probability-Based Tobit Kalman Filter for Tracking Maneuvering Targets", Aerospace Science and Technology, 2025, Accepted for publication.
 
 1. Jongho Park and Seokwon Lee*, "Reactive Trajectory Generation of Unmanned Aerial Vehicle Incorporating Fuzzy C-Means Clustering and Optimization Problem-based Guidance," 2024, IEEE ACCESS, Accepted for publication. (doi: 10.1109/ACCESS.2024.3510736)
@@ -57,12 +59,11 @@ header: Publication
 
 ### Papers in Preparation
 
+1. Jong Hyun Woo, Jongho Park, and Seokwon Lee, "Reactive Collision Avoidance for Small Unmanned Aerial Robots Using Probabilistic Ellipsoidal Geometry and Bi-Directional Collision Cone" Nonlinear Dynamics, 2025, under review.
+
 1. Seokwon Lee, Namhoon Cho, and Youdan Kim*, ''Command Governor for Impact-Angle Guidance to Fast Targets under Field-of-View Constraint,"  Aerospace Science and Technology, 2023, under review.
 
 1. Namhoon Cho, Seokwon Lee, and Hyo-Sang Shin, “Synchronisation-Oriented Design Approach for Adaptive Control,” Journal of Guidance, Control, and Dynamics, 2024, Under Review.
-
-1. Seokwon Lee and Mingu Kim*, "Reachability-Based Rendezvous Guidance for Autonomous Refueling of Unmanned Aerial Systems", Control Engineering Practice, 2024, under review.
-
 
 1. Seokwon Lee, Namhoon Cho, Hyo-Sang Shin "State-Space Modelling for Estimation of Controlled Systems via Conditionally Markov Processes," 2024, In preparation.
 
@@ -71,8 +72,6 @@ header: Publication
 1. Yeontaek Jung, Jinrae Kim, Youdan Kim, Seokwon Lee, and Jaemyung Ahn, "Multi-stage Midcourse Guidance Ensuring Homing Time for Ballistic Interception," Journal of Guidance, Control, and Dynamics, 2024, In preparation.
 
 1. Yeong-Ho Kim, Seokwon Lee, "Finite-Time Stability Analysis of Strapdown-Seeker Guidance Loop Considering Parasite Effect," Nonlinear Dynamics, In preparation.
-
-1. Jong Hyun Woo, Jongho Park, and Seokwon Lee, "Reactive Collision Avoidance for Moving Obstacles using Probabilistic Ellipsoidal Geometry and Modified Collision Cone" 2025, In preparation
 
 1. Hyung-bin Kim and Seokwon Lee, "Missile Guidance and Filter for Considering Seeker`s Lock-on-and-off Sequences", IEEE Transactions on Aerospace and Electronic Systems, in preparation. 
 
