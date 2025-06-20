@@ -76,3 +76,5 @@ header: Publication
 1. Hyung-bin Kim and Seokwon Lee, "Missile Guidance and Filter for Considering Seeker`s Lock-on-and-off Sequences", IEEE Transactions on Aerospace and Electronic Systems, in preparation. 
 
 1. Hanna Lee, Jinrae Kim, Seokwon Lee, and Youdan Kim, "Unified Trajectory Tracking Control of VTOL Fixed-Wing UAV Based on Generalized Extended State Observer," 2024, IEEE Transactions on Aerospace and Electronic Systems, 2024, under review.
+
+1. Woohyun Byun, Soobin Huh, Hyeokjae Jang, Suhyeong Yu, Sungwon Lim, Seokwon Lee *, Woochul Nam *, " Vector Field-Based Robust Quadrotor Landing on a Moving Ground Platform," Aerospace, 2025, under review.
