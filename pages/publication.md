@@ -10,11 +10,14 @@ header: Publication
 
 ### International Journals
 
-1. Seokwon Lee and Mingu Kim*, "Reachability-Based Rendezvous Guidance for Autonomous Refueling of Unmanned Aerial Systems", Control Engineering Practice, 2025, Accepted for publication.
+1. Woohyun Byun, Soobin Huh, Hyeokjae Jang, Suhyeong Yu, Sungwon Lim, Seokwon Lee *, Woochul Nam *, " Vector Field-Based Robust Quadrotor Landing on a Moving Ground Platform," Aerospace, 2025, Accepted for publication.
 
-1. Sohyun Kim, Hyung-bin Kim, and Seokwon Lee, "Adaptive Censoring-Probability-Based Tobit Kalman Filter for Tracking Maneuvering Targets", Aerospace Science and Technology, 2025, Accepted for publication.
+1. Seokwon Lee and Mingu Kim*, "Reachability-Based Rendezvous Guidance for Autonomous Refueling of Unmanned Aerial Systems", Control Engineering Practice, Vol. 164, 2025. 106449. (doi: 10.1016/j.conengprac.2025.106449)
 
-1. Jongho Park and Seokwon Lee*, "Reactive Trajectory Generation of Unmanned Aerial Vehicle Incorporating Fuzzy C-Means Clustering and Optimization Problem-based Guidance," 2024, IEEE ACCESS, Accepted for publication. (doi: 10.1109/ACCESS.2024.3510736)
+1. Sohyun Kim, Hyung-bin Kim, and Seokwon Lee, "Adaptive Censoring-Probability-Based Tobit Kalman Filter for Tracking Maneuvering Targets", Aerospace Science and Technology, Vol. 163, 2025, 110263. (doi: 10.1016/j.ast.2025.110263)
+
+1. Jongho Park and Seokwon Lee*, "Reactive Trajectory Generation of Unmanned Aerial Vehicle Incorporating Fuzzy C-Means Clustering and Optimization Problem-based Guidance," IEEE ACCESS, Vol. 12, pp. 185659 - 185705, 2024. (doi: 10.1109/ACCESS.2024.3510736)
+
 1. Seokwon Lee, and Hyo-Sang Shin, "Destination and Time-Series Inference of Moving Objects via Conditionally Markov Process," CEAS Aeronautical Journal, Vol. 15, pp. 1189-1199, 2024. (doi: 10.1007/s13272-024-00763-5)
 
 1. Seokwon Lee, Zongjian Yuan, Ivan Petrunin, and Hyo-Sang Shin, "Impact analysis of time synchronization error in target tracking using a heterogeneous sensor network," Drones,  Vol. 8, Issue 5, 2024. (doi:10.3390/drones8050167)
@@ -77,4 +80,3 @@ header: Publication
 
 1. Hanna Lee, Jinrae Kim, Seokwon Lee, and Youdan Kim, "Unified Trajectory Tracking Control of VTOL Fixed-Wing UAV Based on Generalized Extended State Observer," 2024, IEEE Transactions on Aerospace and Electronic Systems, 2024, under review.
 
-1. Woohyun Byun, Soobin Huh, Hyeokjae Jang, Suhyeong Yu, Sungwon Lim, Seokwon Lee *, Woochul Nam *, " Vector Field-Based Robust Quadrotor Landing on a Moving Ground Platform," Aerospace, 2025, under review.
