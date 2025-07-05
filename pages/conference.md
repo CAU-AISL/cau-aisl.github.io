@@ -9,7 +9,7 @@ header: Publication
 ## Conference
 
 ### International Conference Papers
-
+1. Suwon Lee, Mingu Kim, Jongho Park, Seokwon Lee,  Jinah Lee, Chandeok Park, and Youdan Kim, "A Shape-based Approach Suited for Short-Duration Orbit Transfer Trajectory Design," 11th EUCASS Conference, Rome, Italy, June, 2025.
 1. Youngjun Lee, Hanna Lee, Seokwon Lee, and Youdan Kim, "Sliding Mode Disturbance Observer-based Finite-time Converging Guidance Law for Intercepting a Maneuvering Ballistic Missile," Asia-Pacific International Symposium on Aerospace Technology (APISAT-2024), Adelaide, Australia, October 2024.
 1. Hae-In Lee, Seokwon Lee, Hyo-Sang Shin, Antonios Tsourdos, and Sarah Fletcher, "Human Factor Analysis in Robotic and Autonomous Systems for Military Applications," 4th International Conference on Applied Human Factors and Ergonomics, San Francisco, CA, July 2023.
 1. Seokwon Lee, and Hyo-Sang Shin, ''Destination and Time-Series Inference of Moving Objects Using Conditionally Markov Sequences,'' Euro GNC 2022 - 6th CEAS Specialist Conference on Guidance, Navigation & Control, Berlin, Germany, April 2022.
@@ -41,7 +41,7 @@ header: Publication
 
 
 ### Domestic Conference Papers (in Korean)
-
+1. 김영호, 이석원, 김형빈, 우중현, "안전 영역 및 입력 포화를 고려한 계층적 제어장벽 함수기반 인공위성의 랑데부 유도기법 설계," 한국항공우주학회, 우주학술대회, 디오션 여수, 여수, 2025년 6월
 1. 김형빈, 김소현, 이석원, "검열된 지향각 측정치를 가지는 스트랩다운 탐색기 유도탄의 유도기법 및 유도필터의 설계", 한국항공우주학회 추계학술대회, 하이원리조트 컨벤션호텔, 정선군, 강원도, 2024년 11월.
 1. 우종현, 이석원, " 동적 장애물에 대한 멀티콥터의 타원 기하 기반 충돌 회피 알고리즘," 한국항공우주학회 추계학술대회, 하이원리조트 컨벤션호텔, 정선군, 강원도, 2024년 11월.
 1. 이영준, 이석원, 김유단, "고고도 방어 유도탄의 무추력 시간 결정 알고리즘," 한국항공우주학회 추계학술대회, 하이원리조트 컨벤션호텔, 정선군, 강원도, 2024년 11월.
