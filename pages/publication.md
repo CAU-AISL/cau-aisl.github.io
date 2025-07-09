@@ -62,7 +62,7 @@ header: Publication
 
 ### Papers in Preparation
 
-1. Jong Hyun Woo, Jongho Park, and Seokwon Lee, "Reactive Collision Avoidance for Small Unmanned Aerial Robots Using Probabilistic Ellipsoidal Geometry and Bi-Directional Collision Cone" Nonlinear Dynamics, 2025, under review.
+1. Jonghyun Woo, Jongho Park, and Seokwon Lee, "Reactive Collision Avoidance for Small Unmanned Aerial Robots Using Probabilistic Ellipsoidal Geometry and Bi-Directional Collision Cone" Nonlinear Dynamics, 2025, under review.
 
 1. Seokwon Lee, Namhoon Cho, and Youdan Kim*, ''Command Governor for Impact-Angle Guidance to Fast Targets under Field-of-View Constraint,"  Aerospace Science and Technology, 2023, under review.
 
