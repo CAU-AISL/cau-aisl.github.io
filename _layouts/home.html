@@ -154,15 +154,16 @@ title: Home
       })
 
       slider.addEventListener('transitionend', () => {
+
+        if (images[current].classList.contains('last-img')) {
+          slider.style.transition = 'none';
+          current = 1;
+          slider.style.transform = `translateX(${-imgSize * current}px)`;
+        }
+
         if (images[current].classList.contains('first-img')) {
           slider.style.transition = 'none';
           current = images.length - 2;
-          slider.style.transform = `translateX(${-imgSize * current}px)`;
-        }
-        if (images[current].classList.contains('last-img')) {
-          slider.style.transition = 'none';
-          // current = images.length - current;
-          current = 1;
           slider.style.transform = `translateX(${-imgSize * current}px)`;
         }
       })
