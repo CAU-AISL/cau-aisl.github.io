@@ -144,14 +144,14 @@ title: Home
 
       prevBtn.addEventListener('click', () => {
         if (current <= 0) return;
-        slider.style.transition = '400ms ease-in-out transform';
+        slider.style.transition = '1000ms ease-in-out transform'; // 1초 애니메이션
         current--;
         slider.style.transform = `translateX(${-imgSize * current}px)`;
       })
 
       nextBtn.addEventListener('click', () => {
         if (current >= images.length - 1) return;
-        slider.style.transition = '400ms ease-in-out transform';
+        slider.style.transition = '1000ms ease-in-out transform'; // 1초 애니메이션
         current++;
         slider.style.transform = `translateX(${-imgSize * current}px)`;
       })
@@ -201,7 +201,7 @@ title: Home
       })
       const next = () => {
         if (current >= images.length - 1) return;
-        slider.style.transition = '400ms ease-in-out transform';
+        slider.style.transition = '1000ms ease-in-out transform'; // 1초 애니메이션
         current++;
         slider.style.transform = `translateX(${-imgSize * current}px)`;
 
@@ -218,7 +218,7 @@ title: Home
         }
       }
 
-      setInterval(next, 2000);
+      setInterval(next, 3000);
     }
   </script>
 </div>
