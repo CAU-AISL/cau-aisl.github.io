@@ -4,6 +4,6 @@ title: People
 category: people
 permalink: /Member
 header: Member
-memberlist: [석사,학부생]
+memberlist: [Graduate, Undergraduate]
 taglist: [Professor,Member]
 ---
