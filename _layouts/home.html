@@ -4,38 +4,54 @@ title: Home
 ---
 <div class="content-wrapper">
   <div class="home">
-    
 
 
-    <img class="maincenterimage" src="/assets/img/mainHeaderImg.jpg"/>
+
+    <img class="maincenterimage" src="/assets/img/mainHeaderImg.jpg" />
     <!-- <h1>Welcome to Autonomous and Intelligent Systems (AIS) Lab.</h1>
     <h1>자율지능시스템 연구실에 오신것을 환영합니다.</h1> -->
     <div id="maincentercontent">
       <!--<p> 메인 이미지 준비중 </p>-->
       <!--<img class="maincenterimage" src="/assets/img/mainHeaderImg.jpg"/>-->
-      <img id="Main_Research_Pipeline" class="mainimage" src="/assets/img/MainImage/Pipeline1.gif"/>
-      <div class="Mainlist"><h2>Overview</h2></div>
+      <img id="Main_Research_Pipeline" class="mainimage" src="/assets/img/MainImage/Pipeline1.gif" />
+      <div class="Mainlist">
+        <h2>Overview</h2>
+      </div>
       <p class="Mainlist_p">
-        The Autonomous and Intelligent Systems Laboratory (AISL) aims to advance research on autonomous systems, including aerospace vehicles, unmanned aerial vehicles (UAVs), unmanned ground vehicles, and intelligent robotics. 
-        <br/> Our research combines theoretical innovation with experimental validation, focusing on areas such as guidance, navigation, and control systems; nonlinear and adaptive control and optimization; intent inference and estimation; and domain-specific machine learning applications. 
-        <br/> Equipped with state-of-the-art facilities—including UAV platforms, robotic systems, and simulation environments—the laboratory provides a robust foundation for developing and testing intelligent autonomous solutions.
+        The Autonomous and Intelligent Systems Laboratory (AISL) aims to advance research on autonomous systems,
+        including aerospace vehicles, unmanned aerial vehicles (UAVs), unmanned ground vehicles, and intelligent
+        robotics.
+        <br /> Our research combines theoretical innovation with experimental validation, focusing on areas such as
+        guidance, navigation, and control systems; nonlinear and adaptive control and optimization; intent inference and
+        estimation; and domain-specific machine learning applications.
+        <br /> Equipped with state-of-the-art facilities—including UAV platforms, robotic systems, and simulation
+        environments—the laboratory provides a robust foundation for developing and testing intelligent autonomous
+        solutions.
       </p>
-      
-      <div class="Mainlist"><h2>Notice</h2></div>
+
+      <div class="Mainlist">
+        <h2>Notice</h2>
+      </div>
       <p class="Mainlist_p">
-        Research positions for graduate study and undergraduate internships are now open. We want highly motivated students who are actively exploring research and share new findings with us.
-        <br/>The research topics include, but not limited to, guidance, control, and broad applications to UAS including UAVs, UGVs, missiles, launch vehicles, spacecraft, mobile robots, etc.  For more details, please refer to Research Interests.
-        <br/>If you are interested in our lab and research, please contact Prof. Seokwon Lee via e-mail with your relevant information as below.
-        <br/>FOR Graduate Study & Undergraduate internship (When Application)
+        Research positions for graduate study and undergraduate internships are now open. We want highly motivated
+        students who are actively exploring research and share new findings with us.
+        <br />The research topics include, but not limited to, guidance, control, and broad applications to UAS
+        including UAVs, UGVs, missiles, launch vehicles, spacecraft, mobile robots, etc. For more details, please refer
+        to Research Interests.
+        <br />If you are interested in our lab and research, please contact Prof. Seokwon Lee via e-mail with your
+        relevant information as below.
+        <br />FOR Graduate Study & Undergraduate internship (When Application)
       </p>
-      <div class="Mainlist"><h2>Brief CV</h2></div>
+      <div class="Mainlist">
+        <h2>Brief CV</h2>
+      </div>
       <p class="Mainlist_p">
         Your research interests and related skills
-        <br/>Your objectives  (including your aspirations after completing your graduate degree)
-        <br/>Information on relevant experiences  (including personal/group projects, internships, or work experience)
+        <br />Your objectives (including your aspirations after completing your graduate degree)
+        <br />Information on relevant experiences (including personal/group projects, internships, or work experience)
       </p>
-      <img id="Main_Research_Pipeline" class="mainimage" src="/assets/img/MainImage/Pipeline2.png"/>
-      <br/>
+      <img id="Main_Research_Pipeline" class="mainimage" src="/assets/img/MainImage/Pipeline2.png" />
+      <br />
       <!--
       <div class="focusedarea"><h2>Focused Areas of Research</h2></div>
       <div class="focuscontent">
@@ -70,12 +86,12 @@ title: Home
           </div>
         </div>
       </div>-->
-      
-    <br/>
+
+      <br />
     </div>
   </div>
   <div class="photoarea">
-    
+
     <h1>연구실 Gallery</h1>
     <div class="slider">
       <span class="leftBtn">
@@ -83,34 +99,35 @@ title: Home
       </span>
       <div class="slide">
         <span class="first-img">
-          <img src="/assets/img/Gallery/25_06_27/collage_1.png"/><!--11111111-->
+          <img src="/assets/img/Gallery/25_06_27/collage_1.png" />
         </span>
         <span>
-          <img src="/assets/img/Gallery/25_06_27/collage_2.png"/><!--22222222-->
+          <img src="/assets/img/Gallery/25_06_27/collage_2.png" />
         </span>
         <span>
-          <img src="/assets/img/Gallery/25_06_27/collage_3.png"/><!--33333333-->
+          <img src="/assets/img/Gallery/25_06_27/collage_3.png" />
         </span>
-        <!-- <span>
-          <img src="/assets/img/Gallery/25_06_27/collage_1.png"/>
-        </span> -->
+        <span>
+          <img src="/assets/img/Gallery/25_06_27/collage_4.png" />
+        </span>
         <span class="last-img">
-          <img src="/assets/img/Gallery/25_06_27/collage_4.png"/><!--22222222-->
+          <img src="/assets/img/Gallery/25_06_27/collage_1.png" />
         </span>
       </div>
       <span class="rightBtn">
-          <i class="fa-solid fa-chevron-right"></i>
+        <i class="fa-solid fa-chevron-right"></i>
       </span>
     </div>
     <ul class="photo-pagination">
       <li class="active" data-index="1"></li>
       <li data-index="2"></li>
       <li data-index="3"></li>
+      <li data-index="4"></li>
     </ul>
 
   </div>
   <script>
-    window.onload = function(){
+    window.onload = function () {
       const images = document.querySelectorAll('.slide span');
       const sliderContainer = document.querySelector('slider');
       const slider = document.querySelector('.slide');
@@ -122,78 +139,78 @@ title: Home
 
       slider.style.transform = `translateX(${-imgSize}px)`;
 
-      prevBtn.addEventListener('click',()=>{
-          if( current <= 0) return;
-          slider.style.transition = '400ms ease-in-out transform';
-          current--;
-          slider.style.transform = `translateX(${-imgSize * current}px)`;
+      prevBtn.addEventListener('click', () => {
+        if (current <= 0) return;
+        slider.style.transition = '400ms ease-in-out transform';
+        current--;
+        slider.style.transform = `translateX(${-imgSize * current}px)`;
       })
 
-      nextBtn.addEventListener('click',()=>{
-          if( current >= images.length-1 ) return;
-          slider.style.transition = '400ms ease-in-out transform';
-          current++;
-          slider.style.transform = `translateX(${-imgSize * current}px)`;
+      nextBtn.addEventListener('click', () => {
+        if (current >= images.length - 1) return;
+        slider.style.transition = '400ms ease-in-out transform';
+        current++;
+        slider.style.transform = `translateX(${-imgSize * current}px)`;
       })
 
-      slider.addEventListener('transitionend', ()=> {
-          if(images[current].classList.contains('first-img')){
-              slider.style.transition = 'none';
-              current = images.length - 2;
-              slider.style.transform = `translateX(${-imgSize * current}px)`;
-          }
-          if(images[current].classList.contains('last-img')){
-              slider.style.transition = 'none';
-              current = images.length - current;
-              slider.style.transform = `translateX(${-imgSize * current}px)`;
-          }
+      slider.addEventListener('transitionend', () => {
+        if (images[current].classList.contains('first-img')) {
+          slider.style.transition = 'none';
+          current = images.length - 2;
+          slider.style.transform = `translateX(${-imgSize * current}px)`;
+        }
+        if (images[current].classList.contains('last-img')) {
+          slider.style.transition = 'none';
+          current = images.length - current;
+          slider.style.transform = `translateX(${-imgSize * current}px)`;
+        }
       })
       const dots = document.querySelectorAll('.photoarea ul li')
 
-      prevBtn.addEventListener('click',()=>{
-          for(let i=0; i < dots.length; i++) {
-              if(dots[i].dataset.index == current){
-                  dots[i].classList.add('active');
-              }else if(current === 0){
-                  dots[i].classList.remove('active');
-                  dots[2].classList.add('active');
-              }
-              else{
-                  dots[i].classList.remove('active');
-              }
+      prevBtn.addEventListener('click', () => {
+        for (let i = 0; i < dots.length; i++) {
+          if (dots[i].dataset.index == current) {
+            dots[i].classList.add('active');
+          } else if (current === 0) {
+            dots[i].classList.remove('active');
+            dots[3].classList.add('active'); // 4번째 dot 활성화
           }
+          else {
+            dots[i].classList.remove('active');
+          }
+        }
       })
 
-      nextBtn.addEventListener('click',()=>{
-          for(let i=0; i < dots.length; i++) {
-              if(dots[i].dataset.index == current){
-                  dots[i].classList.add('active');
-              }else if(current === 4){
-                  dots[i].classList.remove('active');
-                  dots[0].classList.add('active');
-              }
-              else{
-                  dots[i].classList.remove('active');
-              }
+      nextBtn.addEventListener('click', () => {
+        for (let i = 0; i < dots.length; i++) {
+          if (dots[i].dataset.index == current) {
+            dots[i].classList.add('active');
+          } else if (current === 5) {
+            dots[i].classList.remove('active');
+            dots[0].classList.add('active');
           }
+          else {
+            dots[i].classList.remove('active');
+          }
+        }
       })
       const next = () => {
-          if (current >= images.length - 1) return;
-          slider.style.transition = '400ms ease-in-out transform';
-          current++;
-          slider.style.transform = `translateX(${-imgSize * current}px)`;
+        if (current >= images.length - 1) return;
+        slider.style.transition = '400ms ease-in-out transform';
+        current++;
+        slider.style.transform = `translateX(${-imgSize * current}px)`;
 
-          for (let i = 0; i < dots.length; i++) {
-              if (dots[i].dataset.index == current) {
-                  dots[i].classList.add('active');
-              } else if (current === 4) {
-                  dots[i].classList.remove('active');
-                  dots[0].classList.add('active');
-              }
-              else {
-                  dots[i].classList.remove('active');
-              }
+        for (let i = 0; i < dots.length; i++) {
+          if (dots[i].dataset.index == current) {
+            dots[i].classList.add('active');
+          } else if (current === 4) {
+            dots[i].classList.remove('active');
+            dots[0].classList.add('active');
           }
+          else {
+            dots[i].classList.remove('active');
+          }
+        }
       }
 
       setInterval(next, 2000);
