@@ -151,7 +151,8 @@ title: Home
         }
         else if (current === 0) {
           dots[0].classList.add('active');
-        } else if (current === 5) {
+        }
+        else if (current === 5) {
           dots[3].classList.add('active');
         }
       }
@@ -219,21 +220,10 @@ title: Home
       })
       const next = () => {
         if (current >= images.length - 1) return;
-        slider.style.transition = '1000ms ease-in-out transform'; // 1초 애니메이션
+        slider.style.transition = '1000ms ease-in-out transform';
         current++;
         slider.style.transform = `translateX(${-imgSize * current}px)`;
-
-        for (let i = 0; i < dots.length; i++) {
-          if (dots[i].dataset.index == current) {
-            dots[i].classList.add('active');
-          } else if (current === 4) {
-            dots[i].classList.remove('active');
-            dots[0].classList.add('active');
-          }
-          else {
-            dots[i].classList.remove('active');
-          }
-        }
+        updateDots();
       }
 
       setInterval(next, 3000);
