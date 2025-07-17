@@ -142,18 +142,34 @@ title: Home
 
       slider.style.transform = `translateX(${-imgSize}px)`;
 
+      function updateDots() {
+        for (let i = 0; i < dots.length; i++) {
+          dots[i].classList.remove('active');
+        }
+        if (current >= 1 && current <= 4) {
+          dots[current - 1].classList.add('active');
+        }
+        else if (current === 0) {
+          dots[0].classList.add('active');
+        } else if (current === 5) {
+          dots[3].classList.add('active');
+        }
+      }
+
       prevBtn.addEventListener('click', () => {
         if (current <= 0) return;
-        slider.style.transition = '1000ms ease-in-out transform'; // 1초 애니메이션
+        slider.style.transition = '1000ms ease-in-out transform'; 
         current--;
         slider.style.transform = `translateX(${-imgSize * current}px)`;
+        updateDots();
       })
 
       nextBtn.addEventListener('click', () => {
         if (current >= images.length - 1) return;
-        slider.style.transition = '1000ms ease-in-out transform'; // 1초 애니메이션
+        slider.style.transition = '1000ms ease-in-out transform'; 
         current++;
         slider.style.transform = `translateX(${-imgSize * current}px)`;
+        updateDots();
       })
 
       slider.addEventListener('transitionend', () => {
@@ -162,12 +178,14 @@ title: Home
           slider.style.transition = 'none';
           current = 1;
           slider.style.transform = `translateX(${-imgSize * current}px)`;
+          updateDots();
         }
 
         if (images[current].classList.contains('first-img')) {
           slider.style.transition = 'none';
           current = images.length - 2;
           slider.style.transform = `translateX(${-imgSize * current}px)`;
+          updateDots();
         }
       })
       const dots = document.querySelectorAll('.photoarea ul li')
@@ -178,7 +196,7 @@ title: Home
             dots[i].classList.add('active');
           } else if (current === 0) {
             dots[i].classList.remove('active');
-            dots[3].classList.add('active'); // 4번째 dot 활성화
+            dots[3].classList.add('active'); 
           }
           else {
             dots[i].classList.remove('active');
