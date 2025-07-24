@@ -62,15 +62,17 @@ header: Publication
 
 1. 신현준, 염태선, 이석원* "저사양 소형 자율주행 시스템을 위한 실시간 차선 인식과 포트홀 탐지 기반 회피 주행 알고리즘 개발," 기계학회국문논문집, 제 47권, 제 11호, 901-909 쪽, 2023년. 
 
+### Papers in ArXiv
+
+1. Namhoon Cho, Seokwon Lee, Hyo-Sang Shin, and Antonios Tsourdos, “Bayesian Learning Approach to Model Predictive Control,” arXiv:2203.02720, March 2022.
+
 ### Papers in Preparation
 
 1. Jonghyun Woo, Jongho Park, and Seokwon Lee, "Reactive Collision Avoidance for Small Unmanned Aerial Robots Using Probabilistic Ellipsoidal Geometry and Bi-Directional Collision Cone" Nonlinear Dynamics, 2025, under review.
 
-1. Namhoon Cho, Seokwon Lee, and Hyo-Sang Shin, “Synchronisation-Oriented Design Approach for Adaptive Control,” Journal of Guidance, Control, and Dynamics, 2024, Under Review.
+1. Namhoon Cho, Seokwon Lee, and Hyo-Sang Shin, “Synchronisation-Oriented Design Approach for Adaptive Control,” 2025, In preparation.
 
-1. Seokwon Lee, Namhoon Cho, Hyo-Sang Shin "State-Space Modelling for Estimation of Controlled Systems via Conditionally Markov Processes," 2024, In preparation.
-
-1. Namhoon Cho, Seokwon Lee, Hyo-Sang Shin, and Antonios Tsourdos, “Bayesian Learning Approach to Model Predictive Control,” arXiv:2203.02720, March 2022.
+1. Seokwon Lee, Namhoon Cho, Hyo-Sang Shin "State-Space Modelling for Estimation of Controlled Systems via Conditionally Markov Processes," 2025, In preparation.
 
 1. Yeontaek Jung, Jinrae Kim, Youdan Kim, Seokwon Lee, and Jaemyung Ahn, "Multi-stage Midcourse Guidance Ensuring Homing Time for Ballistic Interception," Journal of Guidance, Control, and Dynamics, 2024, In preparation.
 
@@ -78,5 +80,5 @@ header: Publication
 
 1. Hyung-bin Kim and Seokwon Lee, "Missile Guidance and Filter for Considering Seeker`s Lock-on-and-off Sequences", IEEE Transactions on Aerospace and Electronic Systems, in preparation. 
 
-1. Hanna Lee, Jinrae Kim, Seokwon Lee, and Youdan Kim, "Unified Trajectory Tracking Control of VTOL Fixed-Wing UAV Based on Generalized Extended State Observer," 2024, IEEE Transactions on Aerospace and Electronic Systems, 2024, under review.
+1. Hanna Lee, Jinrae Kim, Seokwon Lee, and Youdan Kim, "Unified Trajectory Tracking Control of VTOL Fixed-Wing UAV Based on Generalized Extended State Observer," 2025, IEEE Transactions on Aerospace and Electronic Systems, 2024, In preparation.
 
