@@ -10,7 +10,7 @@ header: Publication
 
 ### International Journals
 
-1. Seokwon Lee, Namhoon Cho, and Youdan Kim*, ''Command Governor for Impact-Angle Guidance to Fast Targets under Field-of-View Constraint,"  Aerospace Science and Technology, 2025, Accepted for publication.
+1. Seokwon Lee, Namhoon Cho*, and Youdan Kim, ''Command Governor for Impact-Angle Guidance to Fast Targets under Field-of-View Constraint,"  Aerospace Science and Technology, 2025, Accepted for publication.
 
 1. Woohyun Byun, Soobin Huh, Hyeokjae Jang, Suhyeong Yu, Sungwon Lim, Seokwon Lee *, Woochul Nam *, " Vector Field-Based Robust Quadrotor Landing on a Moving Ground Platform," Aerospace, Vol. 12, No. 7, 2025, 590. (doi: 10.3390/aerospace12070590)
 
@@ -65,8 +65,6 @@ header: Publication
 ### Papers in Preparation
 
 1. Jonghyun Woo, Jongho Park, and Seokwon Lee, "Reactive Collision Avoidance for Small Unmanned Aerial Robots Using Probabilistic Ellipsoidal Geometry and Bi-Directional Collision Cone" Nonlinear Dynamics, 2025, under review.
-
-
 
 1. Namhoon Cho, Seokwon Lee, and Hyo-Sang Shin, “Synchronisation-Oriented Design Approach for Adaptive Control,” Journal of Guidance, Control, and Dynamics, 2024, Under Review.
 
