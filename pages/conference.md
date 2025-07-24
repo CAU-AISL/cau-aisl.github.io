@@ -37,19 +37,8 @@ header: Publication
 1. Seokwon  Lee, and Youdan Kim, “Robust Acceleration Autopilot Design for Boost Phase Missiles Using Backstepping Approach,” Guidance, Navigation, and Control Conference, AIAA Science and Technology Forum, Kissimmee, FL, USA, January 2015.
 1. Seokwon Lee, Hyunjin Choi, Youdan Kim, Seungkeun Kim, Jinyoung Suk, Sungwan Kim, “Glide Path Angle Tracking Control for UAV Automatic Carrier Landing,” 6th Asia-Pacific International Symposium on Aerospace Technology (APISAT-2014), Shanghai, China, September 2014.
 
-
-
-
 ### Domestic Conference Papers (in Korean)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-1. 김영호, 이석원, 김형빈, 우종현, "안전 영역 및 입력 포화를 고려한 계층적 제어장벽 함수기반 인공위성의 랑데부 유도기법 설계," 한국항공우주학회, 우주학술대회, 디오션 여수, 여수, 2025년 6월
-=======
 1. 김영호, 이석원, 김형빈, 우종현, "안전 영역 및 입력 포화를 고려한 계층적 제어장벽 함수 기반 인공위성의 랑데뷰 유도기법 설계," 한국항공우주학회 우주학술대회, 디오션 여수, 여수, 전라남도, 2025년 6월.
->>>>>>> Stashed changes
-=======
-1. 김영호, 이석원, 김형빈, 우종현, "안전 영역 및 입력 포화를 고려한 계층적 제어장벽 함수 기반 인공위성의 랑데뷰 유도기법 설계," 한국항공우주학회 우주학술대회, 디오션 여수, 여수, 전라남도, 2025년 6월.
->>>>>>> Stashed changes
 1. 김형빈, 김소현, 이석원, "검열된 지향각 측정치를 가지는 스트랩다운 탐색기 유도탄의 유도기법 및 유도필터의 설계", 한국항공우주학회 추계학술대회, 하이원리조트 컨벤션호텔, 정선군, 강원도, 2024년 11월.
 1. 우종현, 이석원, " 동적 장애물에 대한 멀티콥터의 타원 기하 기반 충돌 회피 알고리즘," 한국항공우주학회 추계학술대회, 하이원리조트 컨벤션호텔, 정선군, 강원도, 2024년 11월.
 1. 이영준, 이석원, 김유단, "고고도 방어 유도탄의 무추력 시간 결정 알고리즘," 한국항공우주학회 추계학술대회, 하이원리조트 컨벤션호텔, 정선군, 강원도, 2024년 11월.
