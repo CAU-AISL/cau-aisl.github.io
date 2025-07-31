@@ -10,7 +10,7 @@ header: Publication
 
 ### International Journals
 
-1. Seokwon Lee, Namhoon Cho*, and Youdan Kim, ''Command Governor for Impact-Angle Guidance to Fast Targets under Field-of-View Constraint,"  Aerospace Science and Technology, 2025, Accepted for publication.
+1. Seokwon Lee, Namhoon Cho*, and Youdan Kim, ''Command Governor for Impact-Angle Guidance to Fast Targets under Field-of-View Constraint,"  Aerospace Science and Technology, 2025, Accepted for publication. (doi:/10.1016/j.ast.2025.110695)
 
 1. Woohyun Byun, Soobin Huh, Hyeokjae Jang, Suhyeong Yu, Sungwon Lim, Seokwon Lee *, Woochul Nam *, " Vector Field-Based Robust Quadrotor Landing on a Moving Ground Platform," Aerospace, Vol. 12, No. 7, 2025, 590. (doi: 10.3390/aerospace12070590)
 
