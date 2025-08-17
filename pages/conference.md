@@ -9,9 +9,11 @@ header: Publication
 ## Conference
 
 ### International Conference Papers
-1. 
+1. Jaewon Kim, Sangmin Lee, Jong-min Park, Youdan Kim, Chandeok Park, Mingu Kim, Jongho Park, Suwon Lee, and Seokwon Lee, "INTEGRATED POST-MISSION TRAJECTORY GENERATION FOR REUSABLE UNMANNED SPACE VEHICLES USING SEQUENTIAL
+CONVEX OPTIMIZATION," 2025 AAS/AIAA Astrodynamics Specialist Conference, Hyatt Regency Boston, Boston, MA, August 2025. 
 
-1. 
+1. Youngjun Lee, Seokwon Lee, and Youdan Kim, "COASTING TIME DETERMINATION FOR ANTI-BALLISTIC
+MISSILE GUIDANCE DURING EXO-ATMOSPHERIC FLIGHT," 2025 AAS/AIAA Astrodynamics Specialist Conference, Hyatt Regency Boston, Boston, MA, August 2025.
 
 1. Suwon Lee, Mingu Kim, Jongho Park, Seokwon Lee,  Jinah Lee, Chandeok Park, and Youdan Kim, "A Shape-based Approach Suited for Short-Duration Orbit Transfer Trajectory Design," 11th EUCASS Conference, Rome, Italy, June, 2025.
 1. Youngjun Lee, Hanna Lee, Seokwon Lee, and Youdan Kim, "Sliding Mode Disturbance Observer-based Finite-time Converging Guidance Law for Intercepting a Maneuvering Ballistic Missile," Asia-Pacific International Symposium on Aerospace Technology (APISAT-2024), Adelaide, Australia, October 2024.
