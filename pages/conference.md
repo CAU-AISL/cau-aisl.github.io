@@ -9,6 +9,10 @@ header: Publication
 ## Conference
 
 ### International Conference Papers
+1. 
+
+1. 
+
 1. Suwon Lee, Mingu Kim, Jongho Park, Seokwon Lee,  Jinah Lee, Chandeok Park, and Youdan Kim, "A Shape-based Approach Suited for Short-Duration Orbit Transfer Trajectory Design," 11th EUCASS Conference, Rome, Italy, June, 2025.
 1. Youngjun Lee, Hanna Lee, Seokwon Lee, and Youdan Kim, "Sliding Mode Disturbance Observer-based Finite-time Converging Guidance Law for Intercepting a Maneuvering Ballistic Missile," Asia-Pacific International Symposium on Aerospace Technology (APISAT-2024), Adelaide, Australia, October 2024.
 1. Hae-In Lee, Seokwon Lee, Hyo-Sang Shin, Antonios Tsourdos, and Sarah Fletcher, "Human Factor Analysis in Robotic and Autonomous Systems for Military Applications," 4th International Conference on Applied Human Factors and Ergonomics, San Francisco, CA, July 2023.
