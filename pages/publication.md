@@ -70,15 +70,14 @@ header: Publication
 
 1. Jonghyun Woo, Jongho Park, and Seokwon Lee, "Reactive Collision Avoidance for Small Unmanned Aerial Robots Using Probabilistic Ellipsoidal Geometry and Bi-Directional Collision Cone" Nonlinear Dynamics, 2025, under review.
 
+1. Yeontaek Jung, Jinrae Kim, Youdan Kim, Seokwon Lee, and Jaemyung Ahn, "Multi-stage Midcourse Guidance Ensuring Homing Time for Ballistic Interception," Journal of Guidance, Control, and Dynamics, 2025, Under review.
+
+1. Hyung-bin Kim and Seokwon Lee, "Integrated Guidance and Filter Design under Seeker Lock-on and Lock-off Maneuvers", Aerospace Science and Technology, Under review. 
+
+1. Hanna Lee, Jinrae Kim, Seokwon Lee, and Youdan Kim, "Unified Trajectory Tracking Control of VTOL Fixed-Wing UAV Based on Generalized Extended State Observer," 2025, IEEE Transactions on Aerospace and Electronic Systems, 2024, Under review.
+
 1. Namhoon Cho, Seokwon Lee, and Hyo-Sang Shin, “Synchronisation-Oriented Design Approach for Adaptive Control,” 2025, In preparation.
 
 1. Seokwon Lee, Namhoon Cho, Hyo-Sang Shin "State-Space Modelling for Estimation of Controlled Systems via Conditionally Markov Processes," 2025, In preparation.
 
-1. Yeontaek Jung, Jinrae Kim, Youdan Kim, Seokwon Lee, and Jaemyung Ahn, "Multi-stage Midcourse Guidance Ensuring Homing Time for Ballistic Interception," Journal of Guidance, Control, and Dynamics, 2024, In preparation.
-
 1. Yeong-Ho Kim, Seokwon Lee, "Finite-Time Stability Analysis of Strapdown-Seeker Guidance Loop Considering Parasite Effect," Nonlinear Dynamics, In preparation.
-
-1. Hyung-bin Kim and Seokwon Lee, "Missile Guidance and Filter for Considering Seeker`s Lock-on-and-off Sequences", IEEE Transactions on Aerospace and Electronic Systems, in preparation. 
-
-1. Hanna Lee, Jinrae Kim, Seokwon Lee, and Youdan Kim, "Unified Trajectory Tracking Control of VTOL Fixed-Wing UAV Based on Generalized Extended State Observer," 2025, IEEE Transactions on Aerospace and Electronic Systems, 2024, In preparation.
-
