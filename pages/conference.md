@@ -9,6 +9,8 @@ header: Publication
 ## Conference
 
 ### International Conference Papers
+1. Jonghyun Woo, and Seokwon Lee, "Integrated Probabilistic and Geometric approaches for Reactive Collision Avoidance in Unmanned Aerial Vehicles
+", 2025 Europe-Korea Conference on Science and Technology (EKC 2025), Vienna, Austria, August 2025.
 1. Jaewon Kim, Sangmin Lee, Jong-min Park, Youdan Kim, Chandeok Park, Mingu Kim, Jongho Park, Suwon Lee, and Seokwon Lee, "INTEGRATED POST-MISSION TRAJECTORY GENERATION FOR REUSABLE UNMANNED SPACE VEHICLES USING SEQUENTIAL
 CONVEX OPTIMIZATION," 2025 AAS/AIAA Astrodynamics Specialist Conference, Hyatt Regency Boston, Boston, MA, August 2025. 
 
