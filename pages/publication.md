@@ -74,7 +74,7 @@ header: Publication
 
 1. Hyung-bin Kim and Seokwon Lee, "Integrated Guidance and Filter Design under Seeker Lock-on and Lock-off Maneuvers", Aerospace Science and Technology, Under review. 
 
-1. Hanna Lee, Jinrae Kim, Seokwon Lee, and Youdan Kim, "Unified Trajectory Tracking Control of VTOL Fixed-Wing UAV Based on Generalized Extended State Observer," 2025, IEEE Transactions on Aerospace and Electronic Systems, 2024, Under review.
+1. Hanna Lee, Jinrae Kim, Seokwon Lee, and Youdan Kim, "Unified Trajectory Tracking Control of VTOL Fixed-Wing UAV Based on Generalized Extended State Observer," Aerospace Science and Technology, Under review.
 
 1. Namhoon Cho, Seokwon Lee, and Hyo-Sang Shin, “Synchronisation-Oriented Design Approach for Adaptive Control,” 2025, In preparation.
 
