@@ -76,6 +76,10 @@ header: Publication
 
 1. Hanna Lee, Jinrae Kim, Seokwon Lee, and Youdan Kim, "Unified Trajectory Tracking Control of VTOL Fixed-Wing UAV Based on Generalized Extended State Observer," Aerospace Science and Technology, Under review.
 
+1. Yeong-Ho Kim, Jonghyun Woo, Seokwon Lee, "Cascaded Control Barrier Function methods for safety-critical control of cascaded nonlinear systems with input constraints," Nonlinear Dynamics, In preparation.
+
+1. Inyoung Jung, Jonghyun Woo, Seokwon Lee, "Modeling and Control Strategies for Shape-Adaptive Morphing Quadrotors," Aerospace, In preparation. 
+ 
 1. Namhoon Cho, Seokwon Lee, and Hyo-Sang Shin, “Synchronisation-Oriented Design Approach for Adaptive Control,” 2025, In preparation.
 
 1. Seokwon Lee, Namhoon Cho, Hyo-Sang Shin "State-Space Modelling for Estimation of Controlled Systems via Conditionally Markov Processes," 2025, In preparation.
