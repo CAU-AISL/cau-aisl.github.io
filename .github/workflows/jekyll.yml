@@ -33,12 +33,40 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      # - name: Set up Ruby
+      #   uses: ruby/setup-ruby@v1 #8575951200e472d5f2d95c625da0c7bec8217c42 # v1.161.0
+      #   with:
+      #     ruby-version: '3.1' # Not needed with a .ruby-version file
+      #     bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+      #     cache-version: 0 # Increment this number if you need to re-download cached gems
+      #     # ✅ [새 코드] ...이 4개의 단계로 교체하세요.
+
+        # 1. Set up Ruby (bundler-cache 비활성화)
       - name: Set up Ruby
-        uses: ruby/setup-ruby@v1 #8575951200e472d5f2d95c625da0c7bec8217c42 # v1.161.0
+        uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1' # Not needed with a .ruby-version file
-          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
-          cache-version: 0 # Increment this number if you need to re-download cached gems
+          ruby-version: '3.1'
+          # bundler-cache: true # <- 이 옵션을 비활성화(제거)합니다.
+
+      # 2. (핵심) 문제가 되는 Gemfile.lock을 강제로 삭제
+      - name: Delete Gemfile.lock
+        run: rm -f Gemfile.lock
+
+      # 3. 'bundler-cache: true'를 대신할 수동 캐시 설정
+      - name: Load cached gems
+        uses: actions/cache@v3
+        with:
+          path: vendor/bundle
+          # Gemfile.lock이 없으므로 Gemfile 기준으로 캐시 키를 생성합니다.
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
+
+      # 4. 수동으로 젬 설치
+      - name: Install dependencies
+        run: |
+          bundle config path vendor/bundle
+          bundle install --jobs 4 --retry 3
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
