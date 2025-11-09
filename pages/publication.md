@@ -88,3 +88,4 @@ header: Publication
 
 1. SuHyeong Yu, Hongryeol Yoon, Woochul Nam, and Seokwon Lee, "A Hierarchical Framework for Cooperative Navigation in Obstacle-Dense Corridors Using HOCBFs (Tentative Title)​" In preparation.
 
+1. Jonghyun Woo, Inyoung Jung, and Seokwon Lee, "A Comprehensive Framework for Modelling and Control of Morphing Quadrotors with Fault Resilience," Aerospace, In preparation
