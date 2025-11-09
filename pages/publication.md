@@ -78,8 +78,6 @@ header: Publication
 
 1. Yeong-Ho Kim, Jonghyun Woo, Seokwon Lee, "Cascaded Control Barrier Function methods for safety-critical control of cascaded nonlinear systems with input constraints," Nonlinear Dynamics, In preparation.
 
-1. Inyoung Jung, Jonghyun Woo, Seokwon Lee, "Modeling and Control Strategies for Shape-Adaptive Morphing Quadrotors," Aerospace, In preparation. 
- 
 1. Namhoon Cho, Seokwon Lee, and Hyo-Sang Shin, “Synchronisation-Oriented Design Approach for Adaptive Control,” 2025, In preparation.
 
 1. Seokwon Lee, Namhoon Cho, Hyo-Sang Shin "State-Space Modelling for Estimation of Controlled Systems via Conditionally Markov Processes," 2025, In preparation.
@@ -88,4 +86,4 @@ header: Publication
 
 1. SuHyeong Yu, Hongryeol Yoon, Woochul Nam, and Seokwon Lee, "A Hierarchical Framework for Cooperative Navigation in Obstacle-Dense Corridors Using HOCBFs (Tentative Title)​" In preparation.
 
-1. Jonghyun Woo, Inyoung Jung, and Seokwon Lee, "A Comprehensive Framework for Modelling and Control of Morphing Quadrotors with Fault Resilience," Aerospace, In preparation
+1. Jonghyun Woo, Inyoung Jung, and Seokwon Lee, "A Comprehensive Framework for Modelling and Control of Morphing Quadrotors with Fault Resilience," Aerospace, In preparation.
