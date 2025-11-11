@@ -74,6 +74,8 @@ header: Publication
 
 1. Hyung-bin Kim and Seokwon Lee, "Integrated Guidance and Filter Design under Seeker Lock-on and Lock-off Maneuvers", Aerospace Science and Technology, Under review. 
 
+1. Jonghyun Woo, Inyoung Jung, and Seokwon Lee, "A Comprehensive Framework for Modelling and Control of Morphing Quadrotor Drones," Aerospace, Under review.
+
 1. Hanna Lee, Jinrae Kim, Seokwon Lee, and Youdan Kim, "Unified Trajectory Tracking Control of VTOL Fixed-Wing UAV Based on Generalized Extended State Observer," Aerospace Science and Technology, Under review.
 
 1. Yeong-Ho Kim, Jonghyun Woo, Seokwon Lee, "Cascaded Control Barrier Function methods for safety-critical control of cascaded nonlinear systems with input constraints," Nonlinear Dynamics, In preparation.
@@ -85,5 +87,3 @@ header: Publication
 1. Yeong-Ho Kim, Seokwon Lee, "Finite-Time Stability Analysis of Strapdown-Seeker Guidance Loop Considering Parasite Effect," Nonlinear Dynamics, In preparation.
 
 1. SuHyeong Yu, Hongryeol Yoon, Woochul Nam, and Seokwon Lee, "A Hierarchical Framework for Cooperative Navigation in Obstacle-Dense Corridors Using HOCBFs (Tentative Title)​" In preparation.
-
-1. Jonghyun Woo, Inyoung Jung, and Seokwon Lee, "A Comprehensive Framework for Modelling and Control of Morphing Quadrotors with Fault Resilience," Aerospace, In preparation.
