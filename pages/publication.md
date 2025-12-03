@@ -10,7 +10,7 @@ header: Publication
 
 ### International Journals
 
-1. Seokwon Lee, Namhoon Cho*, and Youdan Kim, ''Command Governor for Impact-Angle Guidance to Fast Targets under Field-of-View Constraint,"  Aerospace Science and Technology, 2025, Accepted for publication. (doi:/10.1016/j.ast.2025.110695)
+1. Seokwon Lee, Namhoon Cho*, and Youdan Kim, ''Command Governor for Impact-Angle Guidance to Fast Targets under Field-of-View Constraint,"  Aerospace Science and Technology, Vol. 167, 2025, 110695. (doi:/10.1016/j.ast.2025.110695)
 
 1. Woohyun Byun, Soobin Huh, Hyeokjae Jang, Suhyeong Yu, Sungwon Lim, Seokwon Lee *, Woochul Nam *, " Vector Field-Based Robust Quadrotor Landing on a Moving Ground Platform," Aerospace, Vol. 12, No. 7, 2025, 590. (doi: 10.3390/aerospace12070590)
 
@@ -72,13 +72,13 @@ header: Publication
 
 1. Yeontaek Jung, Jinrae Kim, Youdan Kim, Seokwon Lee, and Jaemyung Ahn, "Multi-stage Midcourse Guidance Ensuring Homing Time for Ballistic Interception," Journal of Guidance, Control, and Dynamics, 2025, Under review.
 
-1. Hyung-bin Kim and Seokwon Lee, "Integrated Guidance and Filter Design under Seeker Lock-on and Lock-off Maneuvers", Aerospace Science and Technology, Under review. 
+1. Hyung-bin Kim and Seokwon Lee, "Integrated Guidance-Filter Design for Semi-Active Laser Homing Missiles under Lock-on and Lock-off Maneuvers", Aerospace Science and Technology, Under review. 
 
 1. Jonghyun Woo, Inyoung Jung, and Seokwon Lee, "A Comprehensive Framework for Modelling and Control of Morphing Quadrotor Drones," Aerospace, Under review.
 
 1. Hanna Lee, Jinrae Kim, Seokwon Lee, and Youdan Kim, "Unified Trajectory Tracking Control of VTOL Fixed-Wing UAV Based on Generalized Extended State Observer," Aerospace Science and Technology, Under review.
 
-1. Yeong-Ho Kim, Jonghyun Woo, Seokwon Lee, "Cascaded Control Barrier Function methods for safety-critical control of cascaded nonlinear systems with input constraints," International Journal of Nonlinear and Robust Control, In preparation.
+1. Yeong-Ho Kim, Jonghyun Woo, Seokwon Lee, and Namhoon Cho, "Cascaded Control Barrier Function method for safety-critical control of cascaded nonlinear systems with input constraints," International Journal of Nonlinear and Robust Control, In preparation.
 
 1. Namhoon Cho, Seokwon Lee, and Hyo-Sang Shin, “Synchronisation-Oriented Design Approach for Adaptive Control,” 2025, In preparation.
 
