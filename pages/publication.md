@@ -10,6 +10,8 @@ header: Publication
 
 ### International Journals
 
+1. Hyung-bin Kim and Seokwon Lee, "Integrated Guidance-Filter Design for Semi-Active Laser Homing Missiles under Lock-on and Lock-off Maneuvers", Aerospace Science and Technology, Accepted for publication, 2025. 
+ 
 1. Seokwon Lee, Namhoon Cho*, and Youdan Kim, ''Command Governor for Impact-Angle Guidance to Fast Targets under Field-of-View Constraint,"  Aerospace Science and Technology, Vol. 167, 2025, 110695. (doi:/10.1016/j.ast.2025.110695)
 
 1. Woohyun Byun, Soobin Huh, Hyeokjae Jang, Suhyeong Yu, Sungwon Lim, Seokwon Lee *, Woochul Nam *, " Vector Field-Based Robust Quadrotor Landing on a Moving Ground Platform," Aerospace, Vol. 12, No. 7, 2025, 590. (doi: 10.3390/aerospace12070590)
@@ -71,8 +73,6 @@ header: Publication
 1. Jonghyun Woo, Jongho Park, and Seokwon Lee, "Reactive Collision Avoidance for Small Unmanned Aerial Robots Using Probabilistic Ellipsoidal Geometry and Bi-Directional Collision Cone" Nonlinear Dynamics, 2025, under review.
 
 1. Yeontaek Jung, Jinrae Kim, Youdan Kim, Seokwon Lee, and Jaemyung Ahn, "Multi-stage Midcourse Guidance Ensuring Homing Time for Ballistic Interception," Journal of Guidance, Control, and Dynamics, 2025, Under review.
-
-1. Hyung-bin Kim and Seokwon Lee, "Integrated Guidance-Filter Design for Semi-Active Laser Homing Missiles under Lock-on and Lock-off Maneuvers", Aerospace Science and Technology, Under review. 
 
 1. Jonghyun Woo, Inyoung Jung, and Seokwon Lee, "A Comprehensive Framework for Modelling and Control of Morphing Quadrotor Drones," Aerospace, Under review.
 
