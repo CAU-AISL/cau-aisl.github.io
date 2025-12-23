@@ -10,9 +10,9 @@ header: Publication
 
 ### International Journals
 
-1. Jonghyun Woo, Inyoung Jung, Yeong-Ho Kim, and Seokwon Lee, "A Comprehensive Framework for Modelling and Control of Morphing Quadrotor Drones," Aerospace, Accepted for publication.
+1. Jonghyun Woo, Inyoung Jung, Yeong-Ho Kim, and Seokwon Lee*, "A Comprehensive Framework for Modelling and Control of Morphing Quadrotor Drones," Aerospace, Vol. 13, No. 1, 2026, 5. (doi: 10.3390/aerospace13010005)
 
-1. Hyung-bin Kim and Seokwon Lee, "Integrated Guidance-Filter Design for Semi-Active Laser Homing Missiles under Lock-on and Lock-off Maneuvers", Aerospace Science and Technology, Accepted for publication, 2025. 
+1. Hyung-bin Kim and Seokwon Lee*, "Integrated Guidance-Filter Design for Semi-Active Laser Homing Missiles under Lock-on and Lock-off Maneuvers", Aerospace Science and Technology, Accepted for publication, 2025. (doi:/10.1016/j.ast.2025.111535) 
  
 1. Seokwon Lee, Namhoon Cho*, and Youdan Kim, ''Command Governor for Impact-Angle Guidance to Fast Targets under Field-of-View Constraint,"  Aerospace Science and Technology, Vol. 167, 2025, 110695. (doi:/10.1016/j.ast.2025.110695)
 
