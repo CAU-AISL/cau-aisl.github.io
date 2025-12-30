@@ -85,7 +85,7 @@ Nonlinear SystemsWith Input Constraints," International Journal of Nonlinear and
 
 1. Seokwon Lee, Namhoon Cho, Hyo-Sang Shin "State-Space Modelling for Estimation of Controlled Systems via Conditionally Markov Processes," 2025, In preparation.
 
-1. Yeong-Ho Kim, Seokwon Lee, "Finite-Time Stability Analysis of Strapdown-Seeker Guidance Loop Considering Parasite Effect," Nonlinear Dynamics, In preparation.
+1. Seokwon Lee, "Finite-Time Stability Analysis of Strapdown-Seeker Guidance Loop Considering Parasite Effect," In preparation.
 
 1. SuHyeong Yu, Hongryeol Yoon, Woochul Nam, and Seokwon Lee, "A Hierarchical Framework for Cooperative Navigation in Obstacle-Dense Corridors Using HOCBFs (Tentative Title)​" In preparation.
 
