@@ -6,7 +6,7 @@ tags: [Graduate]
 image: People/JonghyunWoo.jpg
 ---
 
-## 우종현(Jonghyun Woo)
+## 우종현 (Jonghyun Woo)
 
 * **2025. 03 - Present**: M.S. Mechanical Engineering, Chung-Ang University, Seoul, Korea
 

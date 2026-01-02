@@ -6,7 +6,7 @@ tags: [Graduate]
 image: People/YeonghoKim.jpg
 ---
 
-## 김영호(Yeongho Kim)
+## 김영호 (Yeongho Kim)
 
 * **2024. 03 - Present**: M.S. Mechanical Engineering, Chung-Ang University, Seoul, Korea
 

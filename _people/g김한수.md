@@ -6,7 +6,7 @@ tags: [Undergraduate]
 image: People/HansuKim.jpg
 ---
 
-## 김한수(Hansu Kim)
+## 김한수 (Hansu Kim)
 
 * **2020. 03 - Present**: B.S. Electrical & Electronic Engineering, Chung-Ang University, Seoul, Korea
 

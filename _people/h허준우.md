@@ -6,7 +6,7 @@ tags: [Undergraduate]
 image: People/JunwooHur.png
 ---
 
-## 허준우(Junwoo Hur)
+## 허준우 (Junwoo Hur)
 
 * **2021. 03 - Present**: B.S. Mechanical Engineering, Chung-Ang University, Seoul, Korea
 

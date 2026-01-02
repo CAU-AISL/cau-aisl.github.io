@@ -6,7 +6,7 @@ tags: [Graduate]
 image: People/TaeukKang.jpg
 ---
 
-## 강태욱(Taeuk Kang)
+## 강태욱 (Taeuk Kang)
 
 * **2025. 09 - Present**: M.S. Mechanical Engineering, Chung-Ang University, Seoul, Korea
 

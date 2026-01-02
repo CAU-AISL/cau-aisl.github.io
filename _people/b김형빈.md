@@ -6,7 +6,7 @@ tags: [Graduate]
 image: People/HyungbinKim.jpeg
 ---
 
-## 김형빈(Hyungbin Kim) 
+## 김형빈 (Hyungbin Kim) 
 
 * **2024. 03 - Present**: M.S. Mechanical Engineering, Chung-Ang University, Seoul, Korea
 
