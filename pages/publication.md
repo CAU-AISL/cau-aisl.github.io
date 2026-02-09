@@ -74,7 +74,9 @@ header: Publication
 
 1. Jonghyun Woo, Jongho Park, and Seokwon Lee, "Reactive Collision Avoidance for Small Unmanned Aerial Robots Using Probabilistic Ellipsoidal Geometry and Bi-Directional Collision Cone" Nonlinear Dynamics, 2025, under review.
 
-1. Yeontaek Jung, Jinrae Kim, Youdan Kim, Seokwon Lee, and Jaemyung Ahn, "Multi-stage Midcourse Guidance Ensuring Homing Time for Ballistic Interception,", 2025, In preparation.
+1. Hongryeol Yoon, Yungmin Yoon, and Seokwon Lee, "A Hierarchical Motion Planning with Spatio-Temporal Safety Regions for Autonomous Driving in Highway Scenarios​" IEEE Transactions on Intelligent Transportation Systems, Under review
+
+1. Yeontaek Jung, Jinrae Kim, Youdan Kim, Seokwon Lee, and Jaemyung Ahn, "Multi-stage Midcourse Guidance Ensuring Homing Time for Ballistic Interception,", Aerospace Science and Technology, 2026, In preparation.
 
 1. Hanna Lee, Jinrae Kim, Seokwon Lee, and Youdan Kim, "Unified Trajectory Tracking Control of VTOL Fixed-Wing UAV Based on Generalized Extended State Observer,", Under review.
 
@@ -88,5 +90,3 @@ Nonlinear SystemsWith Input Constraints," International Journal of Nonlinear and
 1. Seokwon Lee, "Finite-Time Stability Analysis of Strapdown-Seeker Guidance Loop Considering Parasite Effect," In preparation.
 
 1. SuHyeong Yu, Hongryeol Yoon, Woochul Nam, and Seokwon Lee, "A Hierarchical Framework for Cooperative Navigation in Obstacle-Dense Corridors Using HOCBFs (Tentative Title)​" In preparation.
-
-1. Hongryeol Yoon, Yungmin Yoon, and Seokwon Lee, "A Hierarchical Motion Planning with Spatio-Temporal Safety Regions for Autonomous Driving in Highway Scenarios​" IEEE Transactions on Intelligent Transportation Systems, In preparation.
