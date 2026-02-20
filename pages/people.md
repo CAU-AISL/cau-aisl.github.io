@@ -4,7 +4,7 @@ title: People
 category: people
 permalink: /People
 header: Professor
-taglist: [Professor,Member]
+taglist: [Professor,Member,Alumni]
 ---
 
 # Education

@@ -6,7 +6,7 @@ title: People
 {% include page-title.html %}
 <div class="content-wrapper">
   <div>
-    {% if page.header contains "Member" %}
+    {% if page.memberlist %}
       {% for tag in page.memberlist %}
         <h2>{{ tag }}</h2>
         {% for person in site.people %}
