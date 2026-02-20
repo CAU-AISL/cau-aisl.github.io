@@ -9,7 +9,11 @@ title: People
     {% if page.memberlist %}
       {% for tag in page.memberlist %}
         <h2>{{ tag }}</h2>
-        {% for person in site.people %}
+        {% assign target_collection = site.people %}
+        {% if tag == "Alumni" %}
+           {% assign target_collection = site.alumni %}
+        {% endif %}
+        {% for person in target_collection %}
           {% if person.tags contains tag %}
             {% if person.categories contains page.category %}
               {% include featured-person-people.html %}

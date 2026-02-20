@@ -1,6 +1,8 @@
 
 
 <div class="peoplelist">
+  {% unless page.header == "Alumni" %}
   <img src="/assets/img/{{ person.image }}"/>
-  <div class="membertext">{{ person.content }}</div>
+  {% endunless %}
+  <div class="membertext" {% if page.header == "Alumni" %}style="width: 100%;"{% endif %}>{{ person.content }}</div>
 </div>

@@ -37,3 +37,5 @@ collections:
     output: true
   boards:
     output: true
+  alumni:
+    output: true
