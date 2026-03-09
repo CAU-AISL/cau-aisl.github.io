@@ -9,6 +9,7 @@ header: Publication
 # Journals
 
 ### International Journals
+1. Jonghyun Woo, Jongho Park, and Seokwon Lee, "Reactive Collision Avoidance for Small Unmanned Aerial Robots Using Probabilistic Ellipsoidal Geometry and Bi-Directional Collision Cone" Nonlinear Dynamics, 2026, Accepted for publication.
 
 1. Jonghyun Woo, Inyoung Jung, Yeong-Ho Kim, and Seokwon Lee*, "A Comprehensive Framework for Modelling and Control of Morphing Quadrotor Drones," Aerospace, Vol. 13, No. 1, 2026, 5. (doi: 10.3390/aerospace13010005)
 
@@ -71,8 +72,6 @@ header: Publication
 1. Namhoon Cho, Seokwon Lee, Hyo-Sang Shin, and Antonios Tsourdos, “Bayesian Learning Approach to Model Predictive Control,” arXiv:2203.02720, March 2022.
 
 ### Papers in Preparation
-
-1. Jonghyun Woo, Jongho Park, and Seokwon Lee, "Reactive Collision Avoidance for Small Unmanned Aerial Robots Using Probabilistic Ellipsoidal Geometry and Bi-Directional Collision Cone" Nonlinear Dynamics, 2025, under review.
 
 1. Hongryeol Yoon, Yungmin Yoon, and Seokwon Lee, "A Hierarchical Motion Planning with Spatio-Temporal Safety Regions for Autonomous Driving in Highway Scenarios​" IEEE Transactions on Intelligent Transportation Systems, Under review
 
