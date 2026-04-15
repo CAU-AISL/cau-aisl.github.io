@@ -73,6 +73,8 @@ header: Publication
 
 ### Papers in Preparation
 
+1. SuHyeong Yu, Woohyun Byun, Soobin Huh, Hyeokjae Jang, Sungwon Lim, Seokwon Lee, Woochul Nam, "Visibility-Aware Cost-Map-Based Control for Robust UAV Tracking of Unpredictable Ground Vehicles," IEEE/ASME TRANSACTIONS ON MECHATRONICS, Under review.  
+
 1. Hongryeol Yoon, Yungmin Yoon, and Seokwon Lee, "A Hierarchical Motion Planning with Spatio-Temporal Safety Regions for Autonomous Driving in Highway Scenarios​" IEEE Transactions on Intelligent Transportation Systems, Under review
 
 1. Yeontaek Jung, Jinrae Kim, Youdan Kim, Seokwon Lee, and Jaemyung Ahn, "Multi-stage Midcourse Guidance Ensuring Homing Time for Ballistic Interception,", Aerospace Science and Technology, 2026, In preparation.
