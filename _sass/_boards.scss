@@ -211,9 +211,9 @@
     flex-direction: column;
 }
 .gallery-item img{
-    height: 12rem;
-    object-fit: cover;
     width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
     margin-bottom: 10px;
 }
 .gallery-item .titlearea{
