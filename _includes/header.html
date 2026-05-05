@@ -29,8 +29,8 @@
       {% endfor %}
     </ul>
     <div class="mdropdown">
-      <button class="mdropbtn"><i class="fa fa-bars" aria-hidden="true"></i></button>
-      <div class="mdropdown-content">
+      <button class="mdropbtn" onclick="toggleMobileMenu(event)"><i class="fa fa-bars" aria-hidden="true"></i></button>
+      <div class="mdropdown-content" id="mobileMenuContent">
         <a href="/People" class="menu-link">Professor</a>
         <a href="/Member" class="menu-link">Member</a>
         <a href="/Alumni" class="menu-link">Alumni</a>
@@ -45,3 +45,20 @@
     </div>
   </div> 
 </header>
+<script>
+  function toggleMobileMenu(e) {
+    e.stopPropagation();
+    var menu = document.getElementById('mobileMenuContent');
+    if (menu.style.display === 'block') {
+      menu.style.display = 'none';
+    } else {
+      menu.style.display = 'block';
+    }
+  }
+  document.addEventListener('click', function(e) {
+    var menu = document.getElementById('mobileMenuContent');
+    if (menu && menu.style.display === 'block') {
+      menu.style.display = 'none';
+    }
+  });
+</script>

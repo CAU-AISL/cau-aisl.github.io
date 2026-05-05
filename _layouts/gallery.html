@@ -11,25 +11,16 @@ title: Boards
         <div class="board">
             <h1>Gallery</h1>
             <div style="display: flex;justify-content: center;">
-                <table class="galleryTable">
-                    
-                        {% assign sorted_gallery = site.gallery | sort: 'date' | reverse %}
-                        {% for gallery in sorted_gallery %}
-                            {% assign formod = forloop.index | modulo:4  %}
-                            {% if formod == 1 %}
-                                <tr>
-                            {% endif %}
-                            <td>
-                                <img src="/assets/img/Gallery/{{gallery.img}}"/>
-                                <div class="titlearea"><a href="{{ gallery.url}}">{{gallery.title}}</a></div>
-                                <div class="datearea"><span>{{gallery.date | date: "%b %-d, %Y"}}</span></div>
-                            </td>
-                            {% if formod == 0 or forloop.last %}
-                            </tr>
-                            {% endif %}  
-                        {% endfor %}
-                </table> 
-                <div class="galleryinready">{% include inready.html %}</div>
+                <div class="gallery-grid">
+                    {% assign sorted_gallery = site.gallery | sort: 'date' | reverse %}
+                    {% for gallery in sorted_gallery %}
+                        <div class="gallery-item">
+                            <img src="/assets/img/Gallery/{{gallery.img}}"/>
+                            <div class="titlearea"><a href="{{ gallery.url}}">{{gallery.title}}</a></div>
+                            <div class="datearea"><span>{{gallery.date | date: "%b %-d, %Y"}}</span></div>
+                        </div>
+                    {% endfor %}
+                </div>
             </div>
         </div>
     </div>
