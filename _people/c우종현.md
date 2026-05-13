@@ -14,6 +14,6 @@ image: People/JonghyunWoo.jpg
 
 * Research Interests: Safe control, Optimization, Estimation
 
-* Contacts : jhwoo200@gmail.com
+* Contacts : jhwoo200@cau.ac.kr
   
 * Links : [YouTube](https://www.youtube.com/@coffeesaurs), [Github](https://github.com/Woodaengtang)
