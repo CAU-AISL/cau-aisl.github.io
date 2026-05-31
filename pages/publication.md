@@ -81,8 +81,7 @@ header: Publication
 
 1. Hanna Lee, Jinrae Kim, Seokwon Lee, and Youdan Kim, "Unified Trajectory Tracking Control of VTOL Fixed-Wing UAV Based on Generalized Extended State Observer,", Under review.
 
-1. Jonghyun Woo, Seokwon Lee, and Namhoon Cho, "Cascaded Control Barrier Function Based Safety Filter for
-Nonlinear SystemsWith Input Constraints," In preparation.
+1. Seokwon Lee, Yeongho Kim, Jonghyun Woo, "Cascaded Control Barrier Functions for Layer-Wise Safety Filtering of Strict-Feedback Nonlinear Systems" In preparation.
 
 1. Namhoon Cho, Seokwon Lee, and Hyo-Sang Shin, “Synchronisation-Oriented Design Approach for Adaptive Control,” 2025, In preparation.
 
