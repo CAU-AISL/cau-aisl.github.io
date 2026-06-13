@@ -9,7 +9,7 @@ header: Publication
 # Journals
 
 ### International Journals
-1. Jonghyun Woo, Jongho Park, and Seokwon Lee, "Reactive Collision Avoidance for Small Unmanned Aerial Robots Using Probabilistic Ellipsoidal Geometry and Bi-Directional Collision Cone" Nonlinear Dynamics, 2026, Accepted for publication.
+1. Jonghyun Woo, Jongho Park, and Seokwon Lee, "Reactive Collision Avoidance for Small Unmanned Aerial Robots Using Probabilistic Ellipsoidal Geometry and Bi-Directional Collision Cone" Nonlinear Dynamics, Vol 114, 2026, 613. (doi: 10.1007/s11071-026-12471-2)
 
 1. Jonghyun Woo, Inyoung Jung, Yeong-Ho Kim, and Seokwon Lee*, "A Comprehensive Framework for Modelling and Control of Morphing Quadrotor Drones," Aerospace, Vol. 13, No. 1, 2026, 5. (doi: 10.3390/aerospace13010005)
 
