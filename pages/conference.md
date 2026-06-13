@@ -9,10 +9,9 @@ header: Publication
 ## Conference
 
 ### International Conference Papers
+1. Jonghyun Woo, Yeongho Kim, Seokwon Lee, and Namhoon Cho, "Cascaded Control Barrier Function Method for Safe Spacecraft Rendezvous," 2026 CEAS EuroGNC, Madrid, Spain, May, 2026. 
 1. Yeongho Kim, Jonghyun Woo, and Seokwon Lee, "Lyapunov-based Flight Controller Design for e-VTOL Unmanned Aerial Vehicles with Collision Avoidance," 13th International Conference on Robot Intelligence Technology and Applications, London, UK, December, 2025.
-
-1. Jonghyun Woo, and Seokwon Lee, "Integrated Probabilistic and Geometric approaches for Reactive Collision Avoidance in Unmanned Aerial Vehicles
-", 2025 Europe-Korea Conference on Science and Technology (EKC 2025), Vienna, Austria, August 2025.
+1. Jonghyun Woo, and Seokwon Lee, "Integrated Probabilistic and Geometric approaches for Reactive Collision Avoidance in Unmanned Aerial Vehicles ", 2025 Europe-Korea Conference on Science and Technology (EKC 2025), Vienna, Austria, August 2025.
 1. Jaewon Kim, Sangmin Lee, Jong-min Park, Youdan Kim, Chandeok Park, Mingu Kim, Jongho Park, Suwon Lee, and Seokwon Lee, "INTEGRATED POST-MISSION TRAJECTORY GENERATION FOR REUSABLE UNMANNED SPACE VEHICLES USING SEQUENTIAL
 CONVEX OPTIMIZATION," 2025 AAS/AIAA Astrodynamics Specialist Conference, Hyatt Regency Boston, Boston, MA, August 2025. 
 
@@ -48,6 +47,9 @@ MISSILE GUIDANCE DURING EXO-ATMOSPHERIC FLIGHT," 2025 AAS/AIAA Astrodynamics Spe
 1. Seokwon Lee, Hyunjin Choi, Youdan Kim, Seungkeun Kim, Jinyoung Suk, Sungwan Kim, “Glide Path Angle Tracking Control for UAV Automatic Carrier Landing,” 6th Asia-Pacific International Symposium on Aerospace Technology (APISAT-2014), Shanghai, China, September 2014.
 
 ### Domestic Conference Papers (in Korean)
+1. 이석원, "도달가능 영역 기반 무인항공시스템의 안전 지향 유도제어," 대한기계학회 동역학·제어·로봇부문 춘계학술대회, 경주 더케이 호텔, 경주시, 경상북도, 2026년 4월
+1. 윤홍렬, 김한수, 민경환, 이석원, "보행 로봇의 팔-다리 협응을 위한 멀티 에이전트 강화학습 프레임워크," 대한기계학회 동역학·제어·로봇부문 춘계학술대회, 경주 더케이 호텔, 경주시, 경상북도, 2026년 4월
+1. 윤홍렬, 김한수, 우종현, 이석원, "다목적 2족 보행 로봇 (G.O.A.T) 제작 및 학습 기반 제어" 대한기계학회 동역학·제어·로봇부문 춘계학술대회, 경주 더케이 호텔, 경주시, 경상북도, 2026년 4월
 1. 허준우, 김형빈, 이석원, "협시야각 제약 고정형 탐색기 기반 확률적 유도 기법", 한국항공우주학회 춘계학술대회, 제주신화월드, 서귀포시, 제주도, 2026년 4월.
 1. 김형빈, 이석원, "대탄도유도탄 후방 교전기하 형성을 위한 Retro-PN 기반 종말유도 유효 초기영역 분석", 한국항공우주학회 춘계학술대회, 제주신화월드, 서귀포시, 제주도, 2026년 4월.
 1. 우종현, 이석원, "고차 외란 관측기 기반 eVTOL 자세 강건 제어기", 한국항공우주학회 춘계학술대회, 제주신화월드, 서귀포시, 제주도, 2026년 4월.
