@@ -5,7 +5,7 @@ author: "김영호"
 header: Research 
 category: research 
 tag: [NAVIGATION]
-taglist: [GUIDANCE,NAVIGATION,CONTROL,UAV,MISSILE,AI]
+taglist: [GUIDANCE,NAVIGATION,CONTROL,AERIAL,SPACE,ROBOTICS]
 order: 21
 ---
 

@@ -4,8 +4,8 @@ title: "Missile Guidance Filter / Guidance Law"
 author: "김형빈"
 header: Research 
 category: research 
-tag: [MISSILE]
-taglist: [GUIDANCE,NAVIGATION,CONTROL,UAV,MISSILE,AI]
+tag: [AERIAL]
+taglist: [GUIDANCE,NAVIGATION,CONTROL,AERIAL,SPACE,ROBOTICS]
 ---
 
 ## Guidance Law

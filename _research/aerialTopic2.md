@@ -5,8 +5,8 @@ author: "정해찬"
 header: Research 
 category: research 
 permalink: /Research/:title 
-tag: [UAV]
-taglist: [GUIDANCE,NAVIGATION,CONTROL,UAV,MISSILE,AI]
+tag: [AERIAL]
+taglist: [GUIDANCE,NAVIGATION,CONTROL,AERIAL,SPACE,ROBOTICS]
 ---
 
 ## Temporary research introduction
