@@ -47,6 +47,7 @@ MISSILE GUIDANCE DURING EXO-ATMOSPHERIC FLIGHT," 2025 AAS/AIAA Astrodynamics Spe
 1. Seokwon Lee, Hyunjin Choi, Youdan Kim, Seungkeun Kim, Jinyoung Suk, Sungwan Kim, “Glide Path Angle Tracking Control for UAV Automatic Carrier Landing,” 6th Asia-Pacific International Symposium on Aerospace Technology (APISAT-2014), Shanghai, China, September 2014.
 
 ### Domestic Conference Papers (in Korean)
+1. 강태욱, 우종현, 이석원 "능동적 우주쓰레기 제거 임무를 위한 궤도 천이 비용 예측 및 시퀀스 최적화", 한국항공우주학회 우주학술대회, 부산 파라다이스 호텔, 2026년 6월
 1. 이석원, "도달가능 영역 기반 무인항공시스템의 안전 지향 유도제어," 대한기계학회 동역학·제어·로봇부문 춘계학술대회, 경주 더케이 호텔, 경주시, 경상북도, 2026년 4월
 1. 윤홍렬, 김한수, 민경환, 이석원, "보행 로봇의 팔-다리 협응을 위한 멀티 에이전트 강화학습 프레임워크," 대한기계학회 동역학·제어·로봇부문 춘계학술대회, 경주 더케이 호텔, 경주시, 경상북도, 2026년 4월
 1. 윤홍렬, 김한수, 우종현, 이석원, "다목적 2족 보행 로봇 (G.O.A.T) 제작 및 학습 기반 제어" 대한기계학회 동역학·제어·로봇부문 춘계학술대회, 경주 더케이 호텔, 경주시, 경상북도, 2026년 4월
