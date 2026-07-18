@@ -4,11 +4,11 @@
             {% if tag == "GUIDANCE" %}
                 <h2 class="Top-list">Research Topic</h2>
             {% endif %}
-            {% if tag == "UAV" %}
+            {% if tag == "AERIAL" %}
                 <h2 class="Top-list" style="margin-top: 3rem;">Application</h2>
             {% endif %}
             <div class="page-nav-list">
-                
+
                 {% if tag != "GUIDANCE" and tag != "NAVIGATION" and tag != "CONTROL" %}
                     <h2>{{ tag }}</h2>
                     {% assign sorted_research = site.research | sort:"order" %}

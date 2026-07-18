@@ -16,4 +16,4 @@ image: People/JonghyunWoo.jpg
 
 * Contacts : jhwoo200@cau.ac.kr
   
-* Links : [YouTube](https://www.youtube.com/@coffeesaurs), [Github](https://github.com/Woodaengtang)
+* Links : [YouTube](https://www.youtube.com/@coffeesaurs), [Github](https://github.com/Jonghyun-Woo)
