@@ -73,11 +73,15 @@ header: Publication
 
 ### Papers in Preparation
 
-1. Hongryeol Yoon, SuHyeong Yu, Woochul Nam, and Seokwon Lee, "Hierarchical Safety-Aware Coordination and Control for Connectivity-Preserving Cooperative Multi-Robot Navigation​" Nonlinear Dynamics, 2026, Under review.
+1. Hongryeol Yoon, SuHyeong Yu, Woochul Nam, and Seokwon Lee, "Hierarchical Safety-Aware Coordination and Control for Connectivity-Preserving Cooperative Multi-Robot Navigation​" IEEE Transactions on Industrial Informatics, 2026, Under review.
 
 1. SuHyeong Yu, Woohyun Byun, Soobin Huh, Hyeokjae Jang, Sungwon Lim, Seokwon Lee, Woochul Nam, "Visibility-Aware Cost-Map-Based Control for Robust UAV Tracking of Unpredictable Ground Vehicles," IEEE/ASME TRANSACTIONS ON MECHATRONICS, Under review.  
 
 1. Hongryeol Yoon, Yungmin Yoon, and Seokwon Lee, "A Hierarchical Motion Planning with Spatio-Temporal Safety Regions for Autonomous Driving in Highway Scenarios​" IEEE Transactions on Intelligent Transportation Systems, Under review
+
+1. Seokwon Lee, "Short-Time Stability Certification for Strapdown-Seeker Proportional Navigation," IEEE Transactions on Aerospace and Electronic Systems, Under review.
+
+1. Hyeokjae Choi, Jonghyun Woo, and Seokwon Lee, "Reachability of Deviated Pursuit between Identical-Speed Vehicles Under Acceleration Limit,", In preparation 
 
 1. Yeontaek Jung, Jinrae Kim, Youdan Kim, Seokwon Lee, and Jaemyung Ahn, "Multi-stage Midcourse Guidance Ensuring Homing Time for Ballistic Interception,", Aerospace Science and Technology, 2026, In preparation.
 
@@ -89,9 +93,4 @@ header: Publication
 
 1. Seokwon Lee, Namhoon Cho, Hyo-Sang Shin "State-Space Modelling for Estimation of Controlled Systems via Conditionally Markov Processes," 2025, In preparation.
 
-1. Seokwon Lee, "Finite-Time Stability Analysis of Strapdown-Seeker Guidance Loop Considering Parasite Effect," In preparation.
-
 1. Yungjun Lee, Namhoon Cho, Youdan Kim, and Seokwon Lee, "Optimality Analysis for Velocity-Maximizing Agile Turn Problem", Journal of Guidance, Control, and Dynamics, in preparation.
-
-1. Hyeokjae Choi, Jonghyun Woo, and Seokwon Lee, "Reachability of Deviated Pursuit between Identical-Speed Vehicles Under Acceleration Limit,", In preparation 
-
