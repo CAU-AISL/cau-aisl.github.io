@@ -95,5 +95,4 @@ header: Publication
 
 1. Seokwon Lee, Namhoon Cho, Hyo-Sang Shin "State-Space Modelling for Estimation of Controlled Systems via Conditionally Markov Processes," 2025, In preparation.
 
-1. Yungjun Lee, Namhoon Cho, Youdan Kim, and Seokwon Lee, "Optimality Analysis for Velocity-Maximizing Agile Turn Problem", Journal of Guidance, Control, and Dynamics, Under review.
 
