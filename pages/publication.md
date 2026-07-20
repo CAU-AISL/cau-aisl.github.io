@@ -81,6 +81,8 @@ header: Publication
 
 1. Seokwon Lee, "Short-Time Stability Certification for Strapdown-Seeker Proportional Navigation," IEEE Transactions on Aerospace and Electronic Systems, Under review.
 
+1. Yungjun Lee, Namhoon Cho, Youdan Kim, and Seokwon Lee, "Optimality Analysis for Velocity-Maximizing Agile Turn Problem", Journal of Guidance, Control, and Dynamics, Under review.
+
 1. Hyeokjae Choi, Jonghyun Woo, and Seokwon Lee, "Reachability of Deviated Pursuit between Identical-Speed Vehicles Under Acceleration Limit,", In preparation 
 
 1. Yeontaek Jung, Jinrae Kim, Youdan Kim, Seokwon Lee, and Jaemyung Ahn, "Multi-stage Midcourse Guidance Ensuring Homing Time for Ballistic Interception,", Aerospace Science and Technology, 2026, In preparation.
@@ -93,4 +95,5 @@ header: Publication
 
 1. Seokwon Lee, Namhoon Cho, Hyo-Sang Shin "State-Space Modelling for Estimation of Controlled Systems via Conditionally Markov Processes," 2025, In preparation.
 
-1. Yungjun Lee, Namhoon Cho, Youdan Kim, and Seokwon Lee, "Optimality Analysis for Velocity-Maximizing Agile Turn Problem", Journal of Guidance, Control, and Dynamics, in preparation.
+1. Yungjun Lee, Namhoon Cho, Youdan Kim, and Seokwon Lee, "Optimality Analysis for Velocity-Maximizing Agile Turn Problem", Journal of Guidance, Control, and Dynamics, Under review.
+
