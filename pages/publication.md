@@ -83,7 +83,7 @@ header: Publication
 
 1. Yungjun Lee, Namhoon Cho, Youdan Kim, and Seokwon Lee, "Optimality Analysis for Velocity-Maximizing Agile Turn Problem", Journal of Guidance, Control, and Dynamics, Under review.
 
-1. Seokwon Lee and HyukJae Choe, "Closed-Form Acceleration Feasibility for Identical-Speed Aerial Rendezvous Using Deviated Pursuit Guidance," Aerospace Science and Technology, 2026, Under review.
+1. Seokwon Lee and HyukJae Choe, "Closed-Form Acceleration Feasibility for Identical-Speed Aerial Rendezvous via Deviated Pursuit Guidance," Aerospace and Electronic Systems, Under review.
 
 1. Yeontaek Jung, Jinrae Kim, Youdan Kim, Seokwon Lee, and Jaemyung Ahn, "Multi-stage Midcourse Guidance Ensuring Homing Time for Ballistic Interception,", Aerospace Science and Technology, 2026, In preparation.
 
