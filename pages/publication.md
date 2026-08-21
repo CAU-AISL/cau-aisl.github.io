@@ -97,5 +97,6 @@ header: Publication
 
 1. Hongryeol Yoon, Hansu Kim, Seokwon Lee, "Uni-SPINAL: A Unified Framework for Humanoid Safety via Arm-Leg Cooperative Policy Learning", In preparation
 
-1. Yoojeong Seo, Seokwon Lee, "Capture Region of Retro Proportional Navigation Under Acceleration Limit", In preparation
+1. Yoojeong Seo, Seokwon Lee, "Capture Region of Retro Proportional Navigation Under Acceleration Limit", In preparation.
 
+1. Seokwon Lee, Eunbin Choe, and Giuk Lee, "Force-Sensor-Free Control of Human Robot Interaction Force in Soft Exosuit", In preparation.
