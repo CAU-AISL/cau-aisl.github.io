@@ -85,14 +85,17 @@ header: Publication
 
 1. Seokwon Lee and HyukJae Choe, "Closed-Form Acceleration Feasibility for Identical-Speed Aerial Rendezvous via Deviated Pursuit Guidance," Aerospace and Electronic Systems, Under review.
 
+1. Seokwon Lee, Yeongho Kim, Jonghyun Woo, Namhoon Cho, "Cascaded Control Barrier Functions for Layer-Wise Safety Filtering of Strict-Feedback Nonlinear Systems" International Journal of Nonlinear and Robust Control, Under review.
+
 1. Yeontaek Jung, Jinrae Kim, Youdan Kim, Seokwon Lee, and Jaemyung Ahn, "Multi-stage Midcourse Guidance Ensuring Homing Time for Ballistic Interception,", Aerospace Science and Technology, 2026, In preparation.
 
 1. Hanna Lee, Jinrae Kim, Seokwon Lee, and Youdan Kim, "Unified Trajectory Tracking Control of VTOL Fixed-Wing UAV Based on Generalized Extended State Observer,", Under review.
-
-1. Seokwon Lee, Yeongho Kim, Jonghyun Woo, Namhoon Cho, "Cascaded Control Barrier Functions for Layer-Wise Safety Filtering of Strict-Feedback Nonlinear Systems" In preparation.
 
 1. Namhoon Cho, Seokwon Lee, and Hyo-Sang Shin, “Synchronisation-Oriented Design Approach for Adaptive Control,” 2025, In preparation.
 
 1. Seokwon Lee, Namhoon Cho, Hyo-Sang Shin "State-Space Modelling for Estimation of Controlled Systems via Conditionally Markov Processes," 2025, In preparation.
 
+1. Hongryeol Yoon, Hansu Kim, Seokwon Lee, "Uni-SPINAL: A Unified Framework for Humanoid Safety via Arm-Leg Cooperative Policy Learning", In preparation
+
+1. Yoojeong Seo, Seokwon Lee, "Capture Region of Retro Proportional Navigation Under Acceleration Limit", In preparation
 
