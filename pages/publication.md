@@ -83,13 +83,13 @@ header: Publication
 
 1. Yungjun Lee, Namhoon Cho, Youdan Kim, and Seokwon Lee, "Optimality Analysis for Velocity-Maximizing Agile Turn Problem", Journal of Guidance, Control, and Dynamics, Under review.
 
-1. Seokwon Lee and HyukJae Choe, "Closed-Form Acceleration Feasibility for Identical-Speed Aerial Rendezvous via Deviated Pursuit Guidance," Aerospace and Electronic Systems, Under review.
+1. Seokwon Lee and HyukJae Choe, "Closed-Form Acceleration Feasibility for Identical-Speed Aerial Rendezvous via Deviated Pursuit Guidance," IEEE Transactions on Aerospace and Electronic Systems, Under review.
+
+1. Hanna Lee, Jinrae Kim, Seokwon Lee, and Youdan Kim, "Unified Trajectory Tracking Control of VTOL Fixed-Wing UAV Based on Generalized Extended State Observer," Transportation Research Part C, Under review.
+
+1. Seokwon Lee, Yeongho Kim, Jonghyun Woo, Namhoon Cho, "Cascaded Control Barrier Functions for Layer-Wise Safety Filtering of Strict-Feedback Nonlinear Systems" International Journal of Nonlinear and Robust Control, Under review.
 
 1. Yeontaek Jung, Jinrae Kim, Youdan Kim, Seokwon Lee, and Jaemyung Ahn, "Multi-stage Midcourse Guidance Ensuring Homing Time for Ballistic Interception,", Aerospace Science and Technology, 2026, In preparation.
-
-1. Hanna Lee, Jinrae Kim, Seokwon Lee, and Youdan Kim, "Unified Trajectory Tracking Control of VTOL Fixed-Wing UAV Based on Generalized Extended State Observer,", Under review.
-
-1. Seokwon Lee, Yeongho Kim, Jonghyun Woo, Namhoon Cho, "Cascaded Control Barrier Functions for Layer-Wise Safety Filtering of Strict-Feedback Nonlinear Systems" In preparation.
 
 1. Namhoon Cho, Seokwon Lee, and Hyo-Sang Shin, “Synchronisation-Oriented Design Approach for Adaptive Control,” 2025, In preparation.
 
