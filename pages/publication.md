@@ -73,7 +73,7 @@ header: Publication
 
 ### Papers in Preparation
 
-1. Hongryeol Yoon, SuHyeong Yu, Woochul Nam, and Seokwon Lee, "Hierarchical Safety-Aware Coordination and Control for Connectivity-Preserving Cooperative Multi-Robot Navigation​" IEEE Transactions on Industrial Informatics, 2026, Under review.
+1. Hongryeol Yoon, SuHyeong Yu, Woochul Nam, and Seokwon Lee, "Hierarchical Safety-Aware Coordination and Control for Connectivity-Preserving Cooperative Multi-UAV Navigation​" Aerospace, 2026, Under review.
 
 1. SuHyeong Yu, Woohyun Byun, Soobin Huh, Hyeokjae Jang, Sungwon Lim, Seokwon Lee, Woochul Nam, "Visibility-Aware Cost-Map-Based Control for Robust UAV Tracking of Unpredictable Ground Vehicles," IEEE/ASME TRANSACTIONS ON MECHATRONICS, Under review.  
 
@@ -85,11 +85,11 @@ header: Publication
 
 1. Seokwon Lee and HyukJae Choe, "Closed-Form Acceleration Feasibility for Identical-Speed Aerial Rendezvous via Deviated Pursuit Guidance," IEEE Transactions on Aerospace and Electronic Systems, Under review.
 
-1. Hanna Lee, Jinrae Kim, Seokwon Lee, and Youdan Kim, "Unified Trajectory Tracking Control of VTOL Fixed-Wing UAV Based on Generalized Extended State Observer," Transportation Research Part C, Under review.
+1. Hanna Lee, Jinrae Kim, Seokwon Lee, and Youdan Kim, "Unified Trajectory Tracking Control of VTOL Fixed-Wing UAV Based on Generalized Extended State Observer," Journal of the Franklin Institute, Under review.
 
 1. Seokwon Lee, Yeongho Kim, Jonghyun Woo, Namhoon Cho, "Cascaded Control Barrier Functions for Layer-Wise Safety Filtering of Strict-Feedback Nonlinear Systems" International Journal of Robust and Nonlinear Control, Under review.
 
-1. Yeontaek Jung, Jinrae Kim, Youdan Kim, Seokwon Lee, and Jaemyung Ahn, "Multi-stage Midcourse Guidance Ensuring Homing Time for Ballistic Interception,", Aerospace Science and Technology, 2026, In preparation.
+1. Yeontaek Jung, Jinrae Kim, Youdan Kim, Seokwon Lee, and Jaemyung Ahn, "Multi-stage Midcourse Guidance Ensuring Homing Time for Ballistic Interception,", Aerospace Science and Technology, 2026, Under review.
 
 1. Namhoon Cho, Seokwon Lee, and Hyo-Sang Shin, “Synchronisation-Oriented Design Approach for Adaptive Control,” 2025, In preparation.
 
@@ -99,4 +99,4 @@ header: Publication
 
 1. Yoojeong Seo, Seokwon Lee, "Capture Region of Retro Proportional Navigation Under Acceleration Limit", In preparation.
 
-1. Seokwon Lee, Eunbin Choe, and Giuk Lee, "Force-Sensor-Free Control of Human Robot Interaction Force in Soft Exosuit", In preparation.
+1. Eunbin Choe, Seokwon Lee, and Giuk Lee, "Force-Sensor-Free Control of Human Robot Interaction Force in Soft Exosuit", In preparation.
