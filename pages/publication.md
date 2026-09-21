@@ -91,6 +91,8 @@ header: Publication
 
 1. Yeontaek Jung, Jinrae Kim, Youdan Kim, Seokwon Lee, and Jaemyung Ahn, "Multi-stage Midcourse Guidance Ensuring Homing Time for Ballistic Interception,", Aerospace Science and Technology, 2026, Under review.
 
+1. Eunbin Choe, Seokwon Lee, and Giuk Lee, "Force-Sensor-Free Control of Human Robot Interaction Force in Soft Exosuit", Cyborg and Bionic Systems, Under Review.
+
 1. Namhoon Cho, Seokwon Lee, and Hyo-Sang Shin, “Synchronisation-Oriented Design Approach for Adaptive Control,” 2025, In preparation.
 
 1. Seokwon Lee, Namhoon Cho, Hyo-Sang Shin "State-Space Modelling for Estimation of Controlled Systems via Conditionally Markov Processes," 2025, In preparation.
@@ -99,4 +101,3 @@ header: Publication
 
 1. Yoojeong Seo, Seokwon Lee, "Capture Region of Retro Proportional Navigation Under Acceleration Limit", In preparation.
 
-1. Eunbin Choe, Seokwon Lee, and Giuk Lee, "Force-Sensor-Free Control of Human Robot Interaction Force in Soft Exosuit", In preparation.
