@@ -93,11 +93,10 @@ header: Publication
 
 1. Eunbin Choe, Seokwon Lee, and Giuk Lee, "Force-Sensor-Free Control of Human Robot Interaction Force in Soft Exosuit", Cyborg and Bionic Systems, Under Review.
 
+1. Yoojeong Seo, Seokwon Lee, and Namhoon Cho, "Capturability of Retro-Proportional Navigation Guidance Law Considering Acceleration Limit", In preparation.
+
 1. Namhoon Cho, Seokwon Lee, and Hyo-Sang Shin, “Synchronisation-Oriented Design Approach for Adaptive Control,” 2025, In preparation.
 
 1. Seokwon Lee, Namhoon Cho, Hyo-Sang Shin "State-Space Modelling for Estimation of Controlled Systems via Conditionally Markov Processes," 2025, In preparation.
 
-1. Hongryeol Yoon, Hansu Kim, Seokwon Lee, "Uni-SPINAL: A Unified Framework for Humanoid Safety via Arm-Leg Cooperative Policy Learning", In preparation
-
-1. Yoojeong Seo, Seokwon Lee, and Namhoon Cho, "Capturability of Retro-Proportional Navigation Guidance Law Considering Acceleration Limit", In preparation.
-
+1. Hongryeol Yoon, Hansu Kim, Seokwon Lee, "Uni-SPINAL: A Unified Framework for Humanoid Safety via Arm-Leg Cooperative Policy Learning", In preparation.
