@@ -38,4 +38,3 @@ taglist: [Professor,Member,Alumni]
 * Member of AIAA (American Institute of Aeronautics and Astronautics)
 
 * Member of IEEE (Institute of Electrical and Electronics Engineers) 
-
