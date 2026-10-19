@@ -9,6 +9,9 @@ header: Publication
 # Journals
 
 ### International Journals
+
+1. Hongryeol Yoon, SuHyeong Yu, Woochul Nam, and Seokwon Lee, "Hierarchical Safety-Aware Coordination and Control for Connectivity-Preserving Cooperative Multi-UAV Navigation​" Aerospace, 2026, Accepted for publication.
+
 1. Jonghyun Woo, Jongho Park, and Seokwon Lee, "Reactive Collision Avoidance for Small Unmanned Aerial Robots Using Probabilistic Ellipsoidal Geometry and Bi-Directional Collision Cone" Nonlinear Dynamics, Vol 114, 2026, 613. (doi: 10.1007/s11071-026-12471-2)
 
 1. Jonghyun Woo, Inyoung Jung, Yeong-Ho Kim, and Seokwon Lee*, "A Comprehensive Framework for Modelling and Control of Morphing Quadrotor Drones," Aerospace, Vol. 13, No. 1, 2026, 5. (doi: 10.3390/aerospace13010005)
@@ -74,8 +77,6 @@ header: Publication
 1. Namhoon Cho, Seokwon Lee, Hyo-Sang Shin, and Antonios Tsourdos, “Bayesian Learning Approach to Model Predictive Control,” arXiv:2203.02720, March 2022.
 
 ### Papers in Preparation
-
-1. Hongryeol Yoon, SuHyeong Yu, Woochul Nam, and Seokwon Lee, "Hierarchical Safety-Aware Coordination and Control for Connectivity-Preserving Cooperative Multi-UAV Navigation​" Aerospace, 2026, Under review.
 
 1. SuHyeong Yu, Woohyun Byun, Soobin Huh, Hyeokjae Jang, Sungwon Lim, Seokwon Lee, Woochul Nam, "Visibility-Aware Cost-Map-Based Control for Robust UAV Tracking of Unpredictable Ground Vehicles," IEEE/ASME TRANSACTIONS ON MECHATRONICS, Under review.  
 
