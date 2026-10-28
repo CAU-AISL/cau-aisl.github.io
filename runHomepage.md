@@ -14,6 +14,11 @@
     ```bash
     brew install ruby
     ```
+- **Windows**:
+  - [RubyInstaller](https://rubyinstaller.org/downloads/)에서 **Ruby+Devkit** 버전(권장: WITH DEVKIT)을 설치하세요.
+    설치 마지막 단계의 `ridk install` 창이 뜨면 **1, 3 (MSYS2 base + MSYS2 and MINGW development toolchain)** 을 선택해 Enter를 누릅니다.
+    (일부 gem을 컴파일하는 데 필요합니다. 터미널에서 `winget install RubyInstallerTeam.RubyWithDevKit.3.3` 으로도 설치할 수 있습니다.)
+    설치가 끝나면 **터미널을 새로 열어야** `ruby`, `gem` 명령이 인식됩니다.
 - **Bundler**: Ruby용 패키지(gem) 관리 도구로, Ruby와 함께 설치됩니다.
 
 ## 2. 저장소 준비 (최초 1회만)
@@ -48,12 +53,26 @@ echo 'export RUBYOPT="-rbigdecimal"' >> ~/.zshrc
 
 ### Windows
 
-명령 프롬프트(cmd)를 열고 저장소 폴더로 이동한 뒤 실행합니다.
+PowerShell 또는 명령 프롬프트(cmd)를 열고 아래 순서대로 실행합니다.
+먼저 Ruby가 제대로 설치되었는지 확인합니다.
 
-```cmd
-cd 경로\cau-aisl.github.io
-bundle exec jekyll serve
+```powershell
+ruby -v        # 버전이 출력되어야 합니다
+gem -v
+bundle -v
 ```
+
+버전이 출력되면 저장소 폴더로 이동해 실행합니다.
+
+```powershell
+cd 경로\cau-aisl.github.io         # 저장소 폴더로 이동 (다른 드라이브면 먼저 D: 처럼 드라이브 변경)
+gem install bundler                  # 최초 1회 (bundle 명령이 없을 때)
+bundle install                       # 필요한 패키지 설치 (처음 실행할 때 또는 Gemfile이 바뀌었을 때)
+bundle exec jekyll serve             # 로컬 서버 실행
+```
+
+> Ruby 3.0 이상에서 `cannot load such file -- webrick` 오류가 나면 `bundle add webrick` 후 다시 실행하세요.
+> `bigdecimal` 오류가 나면 아래 "자주 발생하는 오류"를 참고하세요.
 
 ### 실행 후
 
@@ -78,6 +97,32 @@ Server running... press ctrl-c to stop.
   gem install bigdecimal
   ```
 
+  Windows(PowerShell)에서는 `export` 대신 아래와 같이 설정합니다. 현재 창에서만 적용됩니다.
+
+  ```powershell
+  $env:RUBYOPT = "-rbigdecimal"
+  ```
+
+  cmd에서는 `set RUBYOPT=-rbigdecimal` 입니다.
+
+- **Windows: `'ruby'`, `'bundle'` 이(가) 인식되지 않습니다 / `command not found`**
+  Ruby 설치 후 터미널을 새로 열지 않았거나 PATH에 등록되지 않은 경우입니다.
+  터미널을 모두 닫고 새로 연 뒤 `ruby -v`로 확인하세요. 그래도 안 되면 RubyInstaller를 다시 설치하면서 *Add Ruby executables to your PATH* 를 체크합니다.
+
+- **Windows: `Gem::Ext::BuildError` / `ERROR: Failed to build gem native extension`**
+  C 컴파일러(Devkit)가 없어서 발생합니다. 관리자 권한이 아닌 일반 터미널에서 `ridk install`을 실행해 1, 3번을 설치한 뒤 `bundle install`을 다시 실행하세요.
+
+- **Windows: PowerShell에서 `이 시스템에서 스크립트를 실행할 수 없으므로...` (실행 정책) 오류**
+  `bundle.ps1` 등을 실행하지 못하는 경우입니다. 아래 명령으로 현재 사용자에 한해 허용하거나, 대신 cmd를 사용하세요.
+
+  ```powershell
+  Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
+  ```
+
+- **Windows: 한글 경로/문자 깨짐, 또는 `invalid byte sequence` 오류**
+  저장소 경로에 한글·공백이 있으면 문제가 생길 수 있습니다. 가능하면 `C:\Git\cau-aisl.github.io` 처럼 영문 경로에 클론하세요.
+  파일은 UTF-8로 저장해야 합니다.
+
 - **`Address already in use` 오류 (포트 4000이 이미 사용 중)**
   이미 다른 터미널/프로세스에서 미리보기 서버가 실행 중인 경우입니다.
   - 기존에 띄워둔 서버가 있다면 그냥 브라우저에서 `http://localhost:4000`으로 접속해도 됩니다.
@@ -89,11 +134,18 @@ Server running... press ctrl-c to stop.
     kill <PID>           # 위에서 확인한 PID로 종료 (예: kill 7367)
     ```
 
-  - 그래도 안 끝나면 강제로 종료합니다: `kill -9 <PID>`
+    Windows(PowerShell)에서는 다음과 같이 합니다.
+
+    ```powershell
+    netstat -ano | findstr :4000     # 마지막 열이 PID
+    taskkill /PID <PID> /F           # 해당 PID 강제 종료 (예: taskkill /PID 7367 /F)
+    ```
+
+  - macOS에서 그래도 안 끝나면 강제로 종료합니다: `kill -9 <PID>`
   - 굳이 끄지 않고 다른 포트로 새로 띄우려면: `bundle exec jekyll serve --port 4001`
 
 - **`Could not find 'bundler' (x.x.x) required by your Gemfile.lock` 오류**
-  설치된 Bundler 버전이 `Gemfile.lock`에 적힌 버전과 다른 경우입니다. Ruby를 최신 버전(Homebrew 등)으로 설치하면 함께 해결되는 경우가 많습니다.
+  설치된 Bundler 버전이 `Gemfile.lock`에 적힌 버전과 다른 경우입니다. Ruby를 최신 버전(Homebrew 등)으로 설치하면 함께 해결되는 경우가 많습니다. Windows에서는 `gem install bundler`로 최신 Bundler를 설치하거나, 오류 메시지에 나온 버전을 `gem install bundler -v x.x.x`로 설치하세요.
 
 ## 5. 변경 사항 반영 (배포)
 
