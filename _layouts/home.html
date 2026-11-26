@@ -1,232 +1,58 @@
 ---
-layout: default
+layout: home-shell
 title: Home
 ---
-<div class="content-wrapper">
-  <div class="home">
-
-
-
-    <img class="maincenterimage" src="/assets/img/mainHeaderImg.jpg" />
-    <!-- <h1>Welcome to Autonomous and Intelligent Systems (AIS) Lab.</h1>
-    <h1>자율지능시스템 연구실에 오신것을 환영합니다.</h1> -->
-    <div id="maincentercontent">
-      <!--<p> 메인 이미지 준비중 </p>-->
-      <!--<img class="maincenterimage" src="/assets/img/mainHeaderImg.jpg"/>-->
-      <img id="Main_Research_Pipeline" class="mainimage" src="/assets/img/MainImage/Pipeline1.gif" />
-      <div class="Mainlist">
-        <h2>Overview</h2>
-      </div>
-      <p class="Mainlist_p">
-        The Autonomous and Intelligent Systems Laboratory (AISL) aims to advance research on autonomous systems,
-        including aerospace vehicles, unmanned aerial vehicles (UAVs), unmanned ground vehicles, and intelligent
-        robotics.
-        <br /> Our research combines theoretical innovation with experimental validation, focusing on areas such as
-        guidance, navigation, and control systems; nonlinear and adaptive control and optimization; intent inference and
-        estimation; and domain-specific machine learning applications.
-        <br /> Equipped with state-of-the-art facilities—including UAV platforms, robotic systems, and simulation
-        environments—the laboratory provides a robust foundation for developing and testing intelligent autonomous
-        solutions.
-      </p>
-
-      <div class="Mainlist">
-        <h2>Notice</h2>
-      </div>
-      <p class="Mainlist_p">
-        Research positions for graduate study and undergraduate internships are now open. We want highly motivated
-        students who are actively exploring research and share new findings with us.
-        <br />The research topics include, but not limited to, guidance, control, and broad applications to UAS
-        including UAVs, UGVs, missiles, launch vehicles, spacecraft, mobile robots, etc. For more details, please refer
-        to Research Interests.
-        <br />If you are interested in our lab and research, please contact Prof. Seokwon Lee via e-mail with your
-        relevant information as below.
-        <br />FOR Graduate Study & Undergraduate internship (When Application)
-      </p>
-      <div class="Mainlist">
-        <h2>Brief CV</h2>
-      </div>
-      <p class="Mainlist_p">
-        Your research interests and related skills
-        <br />Your objectives (including your aspirations after completing your graduate degree)
-        <br />Information on relevant experiences (including personal/group projects, internships, or work experience)
-      </p>
-      <img id="Main_Research_Pipeline" class="mainimage" src="/assets/img/MainImage/Pipeline2.png" />
-      <br />
-      <!--
-      <div class="focusedarea"><h2>Focused Areas of Research</h2></div>
-      <div class="focuscontent">
-        <div class="container">
-          <div class="header">Missile Homing Loop for the Guided Targets</div>
-          <div class="content">
-            <img src="/assets/img/MainImage/Focus1.png"/>
-          </div>
-        </div>
-      </div>
-      <div class="focuscontent">
-        <div class="container">
-          <div class="header">Collision Avoidance System</div>
-          <div class="content">
-            <img src="/assets/img/MainImage/Focus2.png"/>
-          </div>
-        </div>
-      </div>
-      <div class="focuscontent">
-        <div class="container">
-          <div class="header">Landing Guidance and Reachability Analysis</div>
-          <div class="content">
-            <img src="/assets/img/MainImage/Focus3.png"/>
-          </div>
-        </div>
-      </div>
-      <div class="focuscontent">
-        <div class="container">
-          <div class="header">Model-based High-level Controller Design with Ground Vehicle</div>
-          <div class="content">
-            <img src="/assets/img/MainImage/Focus4.png"/>
-          </div>
-        </div>
-      </div>-->
-
-      <br />
-    </div>
+<section class="aisl-mission" aria-labelledby="mission-title">
+  <div class="aisl-mission-statement">
+    {% include mission-flourish.html %}
+    <h2 id="mission-title"><span>We aim to be</span><span>the most <strong>collaborative lab</strong></span><span>in autonomous systems.</span></h2>
   </div>
-  <div class="photoarea">
 
-    <h1>연구실 Gallery</h1>
-    <div class="slider">
-      <span class="leftBtn">
-        <i class="fa-solid fa-chevron-left"></i>
-      </span>
-      <div class="slide">
-        <span class="first-img">
-          <img src="/assets/img/Gallery/26_04_03/ksas2.jpg" />
-        </span>
-        <span>
-          <img src="/assets/img/Gallery/26_02_19/birthday1.png" />
-        </span>
-        <span>
-          <img src="/assets/img/Gallery/26_02_13/grad1.jpg" />
-        </span>
-        <span>
-          <img src="/assets/img/Gallery/26_02_10/gnc1.jpg" />
-        </span>
-        <span>
-          <img src="/assets/img/Gallery/26_04_03/ksas2.jpg" />
-        </span>
-        <span class="last-img">
-          <img src="/assets/img/Gallery/26_02_19/birthday1.png" />
-        </span>
+  <div class="aisl-research-grid" aria-label="Research areas">
+    <a class="aisl-research-card" href="{{ '/Research' | relative_url }}">
+      <div class="aisl-research-art" aria-hidden="true">
+        <div class="aisl-research-cutout aisl-research-rocket"><img src="{{ '/assets/img/home-orbit/rocket.png' | relative_url }}" alt="" loading="lazy" width="1440" height="1092"></div>
       </div>
-      <span class="rightBtn">
-        <i class="fa-solid fa-chevron-right"></i>
-      </span>
-    </div>
-    <ul class="photo-pagination">
-      <li class="active" data-index="1"></li>
-      <li data-index="2"></li>
-      <li data-index="3"></li>
-      <li data-index="4"></li>
-    </ul>
-
+      <h3>GNC &amp; Optimization</h3>
+      <span class="aisl-research-dash" aria-hidden="true"></span>
+      <p>Space reentry trajectory optimization<br class="aisl-desktop-break"> and precise missile guidance.</p>
+    </a>
+    <a class="aisl-research-card" href="{{ '/Research' | relative_url }}">
+      <div class="aisl-research-art" aria-hidden="true">
+        <div class="aisl-research-aircraft"><img src="{{ '/assets/img/home-orbit/uam-cutout.png' | relative_url }}" alt="" loading="lazy" width="1448" height="1086"></div>
+      </div>
+      <h3>UAV &amp; UAM</h3>
+      <span class="aisl-research-dash" aria-hidden="true"></span>
+      <p>Morphing vehicle modeling<br class="aisl-desktop-break"> and safety-aware guidance control.</p>
+    </a>
+    <a class="aisl-research-card" href="{{ '/Research' | relative_url }}">
+      <div class="aisl-research-art" aria-hidden="true">
+        <div class="aisl-research-cutout aisl-research-robot"><img src="{{ '/assets/img/home-orbit/humanoid-cutout.png' | relative_url }}" alt="" loading="lazy" width="1024" height="1536"></div>
+      </div>
+      <h3>AI-Driven Robotics</h3>
+      <span class="aisl-research-dash" aria-hidden="true"></span>
+      <p>Reinforcement learning and<br class="aisl-desktop-break"> VLA-based robot applications.</p>
+    </a>
   </div>
-  <script>
-    window.onload = function () {
-      const images = document.querySelectorAll('.slide span');
-      const sliderContainer = document.querySelector('slider');
-      const slider = document.querySelector('.slide');
-      const prevBtn = document.querySelector('.leftBtn');
-      const nextBtn = document.querySelector('.rightBtn');
+</section>
 
-      let current = 1;
-      const imgSize = images[0].clientWidth;
-
-      slider.style.transform = `translateX(${-imgSize}px)`;
-
-      function updateDots() {
-        for (let i = 0; i < dots.length; i++) {
-          dots[i].classList.remove('active');
-        }
-        if (current >= 1 && current <= 4) {
-          dots[current - 1].classList.add('active');
-        }
-        else if (current === 0) {
-          dots[0].classList.add('active');
-        }
-        else if (current === 5) {
-          dots[3].classList.add('active');
-        }
-      }
-
-      prevBtn.addEventListener('click', () => {
-        if (current <= 0) return;
-        slider.style.transition = '1000ms ease-in-out transform'; 
-        current--;
-        slider.style.transform = `translateX(${-imgSize * current}px)`;
-        updateDots();
-      })
-
-      nextBtn.addEventListener('click', () => {
-        if (current >= images.length - 1) return;
-        slider.style.transition = '1000ms ease-in-out transform'; 
-        current++;
-        slider.style.transform = `translateX(${-imgSize * current}px)`;
-        updateDots();
-      })
-
-      slider.addEventListener('transitionend', () => {
-
-        if (images[current].classList.contains('last-img')) {
-          slider.style.transition = 'none';
-          current = 1;
-          slider.style.transform = `translateX(${-imgSize * current}px)`;
-          updateDots();
-        }
-
-        if (images[current].classList.contains('first-img')) {
-          slider.style.transition = 'none';
-          current = images.length - 2;
-          slider.style.transform = `translateX(${-imgSize * current}px)`;
-          updateDots();
-        }
-      })
-      const dots = document.querySelectorAll('.photoarea ul li')
-
-      prevBtn.addEventListener('click', () => {
-        for (let i = 0; i < dots.length; i++) {
-          if (dots[i].dataset.index == current) {
-            dots[i].classList.add('active');
-          } else if (current === 0) {
-            dots[i].classList.remove('active');
-            dots[3].classList.add('active'); 
-          }
-          else {
-            dots[i].classList.remove('active');
-          }
-        }
-      })
-
-      nextBtn.addEventListener('click', () => {
-        for (let i = 0; i < dots.length; i++) {
-          if (dots[i].dataset.index == current) {
-            dots[i].classList.add('active');
-          } else if (current === 5) {
-            dots[i].classList.remove('active');
-            dots[0].classList.add('active');
-          }
-          else {
-            dots[i].classList.remove('active');
-          }
-        }
-      })
-      const next = () => {
-        if (current >= images.length - 1) return;
-        slider.style.transition = '1000ms ease-in-out transform';
-        current++;
-        slider.style.transform = `translateX(${-imgSize * current}px)`;
-        updateDots();
-      }
-
-      setInterval(next, 3000);
-    }
-  </script>
-</div>
+<section class="aisl-contact-section" aria-labelledby="home-contact-title">
+  <div class="aisl-contact-copy">
+    <h2 id="home-contact-title">If you are interested in our lab and research,<br class="aisl-desktop-break">
+      please <a href="mailto:seokwonlee@cau.ac.kr">contact Prof. Seokwon Lee via e-mail</a><br class="aisl-desktop-break">
+      with your relevant information as below.</h2>
+    <details class="aisl-application-details">
+      <summary>Information to include <span aria-hidden="true">+</span></summary>
+      <div class="aisl-application-body">
+        <p>For graduate study and undergraduate internships, please send a brief CV including:</p>
+        <ul>
+          <li>Your research interests and related skills.</li>
+          <li>Your objectives and aspirations after completing your degree.</li>
+          <li>Relevant experience, including projects, internships, or work experience.</li>
+        </ul>
+        <a href="mailto:seokwonlee@cau.ac.kr">seokwonlee@cau.ac.kr <span aria-hidden="true">↗</span></a>
+      </div>
+    </details>
+  </div>
+  <div class="aisl-contact-planet" aria-hidden="true"><img src="{{ '/assets/img/site/earth-engraving.png' | relative_url }}" alt="" loading="lazy" width="1983" height="793"></div>
+</section>

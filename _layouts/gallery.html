@@ -1,28 +1,19 @@
 ---
 layout: default
-title: Boards
+title: Gallery
 ---
-
 {% include page-title.html %}
-
-<div class="gallery">
-    <div class="content-wrapper">
-    <div>
-        <div class="board">
-            <h1>Gallery</h1>
-            <div style="display: flex;justify-content: center;">
-                <div class="gallery-grid">
-                    {% assign sorted_gallery = site.gallery | sort: 'date' | reverse %}
-                    {% for gallery in sorted_gallery %}
-                        <div class="gallery-item">
-                            <img src="/assets/img/Gallery/{{gallery.img}}"/>
-                            <div class="titlearea"><a href="{{ gallery.url}}">{{gallery.title}}</a></div>
-                            <div class="datearea"><span>{{gallery.date | date: "%b %-d, %Y"}}</span></div>
-                        </div>
-                    {% endfor %}
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
+<div class="editorial-page moments-page">
+  <div class="moments-grid">
+    {% assign sorted_gallery = site.gallery | sort: 'date' | reverse %}
+    {% for gallery in sorted_gallery %}
+    <article class="moment-card">
+      <a href="{{ gallery.url | relative_url }}">
+        <h3>{{ gallery.title }}</h3>
+        <time datetime="{{ gallery.date | date: '%Y-%m-%d' }}">{{ gallery.date | date: "%b %-d, %Y" }}</time>
+        <div class="moment-photo"><img src="{{ '/assets/img/Gallery/' | append: gallery.img | relative_url }}" alt="{{ gallery.title | escape }}" loading="lazy"></div>
+      </a>
+    </article>
+    {% endfor %}
+  </div>
 </div>

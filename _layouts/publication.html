@@ -3,12 +3,32 @@ layout: default
 title: Publication
 ---
 {% include page-title.html %}
-<div class="content-wrapper">
+<div class="editorial-page publications-page" data-publications>
+    <nav class="publication-tabs" aria-label="Publication pages">
+      <a href="{{ '/Publication' | relative_url }}"{% if page.title == 'Publication' %} aria-current="page"{% endif %}>Journals</a>
+      <a href="{{ '/Conference' | relative_url }}"{% if page.title == 'Conference' %} aria-current="page"{% endif %}>Conference Papers</a>
+      <a href="{{ '/Publication' | relative_url }}#other-papers">Others</a>
+    </nav>
+    <div class="publication-toolbar">
+      <h2>{% if page.title == 'Conference' %}Conference Papers{% else %}Journals{% endif %}</h2>
+      <label class="publication-search" hidden>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10" cy="10" r="7"></circle><path d="m15 15 6 6"></path></svg>
+        <span class="aisl-sr-only">Search by title, author, or keyword</span>
+        <input type="search" placeholder="Search by title, author, or keyword…" data-paper-search>
+      </label>
+    </div>
+    <div class="publication-filter" hidden>
+      <label for="paper-category">Category</label>
+      <select id="paper-category" data-paper-category></select>
+      <p class="publication-count" aria-live="polite" data-paper-count></p>
+    </div>
     {% if page.content.size <=1  %}
       {% include inready.html %}
     {% else %}
-        <article>
+        <article class="publication-source">
             {{ content }}
         </article>
     {% endif %}
+    <p class="publication-empty" hidden>No publications found. Try another title, author, or keyword.</p>
+    <nav class="editorial-pagination" aria-label="Publication pagination" data-paper-pagination hidden></nav>
 </div>

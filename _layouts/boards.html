@@ -2,11 +2,29 @@
 layout: default
 title: Boards
 ---
-
 {% include page-title.html %}
-
-<div class="content-wrapper">
-  <div>
-    {% include notice.html %}
+<div class="editorial-page notices-page">
+  {% include edge-orbits.html %}
+  <header class="section-heading">
+    <h2>Latest Notices</h2>
+    <span class="section-rule" aria-hidden="true"></span>
+    <p class="section-caption">Laboratory announcements</p>
+  </header>
+  <div class="notice-rows" data-notice-list>
+    {% assign sticky_posts = site.boards | where: 'sticky', true | sort: 'date' | reverse %}
+    {% for post in sticky_posts %}
+    <a class="notice-row notice-pinned" href="{{ post.url | relative_url }}">
+      <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%Y.%m.%d' }}</time>
+      <span><span class="aisl-sr-only">Pinned: </span>{{ post.title }}</span>
+    </a>
+    {% endfor %}
+    {% assign notices = site.boards | sort: 'date' | reverse %}
+    {% for post in notices %}{% unless post.sticky %}
+    <a class="notice-row" data-notice-item href="{{ post.url | relative_url }}">
+      <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%Y.%m.%d' }}</time>
+      <span>{{ post.title }}</span>
+    </a>
+    {% endunless %}{% endfor %}
   </div>
+  <nav class="editorial-pagination" aria-label="Notice pagination" data-notice-pagination hidden></nav>
 </div>

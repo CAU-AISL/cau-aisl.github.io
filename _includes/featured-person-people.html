@@ -1,8 +1,8 @@
-
-
-<div class="peoplelist">
-  {% unless page.header == "Alumni" %}
-  <img src="/assets/img/{{ person.image }}"/>
+﻿<article class="people-profile-row{% if page.header == 'Alumni' %} people-profile-row-alumni{% endif %}">
+  {% unless page.header == 'Alumni' %}
+    {% include people-portrait.html image=person.image name=person.title %}
   {% endunless %}
-  <div class="membertext" {% if page.header == "Alumni" %}style="width: 100%;"{% endif %}>{{ person.content }}</div>
-</div>
+  <div class="people-profile-description">
+    {{ person.content | markdownify | replace: '<h2', '<h3' | replace: '</h2>', '</h3>' }}
+  </div>
+</article>

@@ -5,6 +5,9 @@ title: Research
 
 {% include page-title.html %}
 
+{% if page.main contains 'main' %}
+  {% include research-overview.html %}
+{% else %}
 <div class="content-flexwrapper">
   
   {% include navigation-bar.html %}
@@ -24,3 +27,4 @@ title: Research
     {% endif %}
   </div>
 </div>
+{% endif %}

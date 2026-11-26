@@ -8,16 +8,28 @@
   </title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ site.github.url }}/assets/css/main.css">
   <link rel="stylesheet" href="{{ site.github.url }}/assets/css/syntax.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Noto+Serif+KR:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/home-orbit.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/home-sections.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/site-banner.css' | relative_url }}">
+  {% if page.layout == 'people' %}
+  <link rel="stylesheet" href="{{ '/assets/css/people-pages.css' | relative_url }}">
+  {% endif %}
+  <link rel="stylesheet" href="{{ '/assets/css/interior-pages.css' | relative_url }}">
+  {% if page.layout == 'research' %}
+  <link rel="stylesheet" href="{{ '/assets/css/research-page.css' | relative_url }}">
+  {% endif %}
   <script src="https://kit.fontawesome.com/e81520161c.js" crossorigin="anonymous"></script>
   <!-- Use Atom -->
   {% feed_meta %}
   <!-- RSS-v2.0
   <link href="{{ site.github.url }}/rss-feed.xml" type="application/rss+xml" rel="alternate" title="{{ site.title }} | {{ site.description }}"/>
   //-->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Source+Code+Pro">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
   <script type="text/javascript" async
     src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">

@@ -1,0 +1,32 @@
+/* Research references 1 and 2 form a single sequence of illustrated sections. */
+.research-page { margin-top: 64px; }
+.research-topic { display: grid; grid-template-columns: minmax(0, .36fr) minmax(0, .64fr); align-items: center; gap: 48px; margin-bottom: 72px; }
+.research-topic:last-child { margin-bottom: 0; }
+.research-illustration { min-height: 360px; height: 100%; display: grid; place-items: center; border-right: 1px solid #8393cc; padding: 24px 36px 24px 0; }
+.research-drawing { position: relative; overflow: hidden; width: 100%; }
+.research-drawing img { display: block; width: 100%; max-width: none; margin: 0; }
+.research-drawing-uam { aspect-ratio: 1340 / 890; }
+.research-drawing-uam img { position: absolute; width: 108.06%; left: -3.73%; top: -14.6%; }
+.research-drawing-missile { width: 106px; aspect-ratio: 300 / 1020; }
+.research-drawing-missile img { position: absolute; width: 480%; left: -190%; top: -3%; }
+.research-drawing-robot { width: min(100%, 150px); aspect-ratio: 570 / 1480; }
+.research-drawing-robot img { position: absolute; width: 179.65%; left: -32.46%; top: -2.7%; }
+.research-topic-copy h2 { font-size: clamp(28px, 2.4vw, 36px); line-height: 1.2; margin: 0 0 22px; }
+.research-topic-copy ul { margin: 0; padding: 0 0 0 20px; font-size: 21px; line-height: 1.6; }
+.research-topic-copy li { margin: 12px 0; padding-left: 4px; }
+.research-topic-copy strong { font-weight: 600; }
+@media (max-width: 1150px) {
+  .research-topic { gap: 32px; grid-template-columns: minmax(0, .34fr) minmax(0, .66fr); }
+  .research-illustration { padding-right: 24px; }
+  .research-topic-copy ul { font-size: 20px; }
+}
+@media (max-width: 760px) {
+  .research-page { margin-top: 40px; }
+  .research-topic { grid-template-columns: 1fr; gap: 28px; margin-bottom: 64px; }
+  .research-illustration { min-height: 0; border-right: 0; border-bottom: 1px solid #c8d2e8; padding: 0 0 32px; }
+  .research-drawing { max-width: 380px; }
+  .research-drawing-missile { width: 84px; }
+  .research-drawing-robot { width: 120px; }
+  .research-topic-copy h2 { font-size: 29px; margin-bottom: 20px; }
+  .research-topic-copy ul { font-size: 20px; line-height: 1.65; }
+}

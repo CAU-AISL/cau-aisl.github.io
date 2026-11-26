@@ -1,0 +1,84 @@
+.aisl-people { --people-ink: var(--aisl-ink); --people-rule: #b9c5df; color: var(--people-ink); background: #fff; font-family: 'Instrument Serif', 'Noto Serif KR', Georgia, serif; }
+.aisl-people *, .aisl-people *::before, .aisl-people *::after { box-sizing: border-box; }
+.aisl-people .aisl-header { min-height: 68px; border-bottom: 0; }
+.aisl-people .aisl-header a, .aisl-people .aisl-language { color: var(--people-ink); }
+.people-page-tabs { display: flex; justify-content: center; gap: 32px; margin: 24px auto 48px; font-size: 20px; }
+.people-page-tabs a { color: var(--aisl-ink); padding: 4px 0; }
+.people-page-tabs a[aria-current='page'] { color: var(--people-ink); border-bottom: 1px solid var(--people-ink); }
+.people-content { max-width: 1440px; margin: 0 auto; padding: 0 48px 112px; min-height: 55svh; outline: none; }
+.people-professor-layout { display: grid; grid-template-columns: minmax(0, .41fr) minmax(0, .59fr); gap: 56px; align-items: start; }
+.people-professor-portrait { padding-top: 4px; }
+.people-portrait { position: relative; display: grid; place-items: center; width: 100%; aspect-ratio: 460 / 360; margin: 0; color: #5574ad; }
+.people-portrait-orbits { position: absolute; inset: 0; width: 100%; height: 100%; }
+.people-portrait .people-portrait-photo { position: relative; display: block; width: 64%; height: 88%; object-fit: cover; object-position: center 35%; max-width: none; margin: 0; padding: 0; border: 1px solid #738cb4; border-radius: 50%; }
+.people-profile-intro { position: relative; padding: 20px 26px 30px 0; margin-bottom: 30px; }
+.people-profile-intro::before { content: ''; position: absolute; left: -29px; top: 26px; bottom: 24px; width: 1px; background: var(--people-rule); }
+.people-profile-intro::after { content: '✧'; position: absolute; left: -39px; top: 45%; width: 21px; text-align: center; font-size: 25px; line-height: 1; color: #5574ad; background: #fff; }
+.people-profile-intro h2 { margin: 0 0 18px; font: 600 clamp(25px, 2.15vw, 36px)/1.3 'Instrument Serif', 'Noto Serif KR', Georgia, serif; word-break: keep-all; }
+.people-profile-intro h2 span { font-weight: 400; }
+.people-profile-intro p { font: 400 20px/1.45 'Instrument Serif', 'Noto Serif KR', Georgia, serif; margin: 0; }
+.people-profile-contact { margin-top: 18px; padding-top: 16px; position: relative; font-size: 18px; line-height: 1.6; overflow-wrap: anywhere; }
+.people-profile-contact::before { content: ''; width: 34px; height: 1px; background: #6c80a7; position: absolute; top: 0; left: 0; }
+.people-profile-contact a { color: inherit; }
+.people-email-separator { padding: 0 7px; color: #8a9bb9; }
+.people-cv h2, .people-group-title { display: flex; align-items: center; gap: 15px; margin: 30px 0 20px; font: 400 34px/1.15 'Instrument Serif', 'Noto Serif KR', Georgia, serif; word-break: normal; }
+.people-cv h2::after, .people-group-title::after { content: ''; height: 1px; background: var(--people-rule); flex: 1; }
+.people-cv > ul { list-style: none; margin: 0 0 26px 5px; padding: 0 0 0 22px; border-left: 1px solid #d5dceb; }
+.people-cv ul, .people-cv p { font: 400 17px/1.6 'Instrument Serif', 'Noto Serif KR', Georgia, serif; }
+.people-cv > ul > li { position: relative; margin: 0 0 16px; padding: 0; }
+.people-cv > ul > li::before { content: ''; position: absolute; left: -25px; top: 10px; width: 5px; height: 5px; border-radius: 50%; background: #49649b; }
+.people-cv li p { margin: 0; }
+.people-cv li strong { font-weight: 600; }
+.people-cv li ul { margin: 8px 0 0 20px; padding: 0; }
+.people-cv li li { margin: 4px 0; }
+.people-group { margin-bottom: 64px; }
+.people-group-title { margin: 0 0 40px; font-size: 30px; }
+.people-rows { display: grid; gap: 56px; }
+.people-profile-row { display: grid; grid-template-columns: minmax(220px, .36fr) minmax(0, .64fr); gap: 48px; align-items: center; }
+.people-profile-row .people-portrait { max-width: 370px; justify-self: center; }
+.people-profile-description { position: relative; padding: 22px 30px 22px 36px; border-left: 1px solid var(--people-rule); }
+.people-profile-description::before { content: '✧'; position: absolute; top: 45%; left: -11px; width: 21px; background: #fff; text-align: center; font-size: 25px; line-height: 1; color: #5574ad; }
+.people-profile-description::after { content: '✦'; position: absolute; right: 0; bottom: 16px; font-size: 20px; font-weight: 400; color: #8fa4cb; }
+.people-profile-description h3 { font: 400 clamp(26px, 2.1vw, 34px)/1.35 'Instrument Serif', 'Noto Serif KR', Georgia, serif; margin: 0 0 20px; word-break: keep-all; }
+.people-profile-description ul { list-style: none; padding: 0; margin: 0; }
+.people-profile-description p, .people-profile-description li { font: 400 18px/1.55 'Instrument Serif', 'Noto Serif KR', Georgia, serif; margin: 8px 0; }
+.people-profile-description strong { font-weight: 600; }
+.people-profile-description a { color: var(--aisl-ink); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; overflow-wrap: anywhere; }
+.people-profile-row-alumni { display: block; max-width: 980px; margin-left: 12px; }
+.people-profile-row-alumni .people-profile-description { padding-top: 18px; padding-bottom: 18px; }
+.people-group-alumni { padding-top: 16px; }
+.aisl-people .aisl-home-footer { font-family: 'Instrument Serif', 'Noto Serif KR', Georgia, serif; }
+.aisl-people a:hover { color: var(--aisl-ink); }
+.aisl-people a:focus-visible, .aisl-people button:focus-visible { outline: 2px solid #4565a6; outline-offset: 5px; }
+@media (max-width: 1100px) {
+  .people-content { padding-left: 32px; padding-right: 32px; }
+  .people-professor-layout { grid-template-columns: minmax(0, .35fr) minmax(0, .65fr); gap: 32px; }
+  .people-profile-intro::before { left: -17px; }
+  .people-profile-intro::after { left: -27px; }
+  .people-profile-row { gap: 26px; grid-template-columns: 260px minmax(0, 1fr); }
+  .people-profile-description { padding-left: 28px; }
+}
+@media (max-width: 760px) {
+  .aisl-people .aisl-header { min-height: 62px; }
+  .people-content { padding: 0 24px 80px; }
+  .people-page-tabs { margin-bottom: 36px; gap: 28px; }
+  .people-professor-layout { grid-template-columns: 1fr; gap: 24px; }
+  .people-professor-portrait { max-width: 400px; width: 100%; margin: 0 auto; }
+  .people-profile-intro { padding-left: 24px; margin-bottom: 36px; }
+  .people-profile-intro::before { left: 0; }
+  .people-profile-intro::after { left: -10px; }
+  .people-profile-row { grid-template-columns: 190px minmax(0, 1fr); gap: 20px; }
+  .people-profile-description { padding: 16px 20px 16px 22px; }
+  .people-profile-description h3 { font-size: 26px; }
+  .people-profile-description p, .people-profile-description li { font-size: 17px; }
+}
+@media (max-width: 560px) {
+  .people-profile-row { grid-template-columns: 1fr; gap: 16px; }
+  .people-profile-row .people-portrait { width: min(100%, 300px); }
+  .people-profile-description { margin-left: 8px; }
+  .people-profile-row-alumni { margin-left: 0; }
+  .people-rows { gap: 56px; }
+  .people-group-title { margin-bottom: 24px; }
+  .people-cv h2 { font-size: 30px; }
+  .people-profile-contact { font-size: 17px; }
+}

@@ -1,0 +1,19 @@
+<div class="editorial-page research-page">
+  {% for research in site.data.research %}
+  <section class="research-topic" aria-labelledby="{{ research.id }}">
+    <div class="research-illustration">
+      <div class="research-drawing research-drawing-{{ research.image_style }}">
+        <img src="{{ research.image | relative_url }}" alt="{{ research.image_alt | escape }}" loading="lazy">
+      </div>
+    </div>
+    <div class="research-topic-copy">
+      <h2 id="{{ research.id }}">{{ research.title }}</h2>
+      <ul>
+        {% for topic in research.topics %}
+        <li><strong>{{ topic.title }}:</strong> {{ topic.description }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </section>
+  {% endfor %}
+</div>

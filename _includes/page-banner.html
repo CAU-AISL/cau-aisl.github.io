@@ -1,0 +1,18 @@
+{% assign banner_title = page.header | default: page.title %}
+{% if page.layout == 'gallery' or page.layout == 'gallerydetail' %}
+  {% assign banner_title = 'Gallery' %}
+{% elsif page.layout == 'boards' or page.layout == 'boarddetail' %}
+  {% assign banner_title = 'Notice' %}
+{% elsif page.url == '/Publication' %}
+  {% assign banner_title = 'Journal' %}
+{% elsif page.url == '/Conference' %}
+  {% assign banner_title = 'Conference' %}
+{% elsif page.layout == 'project' %}
+  {% assign banner_title = 'Project' %}
+{% endif %}
+<section class="site-banner" aria-labelledby="page-title">
+  <h1 id="page-title"><span>{{ banner_title }}</span></h1>
+  <div class="site-banner-art" aria-hidden="true">
+    <img src="{{ '/assets/img/site/earth-engraving.png' | relative_url }}" alt="" width="1983" height="793" fetchpriority="high">
+  </div>
+</section>

@@ -1,0 +1,24 @@
+/* One crisp, satellite-free earth panorama shared by every interior page. */
+.site-navigation-shell { padding: 0 24px; }
+.site-navigation-shell .aisl-header { min-height: 68px; border-bottom: 0; }
+.aisl-inner .site-navigation-shell, .aisl-inner .site-navigation-shell * { box-sizing: border-box; }
+.site-banner { margin: 14px 3.4vw 0; position: relative; color: var(--aisl-ink); }
+.site-banner h1 { display: flex; align-items: center; gap: 20px; margin: 0; font: 400 34px/1.2 'Instrument Serif', 'Noto Serif KR', Georgia, serif; word-break: normal; }
+.site-banner h1::before, .site-banner h1::after { content: ''; height: 1px; flex: 1; background: #8094b9; }
+.site-banner-art { position: relative; height: clamp(120px, 10vw, 180px); overflow: hidden; border-bottom: 1px solid #8094b9; }
+.site-banner-art img { position: absolute; inset: 0 auto 0 50%; transform: translateX(-50%); width: 100%; min-width: 800px; height: 100%; object-fit: cover; object-position: center 47%; max-width: none; margin: 0; display: block; }
+.aisl-inner #site-content { min-height: 65svh; outline: none; }
+.aisl-inner #site-content > .content-wrapper,
+.aisl-inner #site-content > .content-flexwrapper,
+.aisl-inner #site-content > .gallery { margin-top: 56px; margin-bottom: 88px; }
+.aisl-inner .aisl-home-footer { font-family: 'Instrument Serif', 'Noto Serif KR', Georgia, serif; }
+@media (max-width: 760px) {
+  .site-navigation-shell { padding: 0 18px; }
+  .site-navigation-shell .aisl-header { min-height: 62px; }
+  .site-banner { margin-left: 18px; margin-right: 18px; }
+  .site-banner h1 { font-size: 30px; gap: 14px; }
+  .site-banner-art { height: 116px; }
+  .aisl-inner #site-content > .content-wrapper,
+  .aisl-inner #site-content > .content-flexwrapper,
+  .aisl-inner #site-content > .gallery { margin-top: 36px; margin-bottom: 64px; }
+}

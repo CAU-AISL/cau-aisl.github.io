@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  {% include head.html %}
+  <body class="aisl-home" id="page-top">
+    <a class="aisl-skip" href="#home-content">Skip to content</a>
+    <div class="aisl-first-screen">
+      {% include home-navigation.html %}
+      <section class="aisl-hero" aria-labelledby="aisl-title">
+        <div class="aisl-title-area">
+          <h1 id="aisl-title">AISL</h1>
+          <span class="aisl-sr-only">Autonomous and Intelligent Systems Laboratory</span>
+        </div>
+        <div class="aisl-universe" role="img" aria-label="A three-dimensional galaxy drawn in blue ink, with spherical planets, layered orbits, and a rocket, urban air mobility aircraft, and humanoid robot revolving together.">
+          <canvas class="aisl-galaxy" aria-hidden="true"></canvas>
+          <div class="aisl-vehicle aisl-rocket" data-orbiter="rocket" aria-hidden="true">
+            <img src="{{ '/assets/img/home-orbit/rocket.png' | relative_url }}" alt="" width="1440" height="1092" fetchpriority="high" draggable="false">
+          </div>
+          <div class="aisl-vehicle aisl-uam" data-orbiter="uam" aria-hidden="true">
+            <img src="{{ '/assets/img/home-orbit/uam-cutout.png' | relative_url }}" alt="" width="1448" height="1086" fetchpriority="high" draggable="false">
+          </div>
+          <div class="aisl-vehicle aisl-robot" data-orbiter="robot" aria-hidden="true">
+            <img src="{{ '/assets/img/home-orbit/humanoid-cutout.png' | relative_url }}" alt="" width="1024" height="1536" fetchpriority="high" draggable="false">
+          </div>
+        </div>
+        <div class="aisl-hero-bottom">
+          <a class="aisl-scroll" href="#home-content"><span>Explore AISL</span><span aria-hidden="true">↓</span></a>
+          <button class="aisl-motion" type="button" aria-pressed="false" aria-label="Pause galaxy animation"><span class="aisl-motion-symbol" aria-hidden="true">Ⅱ</span><span class="aisl-motion-label">Pause orbit</span></button>
+        </div>
+      </section>
+    </div>
+    <main id="home-content" tabindex="-1">{{ content }}</main>
+    {% include home-footer.html %}
+    <script src="{{ '/assets/js/site-navigation.js' | relative_url }}" defer></script>
+    <script src="{{ '/assets/js/galaxy-scene.js' | relative_url }}" defer></script>
+    <script src="{{ '/assets/js/home-orbit.js' | relative_url }}" defer></script>
+  </body>
+</html>

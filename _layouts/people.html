@@ -1,41 +1,36 @@
----
-layout: default
+﻿---
+layout: people-shell
 title: People
 ---
-
-{% include page-title.html %}
-<div class="content-wrapper">
-  <div>
-    {% if page.memberlist %}
-      {% for tag in page.memberlist %}
-        <h2>{{ tag }}</h2>
-        {% assign target_collection = site.people %}
-        {% if tag == "Alumni" %}
-           {% assign target_collection = site.alumni %}
-        {% endif %}
-        {% for person in target_collection %}
-          {% if person.tags contains tag %}
-            {% if person.categories contains page.category %}
-              {% include featured-person-people.html %}
-            {% endif %}
-          {% endif %}
-        {% endfor %}
-      {% endfor %}
-    {% endif %}
-    {% if page.header contains "Professor" %}
-      <div class="professorarea">
-        <img id="professorimg" src="/assets/img/professor.jpeg"/>
-        <div id="professortext">
-          <h1>이석원(Seokwon Lee)</h1>
-          <p>Chung-Ang University, Republic of Korea</p>
-          <p>Department of Mechanical Engineering</p>
-          <p>Assistant Professor</p>
-          <p>Email: seokwonlee@cau.ac.kr/ blueswl12@gmail.com</p>
-        </div>
-      </div>
-      <article class="professorarticle">
-        {{ content }}
-      </article>
-    {% endif %}
+{% if page.header == 'Professor' %}
+<div class="people-professor-layout">
+  <div class="people-professor-portrait">
+    {% include people-portrait.html image='professor.jpeg' name='Seokwon Lee' %}
+  </div>
+  <div class="people-professor-details">
+    <section class="people-profile-intro" aria-labelledby="professor-name">
+      <h2 id="professor-name">이석원 <span>(Seokwon Lee)</span></h2>
+      <p>Chung-Ang University, Republic of Korea<br>Department of Mechanical Engineering<br>Assistant Professor</p>
+      <div class="people-profile-contact"><span>E-mail.</span> <a href="mailto:seokwonlee@cau.ac.kr">seokwonlee@cau.ac.kr</a> <span class="people-email-separator">/</span> <a href="mailto:blueswl12@gmail.com">blueswl12@gmail.com</a></div>
+    </section>
+    <article class="people-cv">
+      {{ content | replace: '<h1', '<h2' | replace: '</h1>', '</h2>' }}
+    </article>
   </div>
 </div>
+{% else %}
+  {% for tag in page.memberlist %}
+    {% assign target_collection = site.people %}
+    {% if tag == 'Alumni' %}{% assign target_collection = site.alumni %}{% endif %}
+    <section class="people-group{% if tag == 'Alumni' %} people-group-alumni{% endif %}" aria-label="{{ tag }}">
+      {% unless tag == 'Alumni' %}<h2 class="people-group-title">{{ tag }}</h2>{% endunless %}
+      <div class="people-rows">
+        {% for person in target_collection %}
+          {% if person.tags contains tag and person.categories contains page.category %}
+            {% include featured-person-people.html %}
+          {% endif %}
+        {% endfor %}
+      </div>
+    </section>
+  {% endfor %}
+{% endif %}

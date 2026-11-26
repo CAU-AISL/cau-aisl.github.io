@@ -1,0 +1,54 @@
+- id: safety-control
+  title: Reachability-Based Safety Control
+  image: /assets/img/home-orbit/uam-cutout.png
+  image_style: uam
+  image_alt: Blue ink illustration of an urban air mobility aircraft
+  topics:
+    - title: Modeling & Simulation
+      description: Development of nonlinear 6-DOF flight dynamics models and simulation environments for UAM vehicles.
+    - title: Reachability Analysis
+      description: Computation of safe flight regions under wind disturbances and model uncertainties using Hamilton–Jacobi reachability analysis.
+    - title: Trajectory Optimization
+      description: Optimization of flight transition trajectories to minimize transition time while preserving reachability and satisfying operational constraints.
+    - title: Safety Filter Design
+      description: Development of reachability-based liveness filters and adaptive control barrier function (CBF) safety filters for flight envelope protection.
+- id: missile-guidance
+  title: Missile Guidance & Estimation
+  image: /assets/img/home-orbit/rocket.png
+  image_style: missile
+  image_alt: Blue ink illustration of a missile
+  topics:
+    - title: Guidance Law Design
+      description: Development of missile guidance laws under field-of-view and other operational constraints.
+    - title: Capturability Analysis
+      description: Analytical investigation of interception feasibility and capture regions considering guidance characteristics and acceleration limitations.
+    - title: Filtering & Estimation
+      description: Research on filtering and estimation methods for target-state estimation and missile guidance applications.
+- id: space-trajectories
+  title: Space Mission & Trajectory Optimization
+  image: /assets/img/site/reusable-spacecraft.png
+  image_style: space
+  image_alt: Blue ink illustration of reusable spacecraft trajectories around the Earth
+  topics:
+    - title: Orbital Trajectory Optimization
+      description: Design of optimal orbital transfer and rendezvous trajectories for reusable spacecraft.
+    - title: Mission Sequence Optimization
+      description: Optimization of mission sequences for multi-mission spacecraft operations, including active space debris removal.
+    - title: Time-Dependent Graph Optimization
+      description: Development of graph-based optimization methods considering time-varying orbital dynamics, mission values, and transfer costs.
+    - title: Learning-Based Trajectory Design
+      description: Investigation of physics-informed neural networks and learning-based models for trajectory optimization and efficient orbital transfer cost prediction.
+- id: safe-robot-control
+  title: Safe Learning-Based Robot Control
+  image: /assets/img/home-orbit/humanoid-cutout.png
+  image_style: robot
+  image_alt: Blue ink illustration of a humanoid robot
+  topics:
+    - title: Safe Reinforcement Learning
+      description: Development of learning-based control policies that balance task performance and safety.
+    - title: Humanoid Fall Prediction
+      description: Learning risk value functions to predict unsafe states and potential falling events.
+    - title: Fall Prevention & Damage Mitigation
+      description: Development of cooperative arm–leg control policies to prevent falls and minimize impact during unavoidable falls.
+    - title: Reachability-Based Policy Optimization
+      description: Investigation of learned Hamilton–Jacobi reachability for safety-aware policy evaluation and optimization.

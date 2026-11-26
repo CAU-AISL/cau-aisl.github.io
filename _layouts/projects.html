@@ -1,0 +1,29 @@
+---
+layout: default
+---
+{% include page-title.html %}
+<div class="editorial-page projects-page">
+  {% for group in site.data.projects %}
+  <section class="project-group" aria-labelledby="project-group-{{ forloop.index }}">
+    <div class="section-heading">
+      <span class="section-number" aria-hidden="true">0{{ forloop.index }}</span>
+      <h2 id="project-group-{{ forloop.index }}">{{ group.title }}</h2>
+      <span class="section-rule" aria-hidden="true"></span>
+      <p class="section-caption">{{ group.caption }}</p>
+    </div>
+    <ol class="project-rows">
+      {% for project in group.projects %}
+      <li class="project-row">
+        <span class="row-number" aria-hidden="true">0{{ forloop.index }}</span>
+        <span class="project-agency">{{ project.agency }}</span>
+        <div class="project-description">
+          <p class="project-sponsor">{{ project.sponsor }}</p>
+          <h3>{{ project.title }}</h3>
+        </div>
+        <span class="project-period">{{ project.period }}</span>
+      </li>
+      {% endfor %}
+    </ol>
+  </section>
+  {% endfor %}
+</div>
