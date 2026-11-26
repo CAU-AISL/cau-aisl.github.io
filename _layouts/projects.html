@@ -18,7 +18,7 @@ layout: default
         <span class="project-agency">{{ project.agency }}</span>
         <div class="project-description">
           <p class="project-sponsor">{{ project.sponsor }}</p>
-          <h3>{{ project.title }}</h3>
+          <h3{% if project.title_lang %} lang="{{ project.title_lang }}"{% endif %}>{{ project.title }}</h3>
         </div>
         <span class="project-period">{{ project.period }}</span>
       </li>

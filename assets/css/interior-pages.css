@@ -29,6 +29,7 @@ body :where(h1, h2, h3, h4, h5, h6) { word-break: normal; overflow-wrap: break-w
 .project-description { min-width: 0; }
 .project-description .project-sponsor { font-size: 14px; line-height: 1.6; margin: 0 0 4px; color: var(--aisl-ink); word-break: keep-all; }
 .project-description h3 { font-size: 20px; line-height: 1.6; margin: 0; color: var(--aisl-ink); word-break: keep-all; overflow-wrap: anywhere; }
+.project-description h3[lang="en"] { font-size: 22px; line-height: 1.45; }
 .project-period { justify-self: end; white-space: nowrap; padding: 5px 0; color: inherit; font-size: 19px; }
 .publications-page { margin-top: 22px; }
 .publication-tabs { display: flex; gap: 26px; border-bottom: 1px solid #8194c0; margin-bottom: 38px; }
@@ -129,6 +130,7 @@ body :where(h1, h2, h3, h4, h5, h6) { word-break: normal; overflow-wrap: break-w
   .editorial-page .project-row { grid-template-columns: 26px 76px minmax(0, 1fr); gap: 14px; align-items: start; padding-block: 22px; }
   .project-agency { font-size: 27px; margin-top: 2px; }
   .project-description h3 { font-size: 17px; line-height: 1.8; }
+  .project-description h3[lang="en"] { font-size: 19px; line-height: 1.6; }
   .project-description .project-sponsor { font-size: 12px; }
   .project-period { grid-column: 3; justify-self: start; font-size: 17px; }
   .project-group + .project-group { margin-top: 48px; }
